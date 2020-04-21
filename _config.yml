@@ -1,0 +1,81 @@
+# Site
+name: 'DevsKrate'
+description: 'Here at DevsKrate we inspire and endeavor to share everything about technology like Softwares, Coding, etc., and provide our best about HOW TO tutorials and BEST OF every category in accordance to our knowledge.'
+
+
+logo: 'assets/images/clogo.png'
+favicon: 'assets/images/favicon.png'
+baseurl: ''
+disqus: 'demowebsite'
+email: 'devskrate@gmail.com'
+mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
+
+include: ["_pages"]
+permalink: /:title/
+
+# Plugins
+plugins: 
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-seo-tag
+  
+authors:
+    puneeth:
+      short_name:     puneeth
+      name:           Neerukonda Puneeth
+      site:           https://puneethkanna.github.io
+      avatar:         /assets/images/puneeth.jpg
+      bio:            "Student Developer, Tech Enthusiastic, love to browse the Internet!"
+      email:          neerukondapuneeth@gmail.com
+      twitter:        https://twitter.com/puneeth_kanna
+    
+    mohit:
+      short_name:     mohit
+      name:           Indukuri Mohit
+      site:           https://puneethkanna.github.io
+      avatar:         /assets/images/mohit.jpeg
+      bio:            "Tech Enthusiastic, love to browse the Internet!"
+      email:          mohitindukuri100@gmail.com
+      twitter:        https://twitter.com/indukuri_mohit
+      
+    nikhil:
+      short_name:     nikhil
+      name:           Nikhil Reddy Pyreddy
+      site:           https://nikhilpyreddy.me/
+      avatar:         /assets/images/nikhil.jpg
+      bio:            "Student Developer, Tech Enthusiastic, love to browse the Internet!"
+      email:          nikhilpyreddy@gmail.com
+      twitter:        https://twitter.com/NPyreddy
+    output: true
+# Defaults
+defaults:
+
+  # all posts
+  - scope:
+      path: "/_posts"
+      type: "posts"
+    values:
+      layout: post
+
+      
+  # all pages
+  - scope:
+      path: "_pages"
+      type: "pages"
+    values:
+      layout: page
+      share: true
+      
+      
+# Syntax
+markdown: kramdown
+highlighter: rouge
+
+# Paginate
+paginate: 10
+
+
+
+# Exclude metadata and development time dependencies (like Grunt plugins)
+exclude: [README.markdown, package.json, grunt.js, Gruntfile.js, Gruntfile.coffee, node_modules, vendor]

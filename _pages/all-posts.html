@@ -1,0 +1,15 @@
+---
+title: "All Posts"
+layout: default
+permalink: "/all-posts"
+---
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-9">        
+                {% assign posts = site.posts %}
+                {% for post in posts %}
+                {% include main-loop-card.html %}
+                {% endfor %}
+        </div>
+    </div>
+</div>
