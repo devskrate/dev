@@ -9,6 +9,10 @@
 
 
 /*------------------------For Highlighting code----------------------*/
+.featured-custom{
+  top: 70px;
+}
+
 .material-icons {
   font: 24px/1 "Material Icons";
   font-style: normal;
@@ -311,9 +315,10 @@
 /*----------Search Box-----------------*/
 .bd-search .form-control {
 
-  font-size: .85rem;
+  font-size: .80rem;
   color: #999;
   border-radius: 30px;
+  width:90%;
   height: 35px;
   border: 1px solid #eee;
 
@@ -4788,7 +4793,7 @@ pre, code, kbd, samp {
     align-items: center;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    padding: 0.5rem 1rem;
+    padding: 0.02rem 1rem;
   }
   .OwnMenu {
     transition: top 0.2s ease-in-out;
@@ -5119,16 +5124,16 @@ pre, code, kbd, samp {
     color: rgba(0, 0, 0, 0.9);
   }
   .OwnMenu .navbar-nav .show > .nav-link{
-    color: lightslategrey;
+    color: #110011;
   }
   .OwnMenu .navbar-nav .nav-link{
-    font-size: 1.3rem;
-    color: darkgrey;
+    font-size: 1.1rem;
+    color: #000;
   }
   
   .navbar-light .navbar-toggler {
     color: rgba(0, 0, 0, 0.5);
-    border-color: rgba(0, 0, 0, 0.1);
+    border-color: #000;
   }
   
   .navbar-light .navbar-toggler-icon {
@@ -5148,7 +5153,7 @@ pre, code, kbd, samp {
   }
   a.nav-link:hover {
     color:lightseagreen;
-    font-size: 1.3rem;
+    /*font-size: 1.3rem;*/
   }
   .navbar-dark .navbar-brand {
     color: #fff;
@@ -5159,7 +5164,9 @@ pre, code, kbd, samp {
   }
   
   .navbar-dark .navbar-nav .nav-link {
-    color: rgba(255, 255, 255, 0.5);
+    color: white;
+    font-weight: 500;
+    font-size: 1rem;
   }
   
   .navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
@@ -5179,7 +5186,7 @@ pre, code, kbd, samp {
   
   .navbar-dark .navbar-toggler {
     color: rgba(255, 255, 255, 0.5);
-    border-color: rgba(255, 255, 255, 0.1);
+    border-color: #ffffff;
   }
   
   .navbar-dark .navbar-toggler-icon {
@@ -7240,6 +7247,10 @@ pre, code, kbd, samp {
     background-color: #343a40 !important;
   }
   
+  .bg-krate{
+    background-color: #2a98f2;
+  }
+
   a.bg-dark:hover, a.bg-dark:focus,
   button.bg-dark:hover,
   button.bg-dark:focus {
@@ -7251,7 +7262,7 @@ pre, code, kbd, samp {
   }
   
   .bg-flair {
-    background-color: #000080 !important; }
+    background-color: #000 !important; }
   
   .bg-transparent {
     background-color: transparent !important;

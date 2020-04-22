@@ -69,6 +69,7 @@
             $('.nav-up').css('top', - $('nav').outerHeight() + 'px');
             $('.OwnMenu').removeClass('nav-up').addClass('nav-down');
             $('.OwnMenu').css('top', '0px');
+            $('.featured-custom').css('top', '70px'); 
             
         }
          else {
@@ -78,6 +79,7 @@
                 $('.nav-up, .nav-down').css('top', '0px'); 
                 $('.OwnMenu').removeClass('nav-up').addClass('nav-down');
                 $('.OwnMenu').css('top', '81px'); 
+                $('.featured-custom').css('top', '130px'); 
             }
         }
 
