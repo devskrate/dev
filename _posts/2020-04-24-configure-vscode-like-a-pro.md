@@ -24,9 +24,9 @@ Here are some Key Benefits of using VS Code -
 * Much loved dark theme
 
 ### Installing Visual Studio Code
-We can download updated version of VS Code from their website - https://code.visualstudio.com/
+We can download updated version of VS Code from their website - [https://code.visualstudio.com/](https://code.visualstudio.com/)
 
-Download from here  - https://code.visualstudio.com/download
+Download from here  - [https://code.visualstudio.com/download](https://code.visualstudio.com/download)
 
 ### Required Extensions for all developers
 * Python extension by Microsoft - [download](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
@@ -71,4 +71,4 @@ Download from here  - https://code.visualstudio.com/download
     + Path Intellisense helps you include filenames or autocomplete them. This is a great tool if you want to type less for difficult filenames and make sure you always include the correct files.
 
 #### Not just this many more to come in future
-Please share your feedback on [twitter](https://twitter.com/devskrate), [Instagram](https://instagram.com/devskrate), or mail us at support@devskrate.com.
+Please share your feedback on [twitter](https://twitter.com/devskrate), [Instagram](https://instagram.com/devskrate), or mail us at support@devskrate.com. Use [#DevsKrate](https://devskrate.com) on any social media platforms we will reach out to you.
