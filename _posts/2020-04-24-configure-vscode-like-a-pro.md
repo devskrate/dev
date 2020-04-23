@@ -32,8 +32,8 @@ Download from here  - [https://code.visualstudio.com/download](https://code.visu
 * Python extension by Microsoft - [download](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
     - An extension with rich support for the Python language, including features such as linting, debugging, IntelliSense, code navigation, code formatting, refactoring, unit tests, snippets, and more!
 * I personally use **black** code-formatter. we can configure it in our workspace settings in **.vscode** file. This helps to maintain code and code-formatting consistent in development.
-    -   > Troubleshoot the code formatting plugin in python
-        > https://code.visualstudio.com/docs/python/editing
+    -    Troubleshoot the code formatting plugin in python
+         [https://code.visualstudio.com/docs/python/editing](https://code.visualstudio.com/docs/python/editing)
 * Java Extension by Mircosoft - [download](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack)
     + Java Extension Pack is a collection of popular extensions that can help write, test and debug Java applications in Visual Studio Code.
 
