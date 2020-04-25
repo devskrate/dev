@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "Ubuntu 20 booting problems." 
+title:  "Ubuntu 20.04 booting problems." 
 author: puneeth
 categories: [ ubuntu, linux ]
 image: assets/images/linux/ubuntu-clogo.jpg
 tags: [ubuntu, linux, kernel, intel, os]
 ---
 
-Ubuntu 20 LTS has been released recently, after upgrading to it from ubuntu 18, 19, many had may faced booting problems(especially in DualBoot's).
+Ubuntu 20.04 LTS has been released recently, after upgrading to it from ubuntu 18, 19, many had may faced booting problems(especially in DualBoot's).
 Booting problems like bootloop(Restarting when ubuntu is selected) or blank screen after selecting ubuntu in the grub.
 
 With My experience, I am giving here few fixes you may try.
