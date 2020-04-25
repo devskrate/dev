@@ -67,7 +67,7 @@ Download from here  - [https://code.visualstudio.com/download](https://code.visu
 * SQL Formatter - [download](https://marketplace.visualstudio.com/items?itemName=bradymholt.pgformatter
 )
     + This VS Code extension formats PostgreSQL SQL, using the Perl based [pgFormatter](https://github.com/darold/pgFormatter) tool. Supports keywords from SQL-92, SQL-99, SQL-2003, SQL-2008, SQL-2011 and PostgreSQL specifics keywords. Provides configuration to control formatting style.
-* Path Intellisense - [downlaod](https://marketplace.visualstudio.com/items?itemName=bradymholt.pgformatter)
+* Path Intellisense - [downlaod](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
     + Path Intellisense helps you include filenames or autocomplete them. This is a great tool if you want to type less for difficult filenames and make sure you always include the correct files.
 
 #### Not just this many more to come in future
