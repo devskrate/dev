@@ -450,7 +450,7 @@ color:rgba(0,0,0,0.9);
     display: block;
   }
   article {
-    font-size:20px;
+    font-size:18px;
     line-height:1.86;
       font-family:Lora;
   }
@@ -982,7 +982,7 @@ pre, code, kbd, samp {
   }*/
   
   pre code {
-    font-size: 1.2rem;
+    font-size: 0.8rem;
     color: inherit;
     word-break: normal;
   }
