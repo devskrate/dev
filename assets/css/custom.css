@@ -4793,7 +4793,7 @@ pre, code, kbd, samp {
     align-items: center;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    padding: 0.02rem 1rem;
+    padding: 0.07rem 1rem;
   }
   .OwnMenu {
     transition: top 0.2s ease-in-out;

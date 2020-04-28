@@ -67,8 +67,8 @@
             // Scroll Down            
             $('nav').removeClass('nav-down').addClass('nav-up'); 
             $('.nav-up').css('top', - $('nav').outerHeight() + 'px');
-            $('.OwnMenu').removeClass('nav-up').addClass('nav-down');
-            $('.OwnMenu').css('top', '0px');
+            //$('.OwnMenu').removeClass('nav-up').addClass('nav-down');
+            //$('.OwnMenu').css('top', '0px');
             $('.featured-custom').css('top', '70px'); 
             
         }
@@ -77,8 +77,8 @@
             if(st + $(window).height() < $(document).height()) {               
                 $('nav').removeClass('nav-up').addClass('nav-down');
                 $('.nav-up, .nav-down').css('top', '0px'); 
-                $('.OwnMenu').removeClass('nav-up').addClass('nav-down');
-                $('.OwnMenu').css('top', '81px'); 
+                //$('.OwnMenu').removeClass('nav-up').addClass('nav-down');
+                //$('.OwnMenu').css('top', '81px'); 
                 $('.featured-custom').css('top', '130px'); 
             }
         }
