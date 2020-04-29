@@ -133,10 +133,10 @@ console.error('Trigger:', e.trigger);
 					</div>
 				</div>				
 				{% endif %}
-				<!-- Comments ->
-				 if page.comments != false 
-                 include comments.html 
-            	 endif -->
+				<!-- Comments -->
+				{% if page.comments != false %}
+                {% include comments.html %}
+            	{% endif %}
             
         
 		</div>
