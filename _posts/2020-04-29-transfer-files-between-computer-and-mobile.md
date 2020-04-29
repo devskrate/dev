@@ -24,7 +24,7 @@ qrcp MyDocument.pdf
 ```
 
 To receive a file
-``` batch
+```batch
 qrcp receive
 ```
 scan the code and you will be directed to an upload page.

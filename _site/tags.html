@@ -309,7 +309,7 @@ var documents = [{
     "body": "  {% if page. url ==  /  %}            {% assign latest_post = site. posts[0] %}          &lt;div class= topfirstimage  style= background-image: url({% if latest_post. image contains  ://  %}{{ latest_post. image }}{% else %} {{site. baseurl}}/{{ latest_post. image}}{% endif %}); height: 200px;  background-size: cover;  background-repeat: no-repeat; &gt;&lt;/div&gt;           {{ latest_post. title }}  :       {{ latest_post. excerpt | strip_html | strip_newlines | truncate: 136 }}               In         {% for category in latest_post. categories %}        {{ category }},         {% endfor %}                                {{ latest_post. date | date: '%b %d, %Y' }}                            {%- assign second_post = site. posts[1] -%}                        {% if second_post. image %}                         &lt;img class= w-100  src= {% if second_post. image contains  ://  %}{{ second_post. image }}{% else %}{{ second_post. image | absolute_url }}{% endif %}  alt= {{ second_post. title }} &gt;                        {% endif %}                                    {{ second_post. title }}          :                       In             {% for category in second_post. categories %}            {{ category }},             {% endfor %}                                                      {{ second_post. date | date: '%b %d, %Y' }}                                  {%- assign third_post = site. posts[2] -%}                        {% if third_post. image %}                         &lt;img class= w-100  src= {% if third_post. image contains  ://  %}{{ third_post. image }}{% else %}{{site. baseurl}}/{{ third_post. image }}{% endif %}  alt= {{ third_post. title }} &gt;                        {% endif %}                                    {{ third_post. title }}          :                       In             {% for category in third_post. categories %}            {{ category }},             {% endfor %}                                                      {{ third_post. date | date: '%b %d, %Y' }}                                    {%- assign fourth_post = site. posts[3] -%}                        {% if fourth_post. image %}                        &lt;img class= w-100  src= {% if fourth_post. image contains  ://  %}{{ fourth_post. image }}{% else %}{{site. baseurl}}/{{ fourth_post. image }}{% endif %}  alt= {{ fourth_post. title }} &gt;                        {% endif %}                                    {{ fourth_post. title }}          :                       In             {% for category in fourth_post. categories %}            {{ category }},             {% endfor %}                                                      {{ fourth_post. date | date: '%b %d, %Y' }}                                  {% for post in site. posts %} {% if post. tags contains  sticky  %}                    {{post. title}}                  {{ post. excerpt | strip_html | strip_newlines | truncate: 136 }}                 Read More            	             {% endif %}{% endfor %}  {% endif %}                All Stories:         {% for post in paginator. posts %}          {% include main-loop-card. html %}        {% endfor %}                   {% if paginator. total_pages &gt; 1 %}              {% if paginator. previous_page %}        &laquo; Prev       {% else %}        &laquo;       {% endif %}       {% for page in (1. . paginator. total_pages) %}        {% if page == paginator. page %}        {{ page }}        {% elsif page == 1 %}        {{ page }}        {% else %}        {{ page }}        {% endif %}       {% endfor %}       {% if paginator. next_page %}        Next &raquo;       {% else %}        &raquo;       {% endif %}            {% endif %}                     {% include sidebar-featured. html %}      "
     }, {
     "id": 37,
-    "url": "http://localhost:4000/transfer-files-from-computer-to-mobile/",
+    "url": "http://localhost:4000/transfer-files-between-computer-and-mobile/",
     "title": "Transefer Files between PC and mobile easily by scanning a QR code.",
     "body": "2020/04/29 - Sometimes many of us face difficulty to transfer files from PC to mobile or from mobile to PC. It is a very annoying thing to use a cable for transferring a single file like an image or a small pdf. So here comes a small but a great tool used to transfer files over a network.  To install this in linux follow the below steps go get github. com/claudiodangelis/qrcpcd go/qrcp/binsudo mv qrcp /usr/local/binsudo chmod +x /usr/local/bin/qrcpTo send a file from pc to mobile qrcp MyDocument. pdfTo receive a file qrcp receivescan the code and you will be directed to an upload page. For more details of how to use it and installation in other platforms visit: qrcp source: Dev Useful Stuff Additional info: This is an open-source project written in Golang. This project is cloned and build by others in python named qr-filetransfer. "
     }, {
@@ -1352,7 +1352,7 @@ function lunr_search(term) {
             <div class="mb-5 d-flex justify-content-between main-loop-card">
 <div class="pr-3">
 	<h2 class="mb-1 h4 font-weight-bold">
-	<a class="text-dark" href="/transfer-files-from-computer-to-mobile/">Transefer Files between PC and mobile easily by scanning a QR code.</a>
+	<a class="text-dark" href="/transfer-files-between-computer-and-mobile/">Transefer Files between PC and mobile easily by scanning a QR code.</a>
 	</h2>
 	<p class="excerpt">
 	   Sometimes many of us face difficulty to transfer files from PC to mobile or from mobile to PC. It is a very annoying thing to use a cable for transferring a single file like an image ...
@@ -1374,7 +1374,7 @@ function lunr_search(term) {
 </div>
 
 	<div class="col-md-3 pr-0 text-right">
-	<a href="/transfer-files-from-computer-to-mobile/">
+	<a href="/transfer-files-between-computer-and-mobile/">
 	<img class="w-100" src="/assets/images/dev/linux/qrcp.svg" alt="Transefer Files between PC and mobile easily by scanning a QR code.">
 	</a>
 	</div>
@@ -1844,7 +1844,7 @@ function lunr_search(term) {
             <div class="mb-5 d-flex justify-content-between main-loop-card">
 <div class="pr-3">
 	<h2 class="mb-1 h4 font-weight-bold">
-	<a class="text-dark" href="/transfer-files-from-computer-to-mobile/">Transefer Files between PC and mobile easily by scanning a QR code.</a>
+	<a class="text-dark" href="/transfer-files-between-computer-and-mobile/">Transefer Files between PC and mobile easily by scanning a QR code.</a>
 	</h2>
 	<p class="excerpt">
 	   Sometimes many of us face difficulty to transfer files from PC to mobile or from mobile to PC. It is a very annoying thing to use a cable for transferring a single file like an image ...
@@ -1866,7 +1866,7 @@ function lunr_search(term) {
 </div>
 
 	<div class="col-md-3 pr-0 text-right">
-	<a href="/transfer-files-from-computer-to-mobile/">
+	<a href="/transfer-files-between-computer-and-mobile/">
 	<img class="w-100" src="/assets/images/dev/linux/qrcp.svg" alt="Transefer Files between PC and mobile easily by scanning a QR code.">
 	</a>
 	</div>
@@ -3045,7 +3045,7 @@ function lunr_search(term) {
             <div class="mb-5 d-flex justify-content-between main-loop-card">
 <div class="pr-3">
 	<h2 class="mb-1 h4 font-weight-bold">
-	<a class="text-dark" href="/transfer-files-from-computer-to-mobile/">Transefer Files between PC and mobile easily by scanning a QR code.</a>
+	<a class="text-dark" href="/transfer-files-between-computer-and-mobile/">Transefer Files between PC and mobile easily by scanning a QR code.</a>
 	</h2>
 	<p class="excerpt">
 	   Sometimes many of us face difficulty to transfer files from PC to mobile or from mobile to PC. It is a very annoying thing to use a cable for transferring a single file like an image ...
@@ -3067,7 +3067,7 @@ function lunr_search(term) {
 </div>
 
 	<div class="col-md-3 pr-0 text-right">
-	<a href="/transfer-files-from-computer-to-mobile/">
+	<a href="/transfer-files-between-computer-and-mobile/">
 	<img class="w-100" src="/assets/images/dev/linux/qrcp.svg" alt="Transefer Files between PC and mobile easily by scanning a QR code.">
 	</a>
 	</div>
@@ -4269,7 +4269,7 @@ function lunr_search(term) {
             <div class="mb-5 d-flex justify-content-between main-loop-card">
 <div class="pr-3">
 	<h2 class="mb-1 h4 font-weight-bold">
-	<a class="text-dark" href="/transfer-files-from-computer-to-mobile/">Transefer Files between PC and mobile easily by scanning a QR code.</a>
+	<a class="text-dark" href="/transfer-files-between-computer-and-mobile/">Transefer Files between PC and mobile easily by scanning a QR code.</a>
 	</h2>
 	<p class="excerpt">
 	   Sometimes many of us face difficulty to transfer files from PC to mobile or from mobile to PC. It is a very annoying thing to use a cable for transferring a single file like an image ...
@@ -4291,7 +4291,7 @@ function lunr_search(term) {
 </div>
 
 	<div class="col-md-3 pr-0 text-right">
-	<a href="/transfer-files-from-computer-to-mobile/">
+	<a href="/transfer-files-between-computer-and-mobile/">
 	<img class="w-100" src="/assets/images/dev/linux/qrcp.svg" alt="Transefer Files between PC and mobile easily by scanning a QR code.">
 	</a>
 	</div>
