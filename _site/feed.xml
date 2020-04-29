@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-04-28T10:37:07+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">DevsKrate</title><subtitle>Here at DevsKrate we inspire and endeavor to share everything about technology like Softwares, Coding, etc., and provide our best about HOW TO tutorials and BEST OF every category in accordance to our knowledge.</subtitle><entry><title type="html">Generating preview links</title><link href="http://localhost:4000/meta-tags/" rel="alternate" type="text/html" title="Generating preview links " /><published>2020-04-27T00:00:00+05:30</published><updated>2020-04-27T00:00:00+05:30</updated><id>http://localhost:4000/meta-tags</id><content type="html" xml:base="http://localhost:4000/meta-tags/">&lt;p&gt;Have you ever wondered that if you share a link in the whatsapp, telegram, and in social media platforms how you will get the description and image related to the website? and one more thing, do you know how search engines parse the data in your websites and show it in the search results according to it.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-04-29T18:28:56+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">DevsKrate</title><subtitle>Here at DevsKrate we inspire and endeavor to share everything about technology like Softwares, Coding, etc., and provide our best about HOW TO tutorials and BEST OF every category in accordance to our knowledge.</subtitle><entry><title type="html">Generating preview links</title><link href="http://localhost:4000/meta-tags/" rel="alternate" type="text/html" title="Generating preview links " /><published>2020-04-27T00:00:00+05:30</published><updated>2020-04-27T00:00:00+05:30</updated><id>http://localhost:4000/meta-tags</id><content type="html" xml:base="http://localhost:4000/meta-tags/">&lt;p&gt;Have you ever wondered that if you share a link in the whatsapp, telegram, and in social media platforms how you will get the description and image related to the website? and one more thing, do you know how search engines parse the data in your websites and show it in the search results according to it.&lt;/p&gt;
 
 &lt;p&gt;Meta tags are the things which will do these things. 
 The minimal way of creating the meta tags are&lt;/p&gt;
@@ -37,130 +37,7 @@ The minimal way of creating the meta tags are&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://www.linkedin.com/post-inspector/inspect/&quot;&gt;Linkedin&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;There is tool by google called &lt;a href=&quot;https://search.google.com/structured-data/testing-tool/&quot;&gt;Structured Data Testing Tool&lt;/a&gt;, which is used to know what information is parsed.&lt;/p&gt;</content><author><name>puneeth</name></author><category term="web" /><category term="meta" /><category term="browser" /><category term="links" /><category term="url" /><summary type="html">Have you ever wondered that if you share a link in the whatsapp, telegram, and in social media platforms how you will get the description and image related to the website? and one more thing, do you know how search engines parse the data in your websites and show it in the search results according to it.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/meta-tags-preview.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/meta-tags-preview.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Configure your VS Code like a pro</title><link href="http://localhost:4000/configure-vscode-like-a-pro/" rel="alternate" type="text/html" title="Configure your VS Code like a pro" /><published>2020-04-25T00:00:00+05:30</published><updated>2020-04-25T00:00:00+05:30</updated><id>http://localhost:4000/configure-vscode-like-a-pro</id><content type="html" xml:base="http://localhost:4000/configure-vscode-like-a-pro/">&lt;p&gt;Being core &lt;strong&gt;Python&lt;/strong&gt; and &lt;strong&gt;Java&lt;/strong&gt; developers we extensively use VS Code for our project development and use code formatting heavily to enable consistency of code while developing as a team and there are lot of useful extensions which will help you to ease your task and run things on your fingertips.&lt;/p&gt;
-
-&lt;h3 id=&quot;why-visual-studio-code&quot;&gt;Why Visual Studio Code&lt;/h3&gt;
-&lt;p&gt;Visual Studio Code combines the simplicity of a source code editor with powerful developer tooling, like IntelliSense code completion and debugging.&lt;/p&gt;
-
-&lt;p&gt;First and foremost, it is an editor that gets out of your way. The delightfully frictionless edit-build-debug cycle means less time fiddling with your environment, and more time executing on your ideas.&lt;/p&gt;
-
-&lt;p&gt;Here are some Key Benefits of using VS Code -&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Available on Mac, Linux, and Ofcourse Windows.&lt;/li&gt;
-  &lt;li&gt;Edit, Build, and Debug very easily.&lt;/li&gt;
-  &lt;li&gt;Highly configurable - &lt;strong&gt;Open-source project&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;VS Code also includes great tooling for web technologies such as NodeJS, JSX/React, HTML, CSS, SCSS, Less, and JSON.&lt;/li&gt;
-  &lt;li&gt;Highly robust and Extensible.&lt;/li&gt;
-  &lt;li&gt;High availability of industry and community-developed extensions.&lt;/li&gt;
-  &lt;li&gt;Much loved dark theme&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h5 id=&quot;installing-visual-studio-code&quot;&gt;Installing Visual Studio Code&lt;/h5&gt;
-&lt;p&gt;We can download updated version of VS Code from their website - &lt;a href=&quot;https://code.visualstudio.com/&quot;&gt;https://code.visualstudio.com/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Download from here  - &lt;a href=&quot;https://code.visualstudio.com/download&quot;&gt;https://code.visualstudio.com/download&lt;/a&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;required-extensions-for-all-developers&quot;&gt;Required Extensions for all developers&lt;/h4&gt;
-&lt;p&gt;&lt;strong&gt;1. Python extension by Microsoft&lt;/strong&gt; - &lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=ms-python.python&quot;&gt;download&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/vscode/python-editing.gif&quot; alt=&quot;Python editing&quot; height=&quot;350px&quot; width=&quot;90%&quot; /&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;An extension with rich support for the Python language, including features such as linting, debugging, IntelliSense, code navigation, code formatting, refactoring, unit tests, snippets, and more!&lt;/li&gt;
-  &lt;li&gt;I personally use &lt;strong&gt;black&lt;/strong&gt; code-formatter. we can configure it in our workspace settings in &lt;strong&gt;.vscode&lt;/strong&gt; file. This helps to maintain code and code-formatting consistent in development.
-    &lt;ul&gt;
-      &lt;li&gt;Troubleshoot the code formatting plugin in python
-&lt;a href=&quot;https://code.visualstudio.com/docs/python/editing&quot;&gt;https://code.visualstudio.com/docs/python/editing&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;2. Java Extension by Mircosoft&lt;/strong&gt; - &lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack&quot;&gt;download&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/vscode/java.png&quot; alt=&quot; Java &quot; height=&quot;60px&quot; width=&quot;60px&quot; /&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Java Extension Pack is a collection of popular extensions that can help write, test and debug Java applications in Visual Studio Code.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;3. Markdown Renderer Extension&lt;/strong&gt; - &lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced&quot;&gt;download&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/vscode/md-image.png&quot; alt=&quot;Markdown gif&quot; height=&quot;350px&quot; width=&quot;90%&quot; /&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Markdown Preview Enhanced is an extension that provides you with many useful functionalities such as automatic scroll sync, math typesetting, mermaid, PlantUML, pandoc, PDF export, code chunk, presentation writer, etc.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;4. Prettier Extension for JavaScript&lt;/strong&gt; - &lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode&quot;&gt;download&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/vscode/prettier.png&quot; alt=&quot;Pretier&quot; height=&quot;80px&quot; width=&quot;80px&quot; /&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;It enforces a consistent style by parsing your code and re-printing it with its own rules that take the maximum line length into account, wrapping code when necessary.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;5. ESLint&lt;/strong&gt; - &lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint&quot;&gt;download&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/vscode/eslint.png&quot; alt=&quot;Markdown gif&quot; height=&quot;60px&quot; width=&quot;60px&quot; /&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;This will be useful to check JavaScript and TypeScript errors&lt;/li&gt;
-  &lt;li&gt;The extension uses the ESLint library installed in the opened workspace folder. If the folder doesn’t provide one the extension looks for a global install version. If you haven’t installed ESLint either locally or globally do so by running &lt;code class=&quot;highlighter-rouge&quot;&gt;npm install eslint&lt;/code&gt; in the workspace folder for a local install or &lt;code class=&quot;highlighter-rouge&quot;&gt;npm install -g eslint&lt;/code&gt; for a global install.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;6. CSS Peek&lt;/strong&gt; - &lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek&quot;&gt;download&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/vscode/css.gif&quot; alt=&quot;Markdown gif&quot; height=&quot;400px&quot; width=&quot;90%&quot; /&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;CSS Peek is a great tool if you keep forgetting what was a CSS class was used for. However, that could also mean that your CSS class names are not meaningful, or you have written too much “unmaintainable” code. Still, this is sure going to be handy if you are viewing/rewriting someone else’s code.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;7. Debugger for Chrome&lt;/strong&gt; - &lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome&quot;&gt;download&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/vscode/chrome.gif&quot; alt=&quot;Markdown gif&quot; height=&quot;400px&quot; width=&quot;90%&quot; /&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Debugger for Chrome is a great tool if you use a debugger in VSC. It allows you to launch an instance of Chrome navigated to your app, or it can attach to a running instance of Chrome. Using the URL parameter, you tell VSC which URL to either open or launch in Chrome.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;8. Gitlens&lt;/strong&gt; - &lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens&quot;&gt;download&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/vscode/git-lens.png&quot; alt=&quot;Markdown gif&quot; height=&quot;60px&quot; width=&quot;37%&quot; /&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;GitLens supercharges the Git capabilities built into Visual Studio Code. It helps you to visualize code authorship at a glance via Git blame annotations and code lens, seamlessly navigate and explore Git repositories, gain valuable insights via powerful comparison commands, and so much more.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;9. Git File History&lt;/strong&gt; - &lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=pomber.git-file-history&quot;&gt;download&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/vscode/git-file-history.gif&quot; alt=&quot;Markdown gif&quot; height=&quot;350px&quot; width=&quot;90%&quot; /&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;This helps to quickly browse the history (edits and commits done by you and others) in a cool and interesting visualization.&lt;/li&gt;
-  &lt;li&gt;you can try this in browser also. you just need to do these three steps.
-    &lt;ol&gt;
-      &lt;li&gt;Go to a file in GitHub (or GitLab, or Bitbucket)&lt;/li&gt;
-      &lt;li&gt;Replace github.com with github.githistory.xyz&lt;/li&gt;
-      &lt;li&gt;There’s no step three. you’ll love this.&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;10. Docker Extension&lt;/strong&gt; - &lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker&quot;&gt;download&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/vscode/docker.png&quot; alt=&quot;Markdown gif&quot; height=&quot;350px&quot; width=&quot;90%&quot; /&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;The Docker extension makes it easier to build apps that leverage Docker containers. The extension helps scaffold needed files, build Docker images, debug your app inside a container, and an explorer that makes it easy to take actions on containers and images such as start, stop, inspect, remove, and more.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;11. SQL Formatter&lt;/strong&gt; - &lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=bradymholt.pgformatter&quot;&gt;download&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/vscode/sql.png&quot; alt=&quot;Markdown gif&quot; height=&quot;60px&quot; width=&quot;60px&quot; /&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;This VS Code extension formats PostgreSQL SQL, using the Perl based &lt;a href=&quot;https://github.com/darold/pgFormatter&quot;&gt;pgFormatter&lt;/a&gt; tool. Supports keywords from SQL-92, SQL-99, SQL-2003, SQL-2008, SQL-2011 and PostgreSQL specifics keywords. Provides configuration to control formatting style.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;12. Path Intellisense&lt;/strong&gt; - &lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense&quot;&gt;downlaod&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/vscode/path-intelli.png&quot; alt=&quot;Markdown gif&quot; height=&quot;350px&quot; width=&quot;90%&quot; /&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Path Intellisense helps you include filenames or autocomplete them. This is a great tool if you want to type less for difficult filenames and make sure you always include the correct files.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;not-just-this-many-more-to-come-in-future&quot;&gt;Not just this many more to come in future&lt;/h4&gt;
-&lt;p&gt;Please share your feedback on &lt;a href=&quot;https://twitter.com/devskrate&quot;&gt;twitter&lt;/a&gt;, &lt;a href=&quot;https://instagram.com/devskrate&quot;&gt;Instagram&lt;/a&gt;, or mail us at support@devskrate.com. Use &lt;a href=&quot;https://devskrate.com&quot;&gt;#DevsKrate&lt;/a&gt; on any social media platforms we will reach out to you.&lt;/p&gt;</content><author><name>satya</name></author><category term="developers" /><category term="microsoft" /><category term="vscode" /><category term="DevStuff" /><category term="configuring" /><summary type="html">Being core Python and Java developers we extensively use VS Code for our project development and use code formatting heavily to enable consistency of code while developing as a team and there are lot of useful extensions which will help you to ease your task and run things on your fingertips.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/vscode/vscode-home.png" /><media:content medium="image" url="http://localhost:4000/assets/images/vscode/vscode-home.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Ubuntu 20.04 booting problems.</title><link href="http://localhost:4000/ubuntu20-booting-problems/" rel="alternate" type="text/html" title="Ubuntu 20.04 booting problems." /><published>2020-04-25T00:00:00+05:30</published><updated>2020-04-25T00:00:00+05:30</updated><id>http://localhost:4000/ubuntu20-booting-problems</id><content type="html" xml:base="http://localhost:4000/ubuntu20-booting-problems/">&lt;p&gt;Ubuntu 20.04 LTS has been released recently, after upgrading to it from ubuntu 18, 19, many had may faced booting problems(especially in DualBoot’s).
+&lt;p&gt;There is tool by google called &lt;a href=&quot;https://search.google.com/structured-data/testing-tool/&quot;&gt;Structured Data Testing Tool&lt;/a&gt;, which is used to know what information is parsed.&lt;/p&gt;</content><author><name>puneeth</name></author><category term="web" /><category term="meta" /><category term="browser" /><category term="links" /><category term="url" /><summary type="html">Have you ever wondered that if you share a link in the whatsapp, telegram, and in social media platforms how you will get the description and image related to the website? and one more thing, do you know how search engines parse the data in your websites and show it in the search results according to it.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/meta-tags-preview.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/meta-tags-preview.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Ubuntu 20.04 booting problems.</title><link href="http://localhost:4000/ubuntu20-booting-problems/" rel="alternate" type="text/html" title="Ubuntu 20.04 booting problems." /><published>2020-04-25T00:00:00+05:30</published><updated>2020-04-25T00:00:00+05:30</updated><id>http://localhost:4000/ubuntu20-booting-problems</id><content type="html" xml:base="http://localhost:4000/ubuntu20-booting-problems/">&lt;p&gt;Ubuntu 20.04 LTS has been released recently, after upgrading to it from ubuntu 18, 19, many had may faced booting problems(especially in DualBoot’s).
 Booting problems like bootloop(Restarting when ubuntu is selected) or blank screen after selecting ubuntu in the grub.&lt;/p&gt;
 
 &lt;p&gt;With My experience, I am giving here few fixes you may try.&lt;/p&gt;
@@ -525,4 +402,66 @@ One week ago, President Donald Trump held a press conference wherein he claimed 
 
 &lt;p&gt;&lt;img src=&quot;assets/images/apps/app_trends.png&quot; title=&quot;App Trends&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Another popular app research tool is &lt;a href=&quot;https://www.appbrain.com/info/ranking&quot; target=&quot;_blank&quot;&gt;AppBrain&lt;/a&gt;. In comparison, Similar Web doesn’t show you trends for an individual app, the number of downloads, etc. On the other hand, AppBrain is a furthermore intensive app data website. But, having said that if you write or develop apps, these 2 websites are a must-have bookmark on your browser.&lt;/p&gt;</content><author><name>nikhil</name></author><category term="internet" /><category term="play store" /><category term="app store" /><category term="trending" /><category term="app ranking" /><summary type="html">Usually, to gain insight into what’s trending on the app stores, I either read prominent websites or look at the trending page on the app store. However, the problem arises when you have to look for global data. For instance, I am located in India and if I have to check what’s trending on the US Play Store, I would have to change my Google account location. Tedious! Recently, I stumbled upon a website that lets you check the trending apps in every country and even the app trend. It is quite helpful if you are an app developer and want to understand the trend of the market. It’s also helpful if you are a journalist who covers technology and currently trending apps. It helps you gauge the type of apps that are becoming popular within different countries and regions. How to find trending apps in any country? Head over to this Similar Web tool and select the country. For instance, I have selected the United States as the country whose trending apps I want to see. Now, click on the “Go” button on the extreme right side. You will see the list of apps that are currently trending on the Google Play Store. The website also lets you see trending apps on the Apple Play Store. In the first drop-down, you can select the store as “Apple App Store” and let other options as default. Click on the go button and it will populate the trending apps on the Apple store. Additionally, you will also see an “iPad/iPhone” toggle on just below the Go button. There are a couple of different filters besides the App Store and the country. You can filter out apps based on categories like Fitness, Music, Productivity, etc. Moroever, you have a control to view popular paid apps as well. Additionally, the website shows you app trends as well. It’s a separate tab with multiple sections on it. One of the sections shows you apps that have become recently become popular and are new in the top 100 list. In addition to that, there’s a section that shows apps that have climbed their way and have increased their ranking in the top 100. Another popular app research tool is AppBrain. In comparison, Similar Web doesn’t show you trends for an individual app, the number of downloads, etc. On the other hand, AppBrain is a furthermore intensive app data website. But, having said that if you write or develop apps, these 2 websites are a must-have bookmark on your browser.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/apps/trernding_apps.jfif" /><media:content medium="image" url="http://localhost:4000/assets/images/apps/trernding_apps.jfif" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;p&gt;Another popular app research tool is &lt;a href=&quot;https://www.appbrain.com/info/ranking&quot; target=&quot;_blank&quot;&gt;AppBrain&lt;/a&gt;. In comparison, Similar Web doesn’t show you trends for an individual app, the number of downloads, etc. On the other hand, AppBrain is a furthermore intensive app data website. But, having said that if you write or develop apps, these 2 websites are a must-have bookmark on your browser.&lt;/p&gt;</content><author><name>nikhil</name></author><category term="internet" /><category term="play store" /><category term="app store" /><category term="trending" /><category term="app ranking" /><summary type="html">Usually, to gain insight into what’s trending on the app stores, I either read prominent websites or look at the trending page on the app store. However, the problem arises when you have to look for global data. For instance, I am located in India and if I have to check what’s trending on the US Play Store, I would have to change my Google account location. Tedious! Recently, I stumbled upon a website that lets you check the trending apps in every country and even the app trend. It is quite helpful if you are an app developer and want to understand the trend of the market. It’s also helpful if you are a journalist who covers technology and currently trending apps. It helps you gauge the type of apps that are becoming popular within different countries and regions. How to find trending apps in any country? Head over to this Similar Web tool and select the country. For instance, I have selected the United States as the country whose trending apps I want to see. Now, click on the “Go” button on the extreme right side. You will see the list of apps that are currently trending on the Google Play Store. The website also lets you see trending apps on the Apple Play Store. In the first drop-down, you can select the store as “Apple App Store” and let other options as default. Click on the go button and it will populate the trending apps on the Apple store. Additionally, you will also see an “iPad/iPhone” toggle on just below the Go button. There are a couple of different filters besides the App Store and the country. You can filter out apps based on categories like Fitness, Music, Productivity, etc. Moroever, you have a control to view popular paid apps as well. Additionally, the website shows you app trends as well. It’s a separate tab with multiple sections on it. One of the sections shows you apps that have become recently become popular and are new in the top 100 list. In addition to that, there’s a section that shows apps that have climbed their way and have increased their ranking in the top 100. Another popular app research tool is AppBrain. In comparison, Similar Web doesn’t show you trends for an individual app, the number of downloads, etc. On the other hand, AppBrain is a furthermore intensive app data website. But, having said that if you write or develop apps, these 2 websites are a must-have bookmark on your browser.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/apps/trernding_apps.jfif" /><media:content medium="image" url="http://localhost:4000/assets/images/apps/trernding_apps.jfif" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">4 steps you should take to secure your Gmail account</title><link href="http://localhost:4000/4-steps-you-should-take-to-secure-your-gmail-account/" rel="alternate" type="text/html" title="4 steps you should take to secure your Gmail account" /><published>2020-03-31T00:00:00+05:30</published><updated>2020-03-31T00:00:00+05:30</updated><id>http://localhost:4000/4-steps-you-should-take-to-secure-your-gmail-account</id><content type="html" xml:base="http://localhost:4000/4-steps-you-should-take-to-secure-your-gmail-account/">&lt;p&gt;From bank statements to personal letters, and even password reset requests, your &lt;a href=&quot;https://mail.google.com/&quot; target=&quot;_blank&quot;&gt;Gmail&lt;/a&gt; account holds an abundance of personal information. If someone were to access it, they’d effectively have access to the rest of your online identity.&lt;/p&gt;
+
+&lt;p&gt;Instead of just hoping that hackers don’t find you, take 10 minutes and secure your Gmail account right now.&lt;/p&gt;
+
+&lt;h2 id=&quot;use-a-strong-password&quot;&gt;Use a strong password&lt;/h2&gt;
+&lt;p&gt;I suspect we’re all guilty of reusing simple passwords at some point – I admit that I used to. But reusing passwords across multiple sites and services is just asking for your accounts to be hacked. All it takes is a leak or breach at one service, and hackers will begin trying to sign in to all of your accounts.&lt;/p&gt;
+
+&lt;p&gt;It’s time to step up your password game. Use unique, randomly generated passwords, for every online account you have. Keeping track of all those passwords is easy when you use a password manager. We have a roundup of the best password managers available, both free and paid, if you need help with deciding which one to use.&lt;/p&gt;
+
+&lt;p&gt;To change your Google account password, visit the &lt;a href=&quot;https://myaccount.google.com/security&quot; target=&quot;_blank&quot;&gt;Google account security page&lt;/a&gt; and click on Password under the Signing in to Google section. Verify your password if prompted, then enter your new password – generated by your password manager – and click Change password.&lt;/p&gt;
+
+&lt;h2 id=&quot;enable-two-step-verification&quot;&gt;Enable two-step verification&lt;/h2&gt;
+
+&lt;p&gt;Without two-step verification, also commonly called two-factor authentication, hackers only need your password to access your entire Google account – including YouTube, Gmail and Google Pay. And remember, if you reuse the same password for multiple services, they could get it from a data breach or through a phishing scam.&lt;/p&gt;
+
+&lt;p&gt;With two-step verification, sometimes called two-factor authentication, hackers would need your password and a randomly generated six-digit passcode or physical access to your phone before they could gain access to your account.&lt;/p&gt;
+
+&lt;p&gt;Turn on 2SV by visiting your &lt;a href=&quot;https://myaccount.google.com/security&quot; target=&quot;_blank&quot;&gt;Google account security page&lt;/a&gt; and clicking on 2-Step Verification.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/google/two_factor_authentication.png&quot; alt=&quot;Two Step Verification&quot; title=&quot;Two Step Verification&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Follow the prompts until you reach the section in the screenshot above. Once there, decide whether you want to receive push alerts in the Gmail app to approve login requests (the default option), or if you want to use random passcodes. Using alerts in the Gmail app is easier, but it means you have to have your phone nearby at all times. You’ll also need a connection to approve the alert. So, if you’re somewhere where you have no bars – like on a plane, for instance – you’ll need to be connected to Wi-Fi.&lt;/p&gt;
+
+&lt;p&gt;If you choose to use a passcode, you can receive it via text message or access it in a password manager. I use a password manager to manage my 2SV codes so I can access the codes on any device, regardless of whether I have a data connection on my phone.&lt;/p&gt;
+
+&lt;p&gt;If you opt to use alerts, click &lt;strong&gt;Try it now&lt;/strong&gt;. You should receive an alert on the phone that was listed on the screen. Follow the rest of the prompts to complete setup.&lt;/p&gt;
+
+&lt;p&gt;If you want to use passcodes, however, click on &lt;strong&gt;Choose another option&lt;/strong&gt; and then &lt;strong&gt;Text message or voice call&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Enter your phone number, and then enter the code to activate two-step verification. After entering the code and clicking a few more buttons, 2SV will be turned on.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/google/choose_option.png&quot; alt=&quot;Two Step Verification&quot; title=&quot;Two Step Verification&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;But, wait, you’re not done yet. Though 2SV via texted passcodes is more secure than not using 2SV at all, I recommend using push alerts if possible. SIM-swap fraud is becoming more common, allowing hackers to take over your phone number and receive 2SV codes meant for you.&lt;/p&gt;
+
+&lt;p&gt;If you must rely on passcodes, take a few extra minutes and set up an Authenticator app for your Google account. You can either use Google’s Authenticator app or a password manager. Click on Set Up under the Authenticator app section and then select the type of phone you use. Use your preferred app to scan the QR code, then enter the passcode generated by your app to verify everything is set up properly and you’re done.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/google/authenticator.png&quot; alt=&quot;Googole Authenticator&quot; title=&quot;Google Authenticator&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Quick side note: There’s yet another, even more secure option for locking down your Google account that uses a physical security key which you can read more about here. For most people, however, carrying around an extra device isn’t a realistic option. At a minimum, you should turn on 2SV.&lt;/p&gt;
+
+&lt;p&gt;Phew. That was a lot of work, but trust me, it’s worth it.&lt;/p&gt;
+
+&lt;h2 id=&quot;check-your-backup-contact-methods&quot;&gt;Check your backup contact methods&lt;/h2&gt;
+&lt;p&gt;Since the time that you first set up your Gmail account, you may have changed your phone number, or ditched an old email account. So it’s a good idea to double-check your backup contact methods. This is what Google will use should you get locked out of your account to verify you’re the account owner.&lt;/p&gt;
+
+&lt;p&gt;Visit &lt;a href=&quot;https://myaccount.google.com/u/1/security&quot; target=&quot;_blank&quot;&gt;this page&lt;/a&gt; and look for the section titled &lt;strong&gt;Ways we can verify it’s you&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Click on each section – &lt;strong&gt;Recovery phone&lt;/strong&gt;, &lt;strong&gt;Recovery email&lt;/strong&gt; and &lt;strong&gt;Security question&lt;/strong&gt; – and update them with current information.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/google/backup_google.png&quot; alt=&quot;Google Account Backup Methods&quot; title=&quot;Google Account Backup Methods&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Again, if this information is out of date and you get locked out of your account, Google won’t be able to verify you own the account.&lt;/p&gt;
+
+&lt;h2 id=&quot;look-at-account-activity&quot;&gt;Look at account activity&lt;/h2&gt;
+
+&lt;p&gt;It’s possible that a hacker (or an ex) is accessing your account without your knowledge. To check, sign in to your Gmail account and scroll to the bottom of the page. You’ll see a line that says “Last account activity…”&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;account_activity.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;At the end of that line, click &lt;strong&gt;Details&lt;/strong&gt; to see when, how and where your account is being used. If you suspect any unkosher activity, click on the button labeled &lt;strong&gt;Sign out of all other Gmail web sessions&lt;/strong&gt; and immediately change your password.&lt;/p&gt;
+
+&lt;p&gt;Now that you’ve secured your Gmail account, take a few more minutes to lock down your Amazon account. Then, do the same for your Facebook account and your Apple account while you’re at it.&lt;/p&gt;</content><author><name>nikhil</name></author><category term="internet" /><category term="security" /><category term="computers" /><category term="mobile" /><category term="hacking" /><summary type="html">From bank statements to personal letters, and even password reset requests, your Gmail account holds an abundance of personal information. If someone were to access it, they’d effectively have access to the rest of your online identity. Instead of just hoping that hackers don’t find you, take 10 minutes and secure your Gmail account right now. Use a strong password I suspect we’re all guilty of reusing simple passwords at some point – I admit that I used to. But reusing passwords across multiple sites and services is just asking for your accounts to be hacked. All it takes is a leak or breach at one service, and hackers will begin trying to sign in to all of your accounts. It’s time to step up your password game. Use unique, randomly generated passwords, for every online account you have. Keeping track of all those passwords is easy when you use a password manager. We have a roundup of the best password managers available, both free and paid, if you need help with deciding which one to use. To change your Google account password, visit the Google account security page and click on Password under the Signing in to Google section. Verify your password if prompted, then enter your new password – generated by your password manager – and click Change password. Enable two-step verification Without two-step verification, also commonly called two-factor authentication, hackers only need your password to access your entire Google account – including YouTube, Gmail and Google Pay. And remember, if you reuse the same password for multiple services, they could get it from a data breach or through a phishing scam. With two-step verification, sometimes called two-factor authentication, hackers would need your password and a randomly generated six-digit passcode or physical access to your phone before they could gain access to your account. Turn on 2SV by visiting your Google account security page and clicking on 2-Step Verification. Follow the prompts until you reach the section in the screenshot above. Once there, decide whether you want to receive push alerts in the Gmail app to approve login requests (the default option), or if you want to use random passcodes. Using alerts in the Gmail app is easier, but it means you have to have your phone nearby at all times. You’ll also need a connection to approve the alert. So, if you’re somewhere where you have no bars – like on a plane, for instance – you’ll need to be connected to Wi-Fi. If you choose to use a passcode, you can receive it via text message or access it in a password manager. I use a password manager to manage my 2SV codes so I can access the codes on any device, regardless of whether I have a data connection on my phone. If you opt to use alerts, click Try it now. You should receive an alert on the phone that was listed on the screen. Follow the rest of the prompts to complete setup. If you want to use passcodes, however, click on Choose another option and then Text message or voice call. Enter your phone number, and then enter the code to activate two-step verification. After entering the code and clicking a few more buttons, 2SV will be turned on. But, wait, you’re not done yet. Though 2SV via texted passcodes is more secure than not using 2SV at all, I recommend using push alerts if possible. SIM-swap fraud is becoming more common, allowing hackers to take over your phone number and receive 2SV codes meant for you. If you must rely on passcodes, take a few extra minutes and set up an Authenticator app for your Google account. You can either use Google’s Authenticator app or a password manager. Click on Set Up under the Authenticator app section and then select the type of phone you use. Use your preferred app to scan the QR code, then enter the passcode generated by your app to verify everything is set up properly and you’re done. Quick side note: There’s yet another, even more secure option for locking down your Google account that uses a physical security key which you can read more about here. For most people, however, carrying around an extra device isn’t a realistic option. At a minimum, you should turn on 2SV. Phew. That was a lot of work, but trust me, it’s worth it. Check your backup contact methods Since the time that you first set up your Gmail account, you may have changed your phone number, or ditched an old email account. So it’s a good idea to double-check your backup contact methods. This is what Google will use should you get locked out of your account to verify you’re the account owner. Visit this page and look for the section titled Ways we can verify it’s you. Click on each section – Recovery phone, Recovery email and Security question – and update them with current information. Again, if this information is out of date and you get locked out of your account, Google won’t be able to verify you own the account. Look at account activity It’s possible that a hacker (or an ex) is accessing your account without your knowledge. To check, sign in to your Gmail account and scroll to the bottom of the page. You’ll see a line that says “Last account activity…” At the end of that line, click Details to see when, how and where your account is being used. If you suspect any unkosher activity, click on the button labeled Sign out of all other Gmail web sessions and immediately change your password. Now that you’ve secured your Gmail account, take a few more minutes to lock down your Amazon account. Then, do the same for your Facebook account and your Apple account while you’re at it.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/google/gmail1.png" /><media:content medium="image" url="http://localhost:4000/assets/images/google/gmail1.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>

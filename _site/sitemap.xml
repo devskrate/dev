@@ -89,10 +89,6 @@
 <lastmod>2020-04-24T00:00:00+05:30</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/configure-vscode-like-a-pro/</loc>
-<lastmod>2020-04-25T00:00:00+05:30</lastmod>
-</url>
-<url>
 <loc>http://localhost:4000/ubuntu20-booting-problems/</loc>
 <lastmod>2020-04-25T00:00:00+05:30</lastmod>
 </url>
@@ -125,7 +121,7 @@
 <loc>http://localhost:4000/categories.html</loc>
 </url>
 <url>
-<loc>http://localhost:4000/categories/android</loc>
+<loc>http://localhost:4000/dev/linux</loc>
 </url>
 <url>
 <loc>http://localhost:4000/categories/gaming</loc>
