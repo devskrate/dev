@@ -2,7 +2,7 @@
 layout: post
 title:  "Configure your VS Code like a pro"
 author: satya
-categories: [ Devlopment, DevStuff, VisualStudioCode]
+categories: [ Devlopment, DevStuff, VisualStudioCode, dev-apps]
 image: assets/images/vscode/vscode-home.png
 tags: [developers, microsoft, vscode, DevStuff, configuring]
 ---

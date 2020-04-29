@@ -121,6 +121,9 @@
 <loc>http://localhost:4000/categories.html</loc>
 </url>
 <url>
+<loc>http://localhost:4000/dev/apps</loc>
+</url>
+<url>
 <loc>http://localhost:4000/dev/linux</loc>
 </url>
 <url>
