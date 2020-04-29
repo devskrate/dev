@@ -3,7 +3,7 @@ layout: post
 title:  "Transefer Files between PC and mobile easily by scanning a QR code."
 author: puneeth
 categories: [ linux, file, dev-linux ]
-image: assets/images/dev/linux/qrcp.svg
+image: assets/images/dev/linux/qrcp.png
 tags: [linux, pc, windows, mobile]
 ---
 
