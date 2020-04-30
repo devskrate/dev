@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Transefer Files between PC and mobile easily by scanning a QR code."
+title:  "Transfer Files between PC and mobile wireless using QR code"
 author: puneeth
 categories: [ linux, file, dev-linux ]
 image: assets/images/dev/linux/qrcp.png
