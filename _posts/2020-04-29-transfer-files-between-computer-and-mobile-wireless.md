@@ -29,6 +29,10 @@ qrcp receive
 ```
 scan the code and you will be directed to an upload page.
 
+![qrcp demo]({{ site.baseurl }}/assets/images/dev/linux/qrcp-demo.gif){:height="60%" width="55%"}
+
+![qrcp demo]({{ site.baseurl }}/assets/images/dev/linux/qrcp-mobile-demo.gif){:height="60%" width="55%"}
+
 For more details of how to use it and installation in other platforms visit: [qrcp](https://github.com/claudiodangelis/qrcp)
 
 source: [Dev Useful Stuff](t.me/dev_useful_stuff)
