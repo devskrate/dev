@@ -1,4 +1,219 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-04-30T15:15:06+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">DevsKrate</title><subtitle>Here at DevsKrate we inspire and endeavor to share everything about technology like Softwares, Coding, etc., and provide our best about HOW TO tutorials and BEST OF every category in accordance to our knowledge.</subtitle><entry><title type="html">Transfer Files between PC and mobile wireless using QR code</title><link href="http://localhost:4000/transfer-files-between-computer-and-mobile-wireless/" rel="alternate" type="text/html" title="Transfer Files between PC and mobile wireless using QR code" /><published>2020-04-29T00:00:00+05:30</published><updated>2020-04-29T00:00:00+05:30</updated><id>http://localhost:4000/transfer-files-between-computer-and-mobile-wireless</id><content type="html" xml:base="http://localhost:4000/transfer-files-between-computer-and-mobile-wireless/">&lt;p&gt;Sometimes many of us face difficulty to transfer files from PC to mobile or from mobile to PC. It is a very annoying thing to use a cable for transferring a single file like an image or a small pdf. So here comes a small but a great tool used to transfer files over a network.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-05-01T21:40:20+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">DevsKrate</title><subtitle>Here at DevsKrate we inspire and endeavor to share everything about technology like Softwares, Coding, etc., and provide our best about HOW TO tutorials and BEST OF every category in accordance to our knowledge.</subtitle><entry><title type="html">Firefox containers</title><link href="http://localhost:4000/firefox-containers/" rel="alternate" type="text/html" title="Firefox containers" /><published>2020-05-01T00:00:00+05:30</published><updated>2020-05-01T00:00:00+05:30</updated><id>http://localhost:4000/firefox-containers</id><content type="html" xml:base="http://localhost:4000/firefox-containers/">&lt;p&gt;Have you ever got annoyed while using multiple accounts like personal, school, work accounts in a single browser?&lt;/p&gt;
+
+&lt;p&gt;Yeah firefox got a solution for this,
+&lt;strong&gt;Firefox Multi-Account Containers&lt;/strong&gt;: Firefox Multi-Account Containers lets you keep parts of your online life separated into color-coded tabs that preserve your privacy. Cookies are separated by container, allowing you to use the web with multiple identities or accounts simultaneously.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Open a new container tab&lt;/strong&gt;:
+You can quickly open a new container tab by clicking on the container image or by right clicking the new tab.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p align=&quot;center&quot;&gt;
+  &lt;img src=&quot;/assets/images/mlogs/mozilla/firefox-container-1.png&quot; /&gt;
+&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Edit containers&lt;/strong&gt;:
+You can edit your containers and can create your own containers easily.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p align=&quot;center&quot;&gt;
+  &lt;img src=&quot;/assets/images/mlogs/mozilla/firefox-container-t.jpg&quot; /&gt;
+&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Look and Feel&lt;/strong&gt;:
+This is how the container tab look like when it is opened.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p align=&quot;center&quot;&gt;
+  &lt;img src=&quot;/assets/images/mlogs/mozilla/firefox-container-3.png&quot; /&gt;
+&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Sync&lt;/strong&gt;:
+You can easily sync the containers across devices.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p align=&quot;center&quot;&gt;
+  &lt;img src=&quot;/assets/images/mlogs/mozilla/firefox-container-sync.png&quot; /&gt;
+&lt;/p&gt;</content><author><name>puneeth</name></author><category term="firefox" /><category term="browser" /><category term="mozilla" /><category term="containers" /><summary type="html">Have you ever got annoyed while using multiple accounts like personal, school, work accounts in a single browser?</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/mlogs/mozilla/firefox-container-f.png" /><media:content medium="image" url="http://localhost:4000/assets/images/mlogs/mozilla/firefox-container-f.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Intorducing Mlogs</title><link href="http://localhost:4000/introducing-mlogs/" rel="alternate" type="text/html" title="Intorducing Mlogs" /><published>2020-04-30T00:00:00+05:30</published><updated>2020-04-30T00:00:00+05:30</updated><id>http://localhost:4000/introducing-mlogs</id><content type="html" xml:base="http://localhost:4000/introducing-mlogs/">&lt;h4 id=&quot;introducing-mlogs&quot;&gt;Introducing Mlogs&lt;/h4&gt;
+
+&lt;p&gt;Mlogs are &lt;strong&gt;mini-blogs&lt;/strong&gt; which have read time less than 5 minutes and these are completely mobile friendly.&lt;/p&gt;
+
+&lt;p&gt;You can read these mlogs easily using instant view in &lt;a href=&quot;https://t.me/DevsKrate&quot;&gt;telegram&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;mlog---mini-mobile-friendly-blogs&quot;&gt;Mlog - &lt;strong&gt;Mini Mobile&lt;/strong&gt; friendly &lt;strong&gt;Blogs&lt;/strong&gt;&lt;/h3&gt;
+
+&lt;h4 id=&quot;why-mlogs&quot;&gt;Why Mlogs?&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/mlogs/why-mlogs.png&quot; alt=&quot;Why Mlogs&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Being a techster we want to explore more things related to tech and we feel very interesting to keep updated with updated news and applications.&lt;/p&gt;
+
+&lt;p&gt;Rather than combining some set of topics in a single blog we want to split these topics into mlogs to keep you updated by spending minimal amount of time.&lt;/p&gt;
+
+&lt;h4 id=&quot;series-of-mlogs&quot;&gt;Series of mlogs&lt;/h4&gt;
+
+&lt;p&gt;There will be different series of mlogs each series will talk about different topics.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;We will make sure that these mlog series will be as interesting as Netflix’s web-series.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Our first mlog series will help you to understand better tricks while working with Linux and Commands in it.&lt;/p&gt;
+
+&lt;p&gt;Here is our first mlog - &lt;a href=&quot;https://DevsKrate.com/transfer-files-between-computer-and-mobile-wireless/&quot;&gt;Transferfiles between PC and mobile wirelessly by scanning QR code&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Trust me we are going to help you automate all your routine boring stuff you’re doing out there all these days in linux.&lt;/p&gt;
+
+&lt;p&gt;So what are you waiting for let’s &lt;strong&gt;heist&lt;/strong&gt; some knowledge from &lt;a href=&quot;https://devskrate.com&quot;&gt;DevsKrate&lt;/a&gt;&lt;/p&gt;
+
+&lt;h5 id=&quot;happy-quarantine&quot;&gt;Happy Quarantine&lt;/h5&gt;
+
+&lt;p&gt;Please share your feedback on &lt;a href=&quot;https://twitter.com/devskrate&quot;&gt;twitter&lt;/a&gt;, &lt;a href=&quot;https://instagram.com/devskrate&quot;&gt;Instagram&lt;/a&gt;, or mail us at &lt;a href=&quot;mailto:support@devskrate.com&quot;&gt;support@devskrate.com&lt;/a&gt;. Use &lt;a href=&quot;https://devskrate.com&quot;&gt;#DevsKrate&lt;/a&gt; on any social media platforms we will reach out to you.&lt;/p&gt;</content><author><name>satya</name></author><category term="blog" /><category term="mlog" /><category term="introduction" /><category term="series" /><summary type="html">Introducing Mlogs</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/mlogs/mlogs.png" /><media:content medium="image" url="http://localhost:4000/assets/images/mlogs/mlogs.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">MiUI 12 features</title><link href="http://localhost:4000/miui-12/" rel="alternate" type="text/html" title="MiUI 12 features" /><published>2020-04-30T00:00:00+05:30</published><updated>2020-04-30T00:00:00+05:30</updated><id>http://localhost:4000/miui-12</id><content type="html" xml:base="http://localhost:4000/miui-12/">&lt;h6 id=&quot;feature-list&quot;&gt;Feature list:&lt;/h6&gt;
+&lt;ol&gt;
+  &lt;li&gt;UI changes&lt;/li&gt;
+  &lt;li&gt;Wallpapers&lt;/li&gt;
+  &lt;li&gt;Dark mode 2.0&lt;/li&gt;
+  &lt;li&gt;MI health app&lt;/li&gt;
+  &lt;li&gt;Improved Gestures&lt;/li&gt;
+  &lt;li&gt;Privacy enhancement&lt;/li&gt;
+  &lt;li&gt;Floating window&lt;/li&gt;
+  &lt;li&gt;Ads&lt;/li&gt;
+  &lt;li&gt;AI&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Xiaomi Announces MIUI 12, Here is a quick overview and list of phones which is expected to get this update.
+Xiaomi in its recent keynote along with its phone announcement, it also the latest version of its software skin MIUI 12. It’s a slight redesign of its exciting MIUI 11 and has quite a lot of visual changes. Let’s see what features does this new UI brings to the table.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;1. UI changes&lt;/strong&gt;:
+Xiaomi has been working hard to make their UI as refined and as minimal as possible. One of the UI changes comes in the notification shade, now we change some simple basic settings like wifi, Bluetooth in the notification shade itself with a tiny window and talking about looks, it looks much similar to control center found on the IOS.&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+  &lt;img width=&quot;55%&quot; src=&quot;/assets/images/mi/miui12-control-center.jpg&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;The use of pictorial images to represent the status and data visualization ends up bringing a fresh look to the UI and the app animation(Opening and Closing) has also gotten much smoother.&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+  &lt;img width=&quot;27%&quot; src=&quot;/assets/images/mi/miui12-animation.gif&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2. Wallpapers&lt;/strong&gt;:
+Wallpapers are one of the biggest visual changes and Xiaomi is calling them ‘Super Wallpapers’ and they look very cool, their live wallpapers which are based on high precision 3D models of
+earth and mars and the fact that they turn into night scene when dark mode is added is a bounce. The live wallpapers feature for now is only exclusive to High-End Xiaomi phones.&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+  &lt;img width=&quot;27%&quot; src=&quot;/assets/images/mi/miui12-wallpapers.gif&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;3. Dark Mode 2.0&lt;/strong&gt;:
+You might ask me that we already have a system-wide dark theme in MIUI 11 so what’s new in this, There are a good number of improvements in it. This time the company has worked to improve the readability to reduce eye strain and the text is now brighter and sharper. Dark mode also brings a new feature called ‘Wallpaper Dimming’ feature that will dynamically adjust the color temperature of your wallpaper(It also supports this feature for custom wallpapers.)&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+  &lt;img width=&quot;27%&quot; src=&quot;/assets/images/mi/miui12-dark-mode.jpg&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;4. MI Health App&lt;/strong&gt;:
+Mi Health debuts in this new version of MIUI.This enables, The phone can track users steps, sleep, workouts, and other exercises but the fact that to enable the phone to do sleep tracking the phone should be in the same pillow is a bummer.&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+  &lt;img width=&quot;55%&quot; src=&quot;/assets/images/mi/miui12-health-app.jpg&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;5. Improved Gesture&lt;/strong&gt;:
+This UI update also brings with it a slight improvement in the gestures. It now has a much lengthy bar at the bottom and much refined animations to go along with it.&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+  &lt;img width=&quot;27%&quot; src=&quot;/assets/images/mi/miui12-gestures.gif&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;6. Privacy enhancement&lt;/strong&gt;:
+Xiaomi this time along has followed a three-pronged approach to improve privacy in MIUI 12, namely Flare, Barbed Wire, and the Mask System.
+&lt;strong&gt;Firstly&lt;/strong&gt;, the flare will keep track of the app behavior of all apps on your phone and will present you the list of apps that may be violating the privacy policy or misusing permissions
+and offer tips to avoid the above mishaps.&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+  &lt;img alt=&quot;Flare privacy image&quot; width=&quot;60%&quot; src=&quot;/assets/images/mi/miui12-privacy-flare.jpg&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;The &lt;strong&gt;second&lt;/strong&gt; one is Barbed Wire, in which it offers several permission options similar to Android 10 and gives us options like for permanently allow or only when app is in use or allow only once and it even shows the icon of which app is using what services.&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+  &lt;img alt=&quot;Barbed privacy image&quot; width=&quot;60%&quot; src=&quot;/assets/images/mi/miui12-privacy-barbed.jpg&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;The &lt;strong&gt;third&lt;/strong&gt; one is the Mask system which lets users to create and share virtual ID’s when apps ask about the data, we saw a similar implementation in the Color OS 7 skin as well.&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+  &lt;img width=&quot;27%&quot; alt=&quot;Mask&quot; src=&quot;/assets/images/mi/miui12-privacy-virtual-id.jpg&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;7. Floating window&lt;/strong&gt;:
+Android 10 itself has the floating window feature, MI included  it to miui.&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+  &lt;img alt=&quot;Floating window&quot; width=&quot;55%&quot; src=&quot;/assets/images/mi/miui12-floating-window.jpg&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;8. Ads&lt;/strong&gt;:
+Talking about the Ad situation in MIUI only time has the answer.&lt;/p&gt;
+
+&lt;p align=&quot;center&quot;&gt;
+  &lt;img alt=&quot;Ads&quot; width=&quot;30%&quot; src=&quot;/assets/images/mi/miui12-ads.jpg&quot; /&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;9. AI :&lt;/strong&gt;
+AI feature is only available to china at present.&lt;/p&gt;
+
+&lt;p&gt;These are some of the important features coming to Xiaomi devices through MIUI 12 update.&lt;/p&gt;
+
+&lt;p&gt;List of Xiaomi Phones to Get MIUI 12 Update&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;First Batch (End of June)
+    &lt;ul&gt;
+      &lt;li&gt;Mi 10&lt;/li&gt;
+      &lt;li&gt;Mi 10 Pro&lt;/li&gt;
+      &lt;li&gt;Mi 10 Youth Edition&lt;/li&gt;
+      &lt;li&gt;Mi 9 Pro 5G&lt;/li&gt;
+      &lt;li&gt;Mi 9&lt;/li&gt;
+      &lt;li&gt;Redmi K30 Pro/ K30 Pro Zoom&lt;/li&gt;
+      &lt;li&gt;Redmi K30 5G/ 4G&lt;/li&gt;
+      &lt;li&gt;Redmi K20 Pro/ K20 Pro Premium Edition&lt;/li&gt;
+      &lt;li&gt;Redmi K20&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Second Batch
+    &lt;ul&gt;
+      &lt;li&gt;Mi Mix 3&lt;/li&gt;
+      &lt;li&gt;Mi Mix 2S&lt;/li&gt;
+      &lt;li&gt;Mi CC9 Pro&lt;/li&gt;
+      &lt;li&gt;Mi CC9 Meitu Edition&lt;/li&gt;
+      &lt;li&gt;Mi9 SE&lt;/li&gt;
+      &lt;li&gt;Mi 8 Transparent Edition&lt;/li&gt;
+      &lt;li&gt;Redmi Note 8 Pro&lt;/li&gt;
+      &lt;li&gt;Redmi Note 7 Pro&lt;/li&gt;
+      &lt;li&gt;Redmi Note 7&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Third Batch
+    &lt;ul&gt;
+      &lt;li&gt;Mi CC9e&lt;/li&gt;
+      &lt;li&gt;Mi Note 3&lt;/li&gt;
+      &lt;li&gt;Mi Max 3&lt;/li&gt;
+      &lt;li&gt;Mi 8 Youth Edition&lt;/li&gt;
+      &lt;li&gt;Mi 8 SE&lt;/li&gt;
+      &lt;li&gt;Mi Mix 2&lt;/li&gt;
+      &lt;li&gt;Mi 6X&lt;/li&gt;
+      &lt;li&gt;Redmi Note 8&lt;/li&gt;
+      &lt;li&gt;Redmi 8&lt;/li&gt;
+      &lt;li&gt;Redmi 8A&lt;/li&gt;
+      &lt;li&gt;Redmi 7&lt;/li&gt;
+      &lt;li&gt;Redmi 7A&lt;/li&gt;
+      &lt;li&gt;Redmi 6 Pro&lt;/li&gt;
+      &lt;li&gt;Redmi 6&lt;/li&gt;
+      &lt;li&gt;Redmi 6A&lt;/li&gt;
+      &lt;li&gt;Redmi Note 5&lt;/li&gt;
+      &lt;li&gt;Redmi S2&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</content><author><name>mohit</name></author><category term="redmi" /><category term="os" /><category term="android" /><category term="miui" /><summary type="html">Feature list: UI changes Wallpapers Dark mode 2.0 MI health app Improved Gestures Privacy enhancement Floating window Ads AI</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/mi/miui12.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/mi/miui12.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Transfer Files between PC and mobile wireless using QR code</title><link href="http://localhost:4000/transfer-files-between-computer-and-mobile-wireless/" rel="alternate" type="text/html" title="Transfer Files between PC and mobile wireless using QR code" /><published>2020-04-29T00:00:00+05:30</published><updated>2020-04-29T00:00:00+05:30</updated><id>http://localhost:4000/transfer-files-between-computer-and-mobile-wireless</id><content type="html" xml:base="http://localhost:4000/transfer-files-between-computer-and-mobile-wireless/">&lt;p&gt;Sometimes many of us face difficulty to transfer files from PC to mobile or from mobile to PC. It is a very annoying thing to use a cable for transferring a single file like an image or a small pdf. So here comes a small but a great tool used to transfer files over a network.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/dev/linux/qrcp-qr.png&quot; alt=&quot;QR image&quot; height=&quot;60%&quot; width=&quot;55%&quot; /&gt;&lt;/p&gt;
 
@@ -370,63 +585,4 @@ this phone in US,We can expect a price at about 53,000 Rupees which is almost 13
 
 &lt;p&gt;The phones also comes with a slightly improved stereo speakers setup with dolby atmos support.The standout feature of this phone has to be the support for 5G and wifi 6.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Conclusion:&lt;/strong&gt; I think that one plus, for this time has ended up making a wallet killer. If what you really want 5G we have much cheaper options from namely the realme X50 and if you want the smooth experience of oxygen OS. The older one plus phones namely the 7t can give you the same experience for much lesser price. One plus 8 is meant for people whose first priority is design, oxygen OS and 5G in a single package.&lt;/p&gt;</content><author><name>mohit</name></author><category term="oneplus" /><category term="android" /><category term="google" /><summary type="html">One Plus is now 6 years in smartphone making.Its strategy was always to launch a phone that brought with it a flagship experience but not so expensive as a flagship but as years passed by its pricing kept on increasing from generation to generation. So, is this new One plus 8 a “flagship killer or a wallet killer”, lets find out in this article.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/oneplus/oneplus8-display.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/oneplus/oneplus8-display.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">[update: India Specific Site]Google’s coronavirus website finally launches alongside enhanced search results</title><link href="http://localhost:4000/google-coronavirus-website/" rel="alternate" type="text/html" title="[update: India Specific Site]Google’s coronavirus website finally launches alongside enhanced search results" /><published>2020-04-02T00:00:00+05:30</published><updated>2020-04-02T00:00:00+05:30</updated><id>http://localhost:4000/google%20coronavirus-website</id><content type="html" xml:base="http://localhost:4000/google-coronavirus-website/">&lt;p&gt;Google had launched a new &lt;a href=&quot;https://www.google.co.in/covid19/&quot; target=&quot;_blank&quot;&gt;India specific Caronavirus site&lt;/a&gt; containing Health Information, Safety and precautions tips, Data &amp;amp; Insighs and Resources to help. It also contains National helpline toll free numbers. The site also contains state wise caronavirus infected list.
-&lt;strong&gt;[update ends]😊✌&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;21 March, 2020&lt;/strong&gt;
-One week ago, President Donald Trump held a press conference wherein he claimed Google would be building a screening website for the coronavirus that would direct people to testing sites. As we learned in the following days, that wasn’t true. Google’s sister company Verily did launch such a site, but only for the Bay Area and reportedly it only offered tests to a very small number of people. Google, however, did say it would launch some sort of website and after a small delay, it’s here.&lt;/p&gt;
-
-&lt;p&gt;Alongside the website and potentially more importantly, Google will start providing more enhanced information cards for people who search for terms related to the coronavirus. There will be information tabs for symptoms, prevention, global statics, and locally relevant information. It will look a bit like this:
-&lt;img src=&quot;/assets/images/google/COVID_19_MOBILE_SEARCH.jpeg&quot; alt=&quot;near by hospitals search result&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The website is at &lt;a href=&quot;http://www.google.com/covid19&quot; target=&quot;_blank&quot;&gt;google.com/covid19&lt;/a&gt;. It does have useful resources, including a card that mimics what you see above. &lt;a href=&quot;https://www.blog.google/products/search/connecting-people-covid-19-information-and-resources&quot; target=&quot;_blank&quot;&gt;Google’s post announcing the site&lt;/a&gt; says that you will be able to find “state-based information, safety and prevention tips, search trends related to COVID-19, and further resources for individuals, educators and businesses.” Google emphasizes that it’s pulling information from “authoritative” sources like the WHO and the CDC.&lt;/p&gt;
-
-&lt;p&gt;It’s only available in English right now, but a Google spokesperson tells The Verge that Spanish language support is soon to follow. The site was also designed with accessibility in mind, including with the larger fonts that Google usually uses.&lt;/p&gt;
-
-&lt;p&gt;The website has videos in ASL, a global map showing confirmed cases by country, and plenty of information about Google’s other relief efforts — plus some feel-good YouTube videos.&lt;/p&gt;
-
-&lt;p&gt;Reading through that description, however, you’ll notice that it doesn’t include what Trump originally claimed it would. The nearest thing to finding a test is a drop-down menu that provides links to local websites — for example, choosing California provides a link to the California Department of Public Health.&lt;/p&gt;
-
-&lt;p&gt;Right now, the &lt;a href=&quot;https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/testing.html&quot; target=&quot;_blank&quot;&gt;CDC has a “self-checker” chatbot&lt;/a&gt; that Microsoft helped build, but the &lt;a href=&quot;https://www.wsj.com/livecoverage/coronavirus/card/ih47JgriBzLY0nXEbncs&quot; target=&quot;_blank&quot;&gt;WSJ quoted an executive from a healthcare provider&lt;/a&gt; who put in a realistic context: “It’s just something consumers need now to help with anxiety.”&lt;/p&gt;
-
-&lt;p&gt;In other words, lots of big tech companies are making efforts to provide coronavirus-related support, but none of them are able to solve some of the biggest problems in the pandemic: access to testing and the impending crisis in our healthcare infrastructure.&lt;/p&gt;
-
-&lt;p&gt;At some point in the future, Google may actually provide a questionnaire and information about local drive-thru testing locations. But a spokesperson says that the company won’t do so until there’s authoritative and trustworthy information on those sites. That could be a long time coming, unfortunately.&lt;/p&gt;</content><author><name>nikhil</name></author><category term="corona virus" /><category term="google" /><category term="outbreak" /><category term="general" /><summary type="html">Google had launched a new India specific Caronavirus site containing Health Information, Safety and precautions tips, Data &amp;amp; Insighs and Resources to help. It also contains National helpline toll free numbers. The site also contains state wise caronavirus infected list. [update ends]😊✌ 21 March, 2020 One week ago, President Donald Trump held a press conference wherein he claimed Google would be building a screening website for the coronavirus that would direct people to testing sites. As we learned in the following days, that wasn’t true. Google’s sister company Verily did launch such a site, but only for the Bay Area and reportedly it only offered tests to a very small number of people. Google, however, did say it would launch some sort of website and after a small delay, it’s here. Alongside the website and potentially more importantly, Google will start providing more enhanced information cards for people who search for terms related to the coronavirus. There will be information tabs for symptoms, prevention, global statics, and locally relevant information. It will look a bit like this: The website is at google.com/covid19. It does have useful resources, including a card that mimics what you see above. Google’s post announcing the site says that you will be able to find “state-based information, safety and prevention tips, search trends related to COVID-19, and further resources for individuals, educators and businesses.” Google emphasizes that it’s pulling information from “authoritative” sources like the WHO and the CDC. It’s only available in English right now, but a Google spokesperson tells The Verge that Spanish language support is soon to follow. The site was also designed with accessibility in mind, including with the larger fonts that Google usually uses. The website has videos in ASL, a global map showing confirmed cases by country, and plenty of information about Google’s other relief efforts — plus some feel-good YouTube videos. Reading through that description, however, you’ll notice that it doesn’t include what Trump originally claimed it would. The nearest thing to finding a test is a drop-down menu that provides links to local websites — for example, choosing California provides a link to the California Department of Public Health. Right now, the CDC has a “self-checker” chatbot that Microsoft helped build, but the WSJ quoted an executive from a healthcare provider who put in a realistic context: “It’s just something consumers need now to help with anxiety.” In other words, lots of big tech companies are making efforts to provide coronavirus-related support, but none of them are able to solve some of the biggest problems in the pandemic: access to testing and the impending crisis in our healthcare infrastructure. At some point in the future, Google may actually provide a questionnaire and information about local drive-thru testing locations. But a spokesperson says that the company won’t do so until there’s authoritative and trustworthy information on those sites. That could be a long time coming, unfortunately.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/google/COVID_19_Information___Resources___Google.png" /><media:content medium="image" url="http://localhost:4000/assets/images/google/COVID_19_Information___Resources___Google.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Google is shutting down its Neighbourly app</title><link href="http://localhost:4000/google-is-shutting-down-its-neighbourly-app/" rel="alternate" type="text/html" title="Google is shutting down its Neighbourly app" /><published>2020-04-02T00:00:00+05:30</published><updated>2020-04-02T00:00:00+05:30</updated><id>http://localhost:4000/google-is-shutting-down-its-neighbourly-app</id><content type="html" xml:base="http://localhost:4000/google-is-shutting-down-its-neighbourly-app/">&lt;p&gt;Google is killing another one of its experimental apps — Neighbourly. The company said it’s shutting down the app on May 12, as the project didn’t take off as expected.&lt;/p&gt;
-
-&lt;p&gt;The search giant first unveiled the app in May 2018 as a test in the Indian city of Mumbai to let you explore your neighborhood with help from local experts. Later in November, it expanded its base to a few more cities in the country. However, it failed to gain traction, likely because it simply didn’t have enough users to deliver an engaging experience. It never even came out of beta.&lt;/p&gt;
-
-&lt;p&gt;In an email sent to customers, Google mentioned that the community answered over a million questions related to their localities, but the project didn’t grow the way the company had hoped:&lt;/p&gt;
-
-&lt;div style=&quot;background-color:#EEEEEE&quot;&gt;
-&lt;i&gt;We launched Neighbourly as a Beta app to connect you with your neighbors and make sharing local information more human and helpful. As a community, you’ve come together to celebrate local festivals, shared crucial information during floods, and answered over a million questions.&lt;/i&gt;  
-&lt;br /&gt;
-&lt;i&gt;But Neighbourly hasn’t grown as we had hoped. In these difficult times, we believe that we can help more people by focusing on other Google apps that are already serving millions of people everyday.&lt;/i&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Google also pointed towards &lt;a href=&quot;https://maps.google.com/localguides&quot; target=&quot;_blank&quot;&gt;Google Maps Local Guide&lt;/a&gt; to help people in your region find answers related to the area.&lt;/p&gt;
-
-&lt;p&gt;The announcement comes at an interesting time: &lt;a href=&quot;https://about.fb.com/news/2020/03/coronavirus/#Community-Help&quot; target=&quot;_blank&quot;&gt;Facebook just rolled out a ‘community help’ feature&lt;/a&gt; for people to request or offer assistance in their neighborhoods during the coronavirus crisis.&lt;/p&gt;
-
-&lt;p&gt;The app is closing down on May 12; you’ll be able to download your Neighbourly content until October 12. Another one for the &lt;a href=&quot;https://killedbygoogle.com/&quot; target=&quot;_blank&quot;&gt;Google Graveyard&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Post Credit: The Next Web&lt;/p&gt;</content><author><name>nikhil</name></author><category term="google" /><category term="neighbourly" /><category term="apps" /><summary type="html">Google is killing another one of its experimental apps — Neighbourly. The company said it’s shutting down the app on May 12, as the project didn’t take off as expected. The search giant first unveiled the app in May 2018 as a test in the Indian city of Mumbai to let you explore your neighborhood with help from local experts. Later in November, it expanded its base to a few more cities in the country. However, it failed to gain traction, likely because it simply didn’t have enough users to deliver an engaging experience. It never even came out of beta. In an email sent to customers, Google mentioned that the community answered over a million questions related to their localities, but the project didn’t grow the way the company had hoped: We launched Neighbourly as a Beta app to connect you with your neighbors and make sharing local information more human and helpful. As a community, you’ve come together to celebrate local festivals, shared crucial information during floods, and answered over a million questions. But Neighbourly hasn’t grown as we had hoped. In these difficult times, we believe that we can help more people by focusing on other Google apps that are already serving millions of people everyday. Google also pointed towards Google Maps Local Guide to help people in your region find answers related to the area. The announcement comes at an interesting time: Facebook just rolled out a ‘community help’ feature for people to request or offer assistance in their neighborhoods during the coronavirus crisis. The app is closing down on May 12; you’ll be able to download your Neighbourly content until October 12. Another one for the Google Graveyard. Post Credit: The Next Web</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/google/neighbourly.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/google/neighbourly.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">How to find trending apps in any country</title><link href="http://localhost:4000/how-to-find-trending-apps-in-any-coutry/" rel="alternate" type="text/html" title="How to find trending apps in any country" /><published>2020-04-01T00:00:00+05:30</published><updated>2020-04-01T00:00:00+05:30</updated><id>http://localhost:4000/how-to-find-trending-apps-in-any-coutry</id><content type="html" xml:base="http://localhost:4000/how-to-find-trending-apps-in-any-coutry/">&lt;p&gt;Usually, to gain insight into what’s trending on the app stores, I either read prominent websites or look at the trending page on the app store. However, the problem arises when you have to look for global data. For instance, I am located in India and if I have to check what’s trending on the US Play Store, I would have to change my Google account location. Tedious! Recently, I stumbled upon a website that lets you check the trending apps in every country and even the app trend.&lt;/p&gt;
-
-&lt;p&gt;It is quite helpful if you are an app developer and want to understand the trend of the market. It’s also helpful if you are a journalist who covers technology and currently trending apps. It helps you gauge the type of apps that are becoming popular within different countries and regions.&lt;/p&gt;
-
-&lt;h2 id=&quot;how-to-find-trending-apps-in-any-country&quot;&gt;How to find trending apps in any country?&lt;/h2&gt;
-
-&lt;p&gt;Head over to this &lt;a href=&quot;https://www.similarweb.com/apps/top/google/app-index/us/all/top-free&quot; target=&quot;_blank&quot;&gt;Similar Web tool&lt;/a&gt; and select the country. For instance, I have selected the United States as the country whose trending apps I want to see. Now, click on the “Go” button on the extreme right side. You will see the list of apps that are currently trending on the Google Play Store.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;assets/images/apps/play_store.png&quot; title=&quot;Play Store Leader Board&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The website also lets you see trending apps on the Apple Play Store. In the first drop-down, you can select the store as “Apple App Store” and let other options as default. Click on the go button and it will populate the trending apps on the Apple store. Additionally,  you will also see an “iPad/iPhone” toggle on just below the Go button.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;assets/images/apps/app_store.png&quot; title=&quot;App Store Leader Board&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;There are a couple of different filters besides the App Store and the country. You can filter out apps based on categories like Fitness, Music, Productivity, etc. Moroever, you have a control to view popular paid apps as well.&lt;/p&gt;
-
-&lt;p&gt;Additionally, the website shows you app trends as well. It’s a separate tab with multiple sections on it. One of the sections shows you apps that have become recently become popular and are new in the top 100 list. In addition to that, there’s a section that shows apps that have climbed their way and have increased their ranking in the top 100.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;assets/images/apps/app_trends.png&quot; title=&quot;App Trends&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Another popular app research tool is &lt;a href=&quot;https://www.appbrain.com/info/ranking&quot; target=&quot;_blank&quot;&gt;AppBrain&lt;/a&gt;. In comparison, Similar Web doesn’t show you trends for an individual app, the number of downloads, etc. On the other hand, AppBrain is a furthermore intensive app data website. But, having said that if you write or develop apps, these 2 websites are a must-have bookmark on your browser.&lt;/p&gt;</content><author><name>nikhil</name></author><category term="internet" /><category term="play store" /><category term="app store" /><category term="trending" /><category term="app ranking" /><summary type="html">Usually, to gain insight into what’s trending on the app stores, I either read prominent websites or look at the trending page on the app store. However, the problem arises when you have to look for global data. For instance, I am located in India and if I have to check what’s trending on the US Play Store, I would have to change my Google account location. Tedious! Recently, I stumbled upon a website that lets you check the trending apps in every country and even the app trend. It is quite helpful if you are an app developer and want to understand the trend of the market. It’s also helpful if you are a journalist who covers technology and currently trending apps. It helps you gauge the type of apps that are becoming popular within different countries and regions. How to find trending apps in any country? Head over to this Similar Web tool and select the country. For instance, I have selected the United States as the country whose trending apps I want to see. Now, click on the “Go” button on the extreme right side. You will see the list of apps that are currently trending on the Google Play Store. The website also lets you see trending apps on the Apple Play Store. In the first drop-down, you can select the store as “Apple App Store” and let other options as default. Click on the go button and it will populate the trending apps on the Apple store. Additionally, you will also see an “iPad/iPhone” toggle on just below the Go button. There are a couple of different filters besides the App Store and the country. You can filter out apps based on categories like Fitness, Music, Productivity, etc. Moroever, you have a control to view popular paid apps as well. Additionally, the website shows you app trends as well. It’s a separate tab with multiple sections on it. One of the sections shows you apps that have become recently become popular and are new in the top 100 list. In addition to that, there’s a section that shows apps that have climbed their way and have increased their ranking in the top 100. Another popular app research tool is AppBrain. In comparison, Similar Web doesn’t show you trends for an individual app, the number of downloads, etc. On the other hand, AppBrain is a furthermore intensive app data website. But, having said that if you write or develop apps, these 2 websites are a must-have bookmark on your browser.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/apps/trernding_apps.jfif" /><media:content medium="image" url="http://localhost:4000/assets/images/apps/trernding_apps.jfif" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;p&gt;&lt;strong&gt;Conclusion:&lt;/strong&gt; I think that one plus, for this time has ended up making a wallet killer. If what you really want 5G we have much cheaper options from namely the realme X50 and if you want the smooth experience of oxygen OS. The older one plus phones namely the 7t can give you the same experience for much lesser price. One plus 8 is meant for people whose first priority is design, oxygen OS and 5G in a single package.&lt;/p&gt;</content><author><name>mohit</name></author><category term="oneplus" /><category term="android" /><category term="google" /><summary type="html">One Plus is now 6 years in smartphone making.Its strategy was always to launch a phone that brought with it a flagship experience but not so expensive as a flagship but as years passed by its pricing kept on increasing from generation to generation. So, is this new One plus 8 a “flagship killer or a wallet killer”, lets find out in this article.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/oneplus/oneplus8-display.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/oneplus/oneplus8-display.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
