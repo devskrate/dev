@@ -1,8 +1,10 @@
 ---
 title: "Contact"
-permalink: "/contact.html"
+permalink: "/contact"
+comments: false
 ---
-<img class="con-logo" src="{{site.baseurl}}/assets/images/contact.jpg"><br><br><br><br><br><br>
-
-#### **If you’d like to get in touch with us, feel free to write us at** <bold><a href="mailto:devskrate@gmail.com">devskrate@gmail.com</a></bold>
-<br><br><br><br><br><br>
+<div class="contact-page" markdown="1">
+<p>
+If you’d like to get in touch with us, feel free to write us at <bold><a href="mailto:devskrate@gmail.com">support@devskrate.com</a></bold>
+</p>
+</div>

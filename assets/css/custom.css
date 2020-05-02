@@ -339,7 +339,7 @@
 
 ol.list-featured li::before {
 
-  content: "0" counter(my-awesome-counter);
+  /* content: "0" counter(my-awesome-counter); */
   font-weight: bold;
   font-size: 2rem;
   margin-right: 0.5rem;
@@ -10772,3 +10772,20 @@ pre, code, kbd, samp {
     }
   }
   /*# sourceMappingURL=bootstrap.css.map */
+
+ .darkmode--activated .article-headline, .darkmode--activated #post-title-area{
+  color: white !important;
+  background-color: black !important;
+}
+.darkmode--activated{
+  color: white !important;
+  background-color: black !important;
+}
+.darkmode--activated h3 span{
+  color: black !important;
+  background-color: white !important;
+}
+.darkmode--activated .contact-page{
+  color: black !important;
+  background-color: white !important;
+}
