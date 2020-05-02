@@ -35,3 +35,10 @@ You can easily sync the containers across devices.
 <p align="center">
   <img src="{{site.baseurl}}/assets/images/mlogs/mozilla/firefox-container-sync.png">
 </p>
+
+You can download the [Firefox Container](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/) add-on.
+
+**Additional info**:
+The Firefox Multi-Account Containers extension lets you carve out a separate box for each of your online lives – no more opening a different browser just to check your work email!
+
+Under the hood, it separates website storage into tab-specific Containers. Cookies downloaded by one Container are not available to other Containers. With the Firefox Multi-Account Containers extension, you can...
