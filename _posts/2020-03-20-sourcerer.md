@@ -4,7 +4,7 @@ title:  "Sourcerer a visual profile"
 author: puneeth
 categories: [ git, github ]
 image: assets/images/git/sourcerer/sourcerer.png
-tags: [ sourcerer , github, visual profile]
+tags: [ sourcerer , github, visual profile, featured]
 ---
 
 Sourcerer is a visual profile for software engineers that helps you learn things about yourself, connect with others, and become a better engineer.

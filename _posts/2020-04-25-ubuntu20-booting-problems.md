@@ -2,9 +2,9 @@
 layout: post
 title:  "Ubuntu 20.04 booting problems." 
 author: puneeth
-categories: [ ubuntu, linux, dev-linux ]
+categories: [ ubuntu, linux ]
 image: assets/images/linux/ubuntu-clogo.jpg
-tags: [ubuntu, linux, kernel, intel, os]
+tags: [ubuntu, linux, kernel, intel, os, featured]
 ---
 
 Ubuntu 20.04 LTS has been released recently, after upgrading to it from ubuntu 18, 19, many had may faced booting problems(especially in DualBoot's).

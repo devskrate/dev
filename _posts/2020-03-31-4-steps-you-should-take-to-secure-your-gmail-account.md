@@ -4,7 +4,7 @@ title:  "4 steps you should take to secure your Gmail account"
 author: nikhil
 categories: [ Gmail, Google ]
 image: assets/images/google/gmail1.png
-tags: [internet, security, computers, mobile, hacking]
+tags: [internet, security, computers, mobile, hacking, featured]
 ---
 
 From bank statements to personal letters, and even password reset requests, your <a href="https://mail.google.com/" target="_blank">Gmail</a> account holds an abundance of personal information. If someone were to access it, they'd effectively have access to the rest of your online identity.  

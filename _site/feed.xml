@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-05-03T09:32:11+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">DevsKrate</title><subtitle>Here at DevsKrate we inspire and endeavor to share everything about technology like Softwares, Coding, etc., and provide our best about HOW TO tutorials and BEST OF every category in accordance to our knowledge.</subtitle><entry><title type="html">Navi - An interactive commandline cheatsheet tool</title><link href="http://localhost:4000/navi-commandline-cheatsheet-tool/" rel="alternate" type="text/html" title="Navi - An interactive commandline cheatsheet tool" /><published>2020-05-02T00:00:00+05:30</published><updated>2020-05-02T00:00:00+05:30</updated><id>http://localhost:4000/navi-commandline-cheatsheet-tool</id><content type="html" xml:base="http://localhost:4000/navi-commandline-cheatsheet-tool/">&lt;p&gt;Do you feel command-line is only for geeks or nerds?
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-05-03T09:43:43+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">DevsKrate</title><subtitle>Here at DevsKrate we inspire and endeavor to share everything about technology like Softwares, Coding, etc., and provide our best about HOW TO tutorials and BEST OF every category in accordance to our knowledge.</subtitle><entry><title type="html">Navi - An interactive commandline cheatsheet tool</title><link href="http://localhost:4000/navi-commandline-cheatsheet-tool/" rel="alternate" type="text/html" title="Navi - An interactive commandline cheatsheet tool" /><published>2020-05-02T00:00:00+05:30</published><updated>2020-05-02T00:00:00+05:30</updated><id>http://localhost:4000/navi-commandline-cheatsheet-tool</id><content type="html" xml:base="http://localhost:4000/navi-commandline-cheatsheet-tool/">&lt;p&gt;Do you feel command-line is only for geeks or nerds?
 Do you feel hard to remember commands and it’s options?
 Here is cheatsheet tool at your fingertips which will help you to browse through commands and make note of some new commands.
 You may come across many Linux tools but this will surely help for everyone who use Linux.&lt;/p&gt;
@@ -363,7 +363,123 @@ The minimal way of creating the meta tags are&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://www.linkedin.com/post-inspector/inspect/&quot;&gt;Linkedin&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;There is tool by google called &lt;a href=&quot;https://search.google.com/structured-data/testing-tool/&quot;&gt;Structured Data Testing Tool&lt;/a&gt;, which is used to know what information is parsed.&lt;/p&gt;</content><author><name>puneeth</name></author><category term="web" /><category term="meta" /><category term="browser" /><category term="links" /><category term="url" /><summary type="html">Have you ever wondered that if you share a link in the whatsapp, telegram, and in social media platforms how you will get the description and image related to the website? and one more thing, do you know how search engines parse the data in your websites and show it in the search results according to it.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/meta-tags-preview.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/meta-tags-preview.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Ubuntu 20.04 booting problems.</title><link href="http://localhost:4000/ubuntu20-booting-problems/" rel="alternate" type="text/html" title="Ubuntu 20.04 booting problems." /><published>2020-04-25T00:00:00+05:30</published><updated>2020-04-25T00:00:00+05:30</updated><id>http://localhost:4000/ubuntu20-booting-problems</id><content type="html" xml:base="http://localhost:4000/ubuntu20-booting-problems/">&lt;p&gt;Ubuntu 20.04 LTS has been released recently, after upgrading to it from ubuntu 18, 19, many had may faced booting problems(especially in DualBoot’s).
+&lt;p&gt;There is tool by google called &lt;a href=&quot;https://search.google.com/structured-data/testing-tool/&quot;&gt;Structured Data Testing Tool&lt;/a&gt;, which is used to know what information is parsed.&lt;/p&gt;</content><author><name>puneeth</name></author><category term="web" /><category term="meta" /><category term="browser" /><category term="links" /><category term="url" /><summary type="html">Have you ever wondered that if you share a link in the whatsapp, telegram, and in social media platforms how you will get the description and image related to the website? and one more thing, do you know how search engines parse the data in your websites and show it in the search results according to it.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/meta-tags-preview.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/meta-tags-preview.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Configure your VS Code like a pro</title><link href="http://localhost:4000/configure-vscode-like-a-pro/" rel="alternate" type="text/html" title="Configure your VS Code like a pro" /><published>2020-04-25T00:00:00+05:30</published><updated>2020-04-25T00:00:00+05:30</updated><id>http://localhost:4000/configure-vscode-like-a-pro</id><content type="html" xml:base="http://localhost:4000/configure-vscode-like-a-pro/">&lt;p&gt;Being core &lt;strong&gt;Python&lt;/strong&gt; and &lt;strong&gt;Java&lt;/strong&gt; developers we extensively use VS Code for our project development and use code formatting heavily to enable consistency of code while developing as a team and there are lot of useful extensions which will help you to ease your task and run things on your fingertips.&lt;/p&gt;
+
+&lt;h3 id=&quot;why-visual-studio-code&quot;&gt;Why Visual Studio Code&lt;/h3&gt;
+&lt;p&gt;Visual Studio Code combines the simplicity of a source code editor with powerful developer tooling, like IntelliSense code completion and debugging.&lt;/p&gt;
+
+&lt;p&gt;First and foremost, it is an editor that gets out of your way. The delightfully frictionless edit-build-debug cycle means less time fiddling with your environment, and more time executing on your ideas.&lt;/p&gt;
+
+&lt;p&gt;Here are some Key Benefits of using VS Code -&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Available on Mac, Linux, and Ofcourse Windows.&lt;/li&gt;
+  &lt;li&gt;Edit, Build, and Debug very easily.&lt;/li&gt;
+  &lt;li&gt;Highly configurable - &lt;strong&gt;Open-source project&lt;/strong&gt;&lt;/li&gt;
+  &lt;li&gt;VS Code also includes great tooling for web technologies such as NodeJS, JSX/React, HTML, CSS, SCSS, Less, and JSON.&lt;/li&gt;
+  &lt;li&gt;Highly robust and Extensible.&lt;/li&gt;
+  &lt;li&gt;High availability of industry and community-developed extensions.&lt;/li&gt;
+  &lt;li&gt;Much loved dark theme&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;installing-visual-studio-code&quot;&gt;Installing Visual Studio Code&lt;/h5&gt;
+&lt;p&gt;We can download updated version of VS Code from their website - &lt;a href=&quot;https://code.visualstudio.com/&quot;&gt;https://code.visualstudio.com/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Download from here  - &lt;a href=&quot;https://code.visualstudio.com/download&quot;&gt;https://code.visualstudio.com/download&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;required-extensions-for-all-developers&quot;&gt;Required Extensions for all developers&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;1. Python extension by Microsoft&lt;/strong&gt; - &lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=ms-python.python&quot;&gt;download&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/vscode/python-editing.gif&quot; alt=&quot;Python editing&quot; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;An extension with rich support for the Python language, including features such as linting, debugging, IntelliSense, code navigation, code formatting, refactoring, unit tests, snippets, and more!&lt;/li&gt;
+  &lt;li&gt;I personally use &lt;strong&gt;black&lt;/strong&gt; code-formatter. we can configure it in our workspace settings in &lt;strong&gt;.vscode&lt;/strong&gt; file. This helps to maintain code and code-formatting consistent in development.
+    &lt;ul&gt;
+      &lt;li&gt;Troubleshoot the code formatting plugin in python &lt;a href=&quot;https://code.visualstudio.com/docs/python/editing&quot;&gt;here&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;2. Java Extension by Mircosoft&lt;/strong&gt; - &lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack&quot;&gt;download&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Java Extension Pack is a collection of popular extensions that can help write, test and debug Java applications in Visual Studio Code.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;3. Markdown Renderer Extension&lt;/strong&gt; - &lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced&quot;&gt;download&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/vscode/md-image.png&quot; alt=&quot;Markdown gif&quot; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Markdown Preview Enhanced is an extension that provides you with many useful functionalities such as automatic scroll sync, math typesetting, mermaid, PlantUML, pandoc, PDF export, code chunk, presentation writer, etc.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;4. Prettier Extension for JavaScript&lt;/strong&gt; - &lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode&quot;&gt;download&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;It enforces a consistent style by parsing your code and re-printing it with its own rules that take the maximum line length into account, wrapping code when necessary.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;5. ESLint&lt;/strong&gt; - &lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint&quot;&gt;download&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;This will be useful to check JavaScript and TypeScript errors&lt;/li&gt;
+  &lt;li&gt;The extension uses the ESLint library installed in the opened workspace folder. If the folder doesn’t provide one the extension looks for a global install version. If you haven’t installed ESLint either locally or globally do so by running &lt;code class=&quot;highlighter-rouge&quot;&gt;npm install eslint&lt;/code&gt; in the workspace folder for a local install or &lt;code class=&quot;highlighter-rouge&quot;&gt;npm install -g eslint&lt;/code&gt; for a global install.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;6. CSS Peek&lt;/strong&gt; - &lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek&quot;&gt;download&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/vscode/css.gif&quot; alt=&quot;Markdown gif&quot; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;CSS Peek is a great tool if you keep forgetting what was a CSS class was used for. However, that could also mean that your CSS class names are not meaningful, or you have written too much “unmaintainable” code. Still, this is sure going to be handy if you are viewing/rewriting someone else’s code.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;7. Debugger for Chrome&lt;/strong&gt; - &lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome&quot;&gt;download&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/vscode/chrome.gif&quot; alt=&quot;Markdown gif&quot; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Debugger for Chrome is a great tool if you use a debugger in VSC. It allows you to launch an instance of Chrome navigated to your app, or it can attach to a running instance of Chrome. Using the URL parameter, you tell VSC which URL to either open or launch in Chrome.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;8. Gitlens&lt;/strong&gt; - &lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens&quot;&gt;download&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;GitLens supercharges the Git capabilities built into Visual Studio Code. It helps you to visualize code authorship at a glance via Git blame annotations and code lens, seamlessly navigate and explore Git repositories, gain valuable insights via powerful comparison commands, and so much more.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;9. Git File History&lt;/strong&gt; - &lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=pomber.git-file-history&quot;&gt;download&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/vscode/git-file-history.gif&quot; alt=&quot;Markdown gif&quot; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;This helps to quickly browse the history (edits and commits done by you and others) in a cool and interesting visualization.&lt;/li&gt;
+  &lt;li&gt;you can try this in browser also. you just need to do these three steps.
+    &lt;ol&gt;
+      &lt;li&gt;Go to a file in GitHub (or GitLab, or Bitbucket)&lt;/li&gt;
+      &lt;li&gt;Replace github.com with github.githistory.xyz&lt;/li&gt;
+      &lt;li&gt;There’s no step three. you’ll love this.&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;10. Docker Extension&lt;/strong&gt; - &lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker&quot;&gt;download&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/vscode/docker.png&quot; alt=&quot;Markdown gif&quot; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;The Docker extension makes it easier to build apps that leverage Docker containers. The extension helps scaffold needed files, build Docker images, debug your app inside a container, and an explorer that makes it easy to take actions on containers and images such as start, stop, inspect, remove, and more.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;11. SQL Formatter&lt;/strong&gt; - &lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=bradymholt.pgformatter&quot;&gt;download&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;This VS Code extension formats PostgreSQL SQL, using the Perl based &lt;a href=&quot;https://github.com/darold/pgFormatter&quot;&gt;pgFormatter&lt;/a&gt; tool. Supports keywords from SQL-92, SQL-99, SQL-2003, SQL-2008, SQL-2011 and PostgreSQL specifics keywords. Provides configuration to control formatting style.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;12. Path Intellisense&lt;/strong&gt; - &lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense&quot;&gt;downlaod&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Path Intellisense helps you include filenames or autocomplete them. This is a great tool if you want to type less for difficult filenames and make sure you always include the correct files.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;not-just-this-many-more-to-come-in-future&quot;&gt;Not just this many more to come in future&lt;/h4&gt;
+&lt;p&gt;Please share your feedback on &lt;a href=&quot;https://twitter.com/devskrate&quot;&gt;twitter&lt;/a&gt;, &lt;a href=&quot;https://instagram.com/devskrate&quot;&gt;Instagram&lt;/a&gt;, or mail us at support@devskrate.com. Use &lt;a href=&quot;https://devskrate.com&quot;&gt;#DevsKrate&lt;/a&gt; on any social media platforms we will reach out to you.&lt;/p&gt;</content><author><name>satya</name></author><category term="developers" /><category term="microsoft" /><category term="vscode" /><category term="DevStuff" /><category term="configuring" /><category term="featured" /><summary type="html">Being core Python and Java developers we extensively use VS Code for our project development and use code formatting heavily to enable consistency of code while developing as a team and there are lot of useful extensions which will help you to ease your task and run things on your fingertips.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/vscode/vscode-home.png" /><media:content medium="image" url="http://localhost:4000/assets/images/vscode/vscode-home.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Ubuntu 20.04 booting problems.</title><link href="http://localhost:4000/ubuntu20-booting-problems/" rel="alternate" type="text/html" title="Ubuntu 20.04 booting problems." /><published>2020-04-25T00:00:00+05:30</published><updated>2020-04-25T00:00:00+05:30</updated><id>http://localhost:4000/ubuntu20-booting-problems</id><content type="html" xml:base="http://localhost:4000/ubuntu20-booting-problems/">&lt;p&gt;Ubuntu 20.04 LTS has been released recently, after upgrading to it from ubuntu 18, 19, many had may faced booting problems(especially in DualBoot’s).
 Booting problems like bootloop(Restarting when ubuntu is selected) or blank screen after selecting ubuntu in the grub.&lt;/p&gt;
 
 &lt;p&gt;With My experience, I am giving here few fixes you may try.&lt;/p&gt;
@@ -393,258 +509,69 @@ Now, you will boot into Ubuntu:).&lt;/p&gt;
 
 &lt;p&gt;Remember, this method is not a permanent fix, you can use Ubuntu inthis way as long as you find the permanent fix, this will not do anything from accessing all the features.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Additional Info&lt;/strong&gt;: Why method 2 is not a permanent fix, because Ubuntu uses Linux kernel 5.4, so grub will boot from it by default. After booting in you can change the default kernel to boot, but be carefull while handling with the Kernel.&lt;/p&gt;</content><author><name>puneeth</name></author><category term="ubuntu" /><category term="linux" /><category term="kernel" /><category term="intel" /><category term="os" /><summary type="html">Ubuntu 20.04 LTS has been released recently, after upgrading to it from ubuntu 18, 19, many had may faced booting problems(especially in DualBoot’s). Booting problems like bootloop(Restarting when ubuntu is selected) or blank screen after selecting ubuntu in the grub.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/linux/ubuntu-clogo.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/linux/ubuntu-clogo.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Configure your VS Code like a pro</title><link href="http://localhost:4000/configure-vscode-like-a-pro/" rel="alternate" type="text/html" title="Configure your VS Code like a pro" /><published>2020-04-24T00:00:00+05:30</published><updated>2020-04-24T00:00:00+05:30</updated><id>http://localhost:4000/configure-vscode-like-a-pro</id><content type="html" xml:base="http://localhost:4000/configure-vscode-like-a-pro/">&lt;p&gt;Being core &lt;strong&gt;Python&lt;/strong&gt; and &lt;strong&gt;Java&lt;/strong&gt; developers we extensively use VS Code for our project development and use code formatting heavily to enable consistency of code while developing as a team and there are lot of useful extensions which will help you to ease your task and run things on your fingertips.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Additional Info&lt;/strong&gt;: Why method 2 is not a permanent fix, because Ubuntu uses Linux kernel 5.4, so grub will boot from it by default. After booting in you can change the default kernel to boot, but be carefull while handling with the Kernel.&lt;/p&gt;</content><author><name>puneeth</name></author><category term="ubuntu" /><category term="linux" /><category term="kernel" /><category term="intel" /><category term="os" /><category term="featured" /><summary type="html">Ubuntu 20.04 LTS has been released recently, after upgrading to it from ubuntu 18, 19, many had may faced booting problems(especially in DualBoot’s). Booting problems like bootloop(Restarting when ubuntu is selected) or blank screen after selecting ubuntu in the grub.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/linux/ubuntu-clogo.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/linux/ubuntu-clogo.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">New iPhones Might Delay Due To the Pandemic Says The Famous Apple Analyst : Ming-Chi Kuo</title><link href="http://localhost:4000/iphones-delay-in-release/" rel="alternate" type="text/html" title="New iPhones Might Delay Due To the Pandemic Says The Famous Apple Analyst : Ming-Chi Kuo" /><published>2020-04-23T00:00:00+05:30</published><updated>2020-04-23T00:00:00+05:30</updated><id>http://localhost:4000/iphones-delay-in-release</id><content type="html" xml:base="http://localhost:4000/iphones-delay-in-release/">&lt;p&gt;Analyst Ming-Chi Kuo, In his new investor note, has outlined some information regarding the possible delay of the iPhone 12’s production as well as the possible postponement of its much-rumored iPhone SE plus due to the Coronavirus pandemic.&lt;/p&gt;
 
-&lt;h3 id=&quot;why-visual-studio-code&quot;&gt;Why Visual Studio Code&lt;/h3&gt;
-&lt;p&gt;Visual Studio Code combines the simplicity of a source code editor with powerful developer tooling, like IntelliSense code completion and debugging.&lt;/p&gt;
+&lt;h1 id=&quot;iphone-12-production&quot;&gt;iPhone 12 production:&lt;/h1&gt;
+&lt;p&gt;In Kuo’s note, He said that due to the pandemic caused by COVID-19, The Cupertino giant(Apple) had to do a lot of changes in its production, which lead to a one-month delay in engineering verification testing for the new iPhone 12 models.&lt;/p&gt;
 
-&lt;p&gt;First and foremost, it is an editor that gets out of your way. The delightfully frictionless edit-build-debug cycle means less time fiddling with your environment, and more time executing on your ideas.&lt;/p&gt;
+&lt;p&gt;The iPhone 12 lineup is expected to include four new models, and According to the analyst
+the lower end models sized 6.1- inch and 5.4-inch iPhone will enter into the mass production in September
+and the 6.7 inch which is expected to come with 5G support will enter not enter the production until October.
+According to Kuo,this is because the 6.7-inch model has the most complicated design.&lt;/p&gt;
 
-&lt;p&gt;Here are some Key Benefits of using VS Code -&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Available on Mac, Linux, and Ofcourse Windows.&lt;/li&gt;
-  &lt;li&gt;Edit, Build, and Debug very easily.&lt;/li&gt;
-  &lt;li&gt;Highly configurable - &lt;strong&gt;Open-source project&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;VS Code also includes great tooling for web technologies such as NodeJS, JSX/React, HTML, CSS, SCSS, Less, and JSON.&lt;/li&gt;
-  &lt;li&gt;Highly robust and Extensible.&lt;/li&gt;
-  &lt;li&gt;High availability of industry and community-developed extensions.&lt;/li&gt;
-  &lt;li&gt;Much loved dark theme&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;The above could mean that Apple will announce all the four iPhone models at once
+but the release dates likely going to be different for each model due to the production delays.&lt;/p&gt;
 
-&lt;h5 id=&quot;installing-visual-studio-code&quot;&gt;Installing Visual Studio Code&lt;/h5&gt;
-&lt;p&gt;We can download updated version of VS Code from their website - &lt;a href=&quot;https://code.visualstudio.com/&quot;&gt;https://code.visualstudio.com/&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&quot;iphone-se-plus-delayed&quot;&gt;iPhone SE Plus Delayed:&lt;/h1&gt;
 
-&lt;p&gt;Download from here  - &lt;a href=&quot;https://code.visualstudio.com/download&quot;&gt;https://code.visualstudio.com/download&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;iPhone SE 2020 has sold more models than Apple expected and there were strong rumors
+regarding a plus model of the iPhone SE and was confirmed by the evidences found in the IOS 14 code
+however Kuo’s note says that the iPhone SE Plus is likely to be delayed until Q2 2021.&lt;/p&gt;</content><author><name>mohit</name></author><category term="apple" /><category term="iphone" /><summary type="html">Analyst Ming-Chi Kuo, In his new investor note, has outlined some information regarding the possible delay of the iPhone 12’s production as well as the possible postponement of its much-rumored iPhone SE plus due to the Coronavirus pandemic. iPhone 12 production: In Kuo’s note, He said that due to the pandemic caused by COVID-19, The Cupertino giant(Apple) had to do a lot of changes in its production, which lead to a one-month delay in engineering verification testing for the new iPhone 12 models. The iPhone 12 lineup is expected to include four new models, and According to the analyst the lower end models sized 6.1- inch and 5.4-inch iPhone will enter into the mass production in September and the 6.7 inch which is expected to come with 5G support will enter not enter the production until October. According to Kuo,this is because the 6.7-inch model has the most complicated design. The above could mean that Apple will announce all the four iPhone models at once but the release dates likely going to be different for each model due to the production delays. iPhone SE Plus Delayed: iPhone SE 2020 has sold more models than Apple expected and there were strong rumors regarding a plus model of the iPhone SE and was confirmed by the evidences found in the IOS 14 code however Kuo’s note says that the iPhone SE Plus is likely to be delayed until Q2 2021.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/apple/iphone-12-renders.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/apple/iphone-12-renders.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Motorolo launches its new edge series in states:</title><link href="http://localhost:4000/moto-edge-series/" rel="alternate" type="text/html" title="Motorolo launches its new edge series in states:" /><published>2020-04-23T00:00:00+05:30</published><updated>2020-04-23T00:00:00+05:30</updated><id>http://localhost:4000/moto-edge-series</id><content type="html" xml:base="http://localhost:4000/moto-edge-series/">&lt;p&gt;Moto after 4 years has come back to making flagship phones with its new edge series, 
+It launched two phones namely Moto Edge and Moto Edge Plus. Let’s see what Motorola has to offer 
+in this article.&lt;/p&gt;
 
-&lt;h4 id=&quot;required-extensions-for-all-developers&quot;&gt;Required Extensions for all developers&lt;/h4&gt;
-&lt;p&gt;&lt;strong&gt;1. Python extension by Microsoft&lt;/strong&gt; - &lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=ms-python.python&quot;&gt;download&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&quot;moto-edge-plus&quot;&gt;Moto Edge Plus:&lt;/h1&gt;
+&lt;p&gt;The standout feature of this phone has to be its design, It’s 
+an all-glass display with metal frame holding them together, The 
+edges wrap around the edges with a punch hole at the top and in 
+one word it looks gorgeous with two color variants to offer namely midnight 
+megneta and solar black. Before 
+taking a deep dive lets see the specs.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/vscode/python-editing.gif&quot; alt=&quot;Python editing&quot; height=&quot;350px&quot; width=&quot;90%&quot; /&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;An extension with rich support for the Python language, including features such as linting, debugging, IntelliSense, code navigation, code formatting, refactoring, unit tests, snippets, and more!&lt;/li&gt;
-  &lt;li&gt;I personally use &lt;strong&gt;black&lt;/strong&gt; code-formatter. we can configure it in our workspace settings in &lt;strong&gt;.vscode&lt;/strong&gt; file. This helps to maintain code and code-formatting consistent in development.
-    &lt;ul&gt;
-      &lt;li&gt;Troubleshoot the code formatting plugin in python
-&lt;a href=&quot;https://code.visualstudio.com/docs/python/editing&quot;&gt;https://code.visualstudio.com/docs/python/editing&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;Processor:	Qualcomm Snapdragon 865
+Rear Camera	Triple Cameras 108MP(with OIS) + 16MP(Ultra Wide + Macro) + 8MP(3x Zoom with OIS)
+front Camera	25MP
+Display	        6.7 inches 90HZ AMOLED(Aspect ratio: 21:9) FHD
+5G support	both mm and sub-6 band.
+Battery	        5000mAH(18W)
+Fingerprint	In-Display Fingerprint Sensor(Optical)
+Water Resistant	Water Resistant(IP 68)
+Charging	Type-C cable + Wireless Charging(Upto 15W) + 5W(Reverse Wireless Charging)
+RAM/ROM         12GB/128or256GB&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;2. Java Extension by Mircosoft&lt;/strong&gt; - &lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack&quot;&gt;download&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&quot;display-and-battery&quot;&gt;Display and battery:&lt;/h1&gt;
+&lt;p&gt;The display is a 6.7 inch AMOLED display with an aspect ratio of 21:9 and the phone comes with a 90HZ refresh rate but the resolution is only FHD(1080p), which is a bummer at this price point but it helps increase the battery efficiency and in 
+this phone moto has provided a huge 5000mAh battery and moto claims it can last till 2 days.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/vscode/java.png&quot; alt=&quot; Java &quot; height=&quot;60px&quot; width=&quot;60px&quot; /&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Java Extension Pack is a collection of popular extensions that can help write, test and debug Java applications in Visual Studio Code.&lt;/li&gt;
-&lt;/ul&gt;
+&lt;h1 id=&quot;camera&quot;&gt;Camera:&lt;/h1&gt;
+&lt;p&gt;This phone comes with a total of four cameras three at the back and one inside the punch hole. The primary sensor is a 108MP 
+Samsung sensor which we saw in the galaxy s20 ultra, This camera by default shoots at 27MP and it has OIS built-in for stable video.The 
+second sensory is an 8MP three times zoom sensor and this also has OIS for better video as well as zoom. The third is a 16MP Ultra wide sensor to capture ultra-wide shots.The selfie camera is a 25MP shooter. This phone has all the hardware required for a good camera it ultimately comes down to
+camera software.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;3. Markdown Renderer Extension&lt;/strong&gt; - &lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced&quot;&gt;download&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&quot;software-and-hardware&quot;&gt;Software and Hardware:&lt;/h1&gt;
+&lt;p&gt;Talking about software, It comes with an almost stock-like experience with a few added features based on android 10, and moto is calling it “My UX”.In days where flagship smartphones are removing the headphone jack moto has it in this phone which is a great thing.
+The hardware also is top end with snapdragon 865, It also supports fast charging, wireless charging, reverse wireless charging 
+and all other high-end features to compete against the top of galaxies and iPhones.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/vscode/md-image.png&quot; alt=&quot;Markdown gif&quot; height=&quot;350px&quot; width=&quot;90%&quot; /&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Markdown Preview Enhanced is an extension that provides you with many useful functionalities such as automatic scroll sync, math typesetting, mermaid, PlantUML, pandoc, PDF export, code chunk, presentation writer, etc.&lt;/li&gt;
-&lt;/ul&gt;
+&lt;h1 id=&quot;pricing&quot;&gt;Pricing:&lt;/h1&gt;
+&lt;p&gt;This phone is priced at 999.99 dollars which converts to around 75k price, which is very expensive considering what this phone has to offer.
+If moto really wants to bring this phone to India it has to reduce the price to somewhere around 55k.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;4. Prettier Extension for JavaScript&lt;/strong&gt; - &lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode&quot;&gt;download&lt;/a&gt;&lt;/p&gt;
+&lt;h1 id=&quot;moto-edge&quot;&gt;Moto Edge:&lt;/h1&gt;
+&lt;p&gt;Edge is very similar to Edge plus with very few changes. The main shooter is 64MP instead of 108MP, the battery capacity is 4500mAH instead of 5000mAH, It 
+only offers 4GB/6GB of RAM and it does not support any kind of wireless and reverse wireless charging on it but the key 
+difference is that it comes with snapdragon 765 5G on board.This phone is priced at 699 EURO, which is 58,000 rupees. I think this phone is fairly overpriced and at this price we can get several other options
+from vendors like one plus, Xiaomi, etc, which can offer us a flagship experience.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/vscode/prettier.png&quot; alt=&quot;Pretier&quot; height=&quot;80px&quot; width=&quot;80px&quot; /&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;It enforces a consistent style by parsing your code and re-printing it with its own rules that take the maximum line length into account, wrapping code when necessary.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;5. ESLint&lt;/strong&gt; - &lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint&quot;&gt;download&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/vscode/eslint.png&quot; alt=&quot;Markdown gif&quot; height=&quot;60px&quot; width=&quot;60px&quot; /&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;This will be useful to check JavaScript and TypeScript errors&lt;/li&gt;
-  &lt;li&gt;The extension uses the ESLint library installed in the opened workspace folder. If the folder doesn’t provide one the extension looks for a global install version. If you haven’t installed ESLint either locally or globally do so by running &lt;code class=&quot;highlighter-rouge&quot;&gt;npm install eslint&lt;/code&gt; in the workspace folder for a local install or &lt;code class=&quot;highlighter-rouge&quot;&gt;npm install -g eslint&lt;/code&gt; for a global install.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;6. CSS Peek&lt;/strong&gt; - &lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek&quot;&gt;download&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/vscode/css.gif&quot; alt=&quot;Markdown gif&quot; height=&quot;400px&quot; width=&quot;90%&quot; /&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;CSS Peek is a great tool if you keep forgetting what was a CSS class was used for. However, that could also mean that your CSS class names are not meaningful, or you have written too much “unmaintainable” code. Still, this is sure going to be handy if you are viewing/rewriting someone else’s code.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;7. Debugger for Chrome&lt;/strong&gt; - &lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome&quot;&gt;download&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/vscode/chrome.gif&quot; alt=&quot;Markdown gif&quot; height=&quot;400px&quot; width=&quot;90%&quot; /&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Debugger for Chrome is a great tool if you use a debugger in VSC. It allows you to launch an instance of Chrome navigated to your app, or it can attach to a running instance of Chrome. Using the URL parameter, you tell VSC which URL to either open or launch in Chrome.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;8. Gitlens&lt;/strong&gt; - &lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens&quot;&gt;download&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/vscode/git-lens.png&quot; alt=&quot;Markdown gif&quot; height=&quot;60px&quot; width=&quot;37%&quot; /&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;GitLens supercharges the Git capabilities built into Visual Studio Code. It helps you to visualize code authorship at a glance via Git blame annotations and code lens, seamlessly navigate and explore Git repositories, gain valuable insights via powerful comparison commands, and so much more.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;9. Git File History&lt;/strong&gt; - &lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=pomber.git-file-history&quot;&gt;download&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/vscode/git-file-history.gif&quot; alt=&quot;Markdown gif&quot; height=&quot;350px&quot; width=&quot;90%&quot; /&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;This helps to quickly browse the history (edits and commits done by you and others) in a cool and interesting visualization.&lt;/li&gt;
-  &lt;li&gt;you can try this in browser also. you just need to do these three steps.
-    &lt;ol&gt;
-      &lt;li&gt;Go to a file in GitHub (or GitLab, or Bitbucket)&lt;/li&gt;
-      &lt;li&gt;Replace github.com with github.githistory.xyz&lt;/li&gt;
-      &lt;li&gt;There’s no step three. you’ll love this.&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;10. Docker Extension&lt;/strong&gt; - &lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker&quot;&gt;download&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/vscode/docker.png&quot; alt=&quot;Markdown gif&quot; height=&quot;350px&quot; width=&quot;90%&quot; /&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;The Docker extension makes it easier to build apps that leverage Docker containers. The extension helps scaffold needed files, build Docker images, debug your app inside a container, and an explorer that makes it easy to take actions on containers and images such as start, stop, inspect, remove, and more.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;11. SQL Formatter&lt;/strong&gt; - &lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=bradymholt.pgformatter&quot;&gt;download&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/vscode/sql.png&quot; alt=&quot;Markdown gif&quot; height=&quot;60px&quot; width=&quot;60px&quot; /&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;This VS Code extension formats PostgreSQL SQL, using the Perl based &lt;a href=&quot;https://github.com/darold/pgFormatter&quot;&gt;pgFormatter&lt;/a&gt; tool. Supports keywords from SQL-92, SQL-99, SQL-2003, SQL-2008, SQL-2011 and PostgreSQL specifics keywords. Provides configuration to control formatting style.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;12. Path Intellisense&lt;/strong&gt; - &lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense&quot;&gt;downlaod&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/vscode/path-intelli.png&quot; alt=&quot;Markdown gif&quot; height=&quot;350px&quot; width=&quot;90%&quot; /&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Path Intellisense helps you include filenames or autocomplete them. This is a great tool if you want to type less for difficult filenames and make sure you always include the correct files.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;not-just-this-many-more-to-come-in-future&quot;&gt;Not just this many more to come in future&lt;/h4&gt;
-&lt;p&gt;Please share your feedback on &lt;a href=&quot;https://twitter.com/devskrate&quot;&gt;twitter&lt;/a&gt;, &lt;a href=&quot;https://instagram.com/devskrate&quot;&gt;Instagram&lt;/a&gt;, or mail us at support@devskrate.com. Use &lt;a href=&quot;https://devskrate.com&quot;&gt;#DevsKrate&lt;/a&gt; on any social media platforms we will reach out to you.&lt;/p&gt;</content><author><name>satya</name></author><category term="developers" /><category term="microsoft" /><category term="vscode" /><category term="DevStuff" /><category term="configuring" /><summary type="html">Being core Python and Java developers we extensively use VS Code for our project development and use code formatting heavily to enable consistency of code while developing as a team and there are lot of useful extensions which will help you to ease your task and run things on your fingertips.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/vscode/vscode-home.png" /><media:content medium="image" url="http://localhost:4000/assets/images/vscode/vscode-home.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Apple iPhone SE 2020 is ready!</title><link href="http://localhost:4000/apple-iphone-se/" rel="alternate" type="text/html" title="Apple iPhone SE 2020 is ready!" /><published>2020-04-15T00:00:00+05:30</published><updated>2020-04-15T00:00:00+05:30</updated><id>http://localhost:4000/apple-iphone-se</id><content type="html" xml:base="http://localhost:4000/apple-iphone-se/">&lt;h2 id=&quot;hey-folks&quot;&gt;Hey Folks!&lt;/h2&gt;
-&lt;p&gt;All the wait is over. Finally,the Apple iPhone SE 2020 is ready for competition.&lt;br /&gt;
-The most awaited iPhone SE has been scilently released by Apple into it’s &lt;a href=&quot;https://www.apple.com/&quot; target=&quot;_blank&quot;&gt;website&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/apple/se-size-img.png&quot; alt=&quot;iPhone SE 2020&quot; title=&quot;iPhone SE 2020&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;tech-specs&quot;&gt;Tech Specs:&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Colors:&lt;/strong&gt; Available in three Colors. &lt;strong&gt;Black, White, Product RED&lt;/strong&gt;&lt;br /&gt;
-&lt;strong&gt;Capacity: 64GB, 128GB, 256GB&lt;/strong&gt;&lt;br /&gt;
-&lt;strong&gt;Size and Weight:&lt;/strong&gt;&lt;br /&gt;
-Height: 5.45 inches (138.4 mm)&lt;br /&gt;
-Width : 2.65 inches (67.3 mm)&lt;br /&gt;
-Depth : 0.29 inch (7.3 mm)&lt;br /&gt;
-Weight: 5.22 ounces (148 grams)&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/apple/se-size-weight.jpg&quot; alt=&quot;iPhone SE Size&quot; title=&quot;iPhone SE 2020 Size&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Display: 4.7”&lt;/strong&gt;&lt;br /&gt;
-&lt;img src=&quot;/assets/images/apple/se-display.jpg&quot; alt=&quot;iPhone SE Display&quot; title=&quot;iPhone SE 2020 Display&quot; /&gt;&lt;/p&gt;
-
-&lt;pre&gt;&lt;b&gt;    Retina HD display
-    4.7-inch (diagonal) widescreen LCD Multi‑Touch display with IPS technology
-    1334-by-750-pixel resolution at 326 ppi
-    1400:1 contrast ratio (typical)
-    True Tone display
-    Wide color display (P3)
-    Haptic Touch
-    625 nits max brightness (typical)
-    Fingerprint-resistant oleophobic coating
-    Display Zoom
-    Reachability&lt;/b&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;strong&gt;Chip: A13 Bionic chip (Third‑generation Neural Engine)&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Splash, Water, and Dust Resistant: Rated IP67 (maximum depth of 1 meter up to 30 minutes) under IEC standard 60529&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/apple/se-camera.jpg&quot; title=&quot;iPhone SE 2020 Camera Specs&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/apple/se-video.jpg&quot; title=&quot;iPhone SE 2020 Video Specs&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/apple/se-frntcamera.jpg&quot; title=&quot;iPhone SE 2020 Front Camera Specs&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/apple/se-addl.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Pricing Details:&lt;/strong&gt; Starts from $399(approx. ₹30549) to $549(approx. ₹42034)&lt;/p&gt;
-
-&lt;p&gt;There is no any fixed date of launch in India due to the COVID-19 Lockdown, but will be launched very soon.&lt;/p&gt;
-
-&lt;p&gt;For more details check the &lt;a href=&quot;https://www.apple.com/iphone-se/specs/&quot; target=&quot;_blank&quot;&gt;Product Page&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Conclusion&lt;/strong&gt;: This new iphone is basically the internals of iphone 11 in an iPhone 8 body. This is the one of the cheapest way to enter into the iOS eco-system. This is best suited as a second phone or a testing device for developing iOS apps.&lt;/p&gt;</content><author><name>nikhil</name></author><category term="iPhone" /><category term="SE" /><category term="Apple" /><summary type="html">Hey Folks! All the wait is over. Finally,the Apple iPhone SE 2020 is ready for competition. The most awaited iPhone SE has been scilently released by Apple into it’s website. Tech Specs: Colors: Available in three Colors. Black, White, Product RED Capacity: 64GB, 128GB, 256GB Size and Weight: Height: 5.45 inches (138.4 mm) Width : 2.65 inches (67.3 mm) Depth : 0.29 inch (7.3 mm) Weight: 5.22 ounces (148 grams) Display: 4.7” Retina HD display 4.7-inch (diagonal) widescreen LCD Multi‑Touch display with IPS technology 1334-by-750-pixel resolution at 326 ppi 1400:1 contrast ratio (typical) True Tone display Wide color display (P3) Haptic Touch 625 nits max brightness (typical) Fingerprint-resistant oleophobic coating Display Zoom Reachability Chip: A13 Bionic chip (Third‑generation Neural Engine) Splash, Water, and Dust Resistant: Rated IP67 (maximum depth of 1 meter up to 30 minutes) under IEC standard 60529 Pricing Details: Starts from $399(approx. ₹30549) to $549(approx. ₹42034) There is no any fixed date of launch in India due to the COVID-19 Lockdown, but will be launched very soon. For more details check the Product Page Conclusion: This new iphone is basically the internals of iphone 11 in an iPhone 8 body. This is the one of the cheapest way to enter into the iOS eco-system. This is best suited as a second phone or a testing device for developing iOS apps.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/apple/se-ftre.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/apple/se-ftre.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">One Plus 8 pro - The Real Flagship</title><link href="http://localhost:4000/one-plus-8-pro-spec/" rel="alternate" type="text/html" title="One Plus 8 pro - The Real Flagship" /><published>2020-04-15T00:00:00+05:30</published><updated>2020-04-15T00:00:00+05:30</updated><id>http://localhost:4000/one-plus-8-pro-spec</id><content type="html" xml:base="http://localhost:4000/one-plus-8-pro-spec/">&lt;p&gt;It has been 6 years since one plus has been making smartphones until last year the company has produced a lot of flagship killer but the company from the past year has changed its strategy to produce a true flagship with its one plus 7 pro and 7t pro they were good but lacked the bells and whistles that a true flagship from samsung and apple had. With this phone one plus is trying 
-to tick all the boxes of a flagship. Did it succeed, let’s see in the article below.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Before taking a deep dive into the phones, let’s see what specs this phone has to offer:&lt;/strong&gt;&lt;/p&gt;
-
-&lt;table class=&quot;table table-bordered dark&quot;&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Name&lt;/th&gt;
-      &lt;th&gt;Specifications&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Processor&lt;/td&gt;
-      &lt;td&gt;Qualcomm Snapdragon 865&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Rear Camera&lt;/td&gt;
-      &lt;td&gt;Quad Cameras 48MP(f/178) + 48MP(Ultra Wide) + 8MP(3x Zoom) + 5MP(Color Sensor)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;front Camera&lt;/td&gt;
-      &lt;td&gt;16MP&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Display&lt;/td&gt;
-      &lt;td&gt;6.78 inches 120HZ AMOLED(Aspect ratio:19.8:9)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Connectivity&lt;/td&gt;
-      &lt;td&gt;5G, WIFI 6 Support&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Battery&lt;/td&gt;
-      &lt;td&gt;4510mAH(30T warp charging)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Fingerprint&lt;/td&gt;
-      &lt;td&gt;In-Display Fingerprint Sensor(Optical)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Water Resistant&lt;/td&gt;
-      &lt;td&gt;Water Resistant(IP 68)&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Charging&lt;/td&gt;
-      &lt;td&gt;Type-C cable + Wireless Charging(Upto 30W) + 3W(Reverse Wireless Charging)&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;If you have carefully observed the specs, this phone includes an IP Rating as well as wireless charging.
-This shows that one plus is not trying to cut corners against the best of samsung and apple but instead giving it all to take them head on.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;The phone pricing in India is not out yet but if we consider the US pricing which is 899$ 
-converting it into INR we can estimate the price to be at around 68k with this price it 
-still manages to undercut the iphone 11 and galaxy s20.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Talking about the design, it has a single punch hole curved display similar to galaxy s10.&lt;/li&gt;
-  &lt;li&gt;The highlight of this phone has to be its &lt;strong&gt;120Hz AMOLED&lt;/strong&gt; display which DisplayMate rated as an A+ display.(For people who are unaware of DisplayMate its like DXO Mark for Displays).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/oneplus/oneplus8-pro-front.jpg&quot; alt=&quot;2020 oneplus 8 &quot; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Coming to the camera its a quad camera setup and on paper can take on the other flagships nicely.&lt;/li&gt;
-  &lt;li&gt;The Build quality with its glass body attached together by a metal has always been good but this time it also added dust and water resistance which is rated as IP 68(fit enough to withstand dust, dirt and sand and are resistant to submersion up to a maximum depth of 1.5m underwater for up to thirty minutes).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/oneplus/oneplus8-pro-f-b.jpg&quot; alt=&quot;2020 oneplus 8 &quot; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Taking about battery life, this phone comes with a 4510mAH capacity which is fairly good enough.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The performance is also great coming with snapdragon 865 processor.
-This phone also supports 5G and WIFI 6 making it a future proof phone. The software thats the oxygen OS gives the cleanest andriod experience.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Conclusion&lt;/strong&gt;: One Plus ended up making a really appealing flagship smartphone undercutting the likes samsung and apple by a good margin and offering way more specifications at this price point.&lt;/p&gt;</content><author><name>mohit</name></author><category term="oneplus" /><category term="android" /><category term="google" /><summary type="html">It has been 6 years since one plus has been making smartphones until last year the company has produced a lot of flagship killer but the company from the past year has changed its strategy to produce a true flagship with its one plus 7 pro and 7t pro they were good but lacked the bells and whistles that a true flagship from samsung and apple had. With this phone one plus is trying to tick all the boxes of a flagship. Did it succeed, let’s see in the article below.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/oneplus/oneplus8-pro-display.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/oneplus/oneplus8-pro-display.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+&lt;p&gt;Both these phones are expected to launch in India after the pandemic has ended,what do you think about these phones&lt;/p&gt;</content><author><name>mohit</name></author><category term="moto" /><category term="flagship" /><summary type="html">Moto after 4 years has come back to making flagship phones with its new edge series, It launched two phones namely Moto Edge and Moto Edge Plus. Let’s see what Motorola has to offer in this article.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/android/motorola-edge.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/android/motorola-edge.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>

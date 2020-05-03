@@ -2,7 +2,7 @@
 layout: post
 title:  "How to install Flutter in linux and Fix general problems"
 author: puneeth
-categories: [ windows, linux, os, tutorial, dev-linux ]
+categories: [ windows, linux, os, tutorial ]
 image: assets/images/flutter.png
 tags: [os, linux, windows, student, google]
 ---
