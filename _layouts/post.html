@@ -4,6 +4,26 @@ layout: default
 {% assign author = site.authors[page.author] %}
 <script type="text/javascript" src="../assets/js/clipboard.min.js"></script>
 <!--script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script-->
+<!--Dark mode JS-->
+<script src="../assets/js/dark-mode.js"></script>
+<script>
+  var options = {
+  bottom: '20px', // default: '32px'
+  right: 'unset', // default: '32px'
+  left: '20px', // default: 'unset'
+  time: '0.3s', // default: '0.3s'
+  mixColor: '#fff', // default: '#fff'
+  backgroundColor: '#fff',  // default: '#fff'
+  buttonColorDark: '#100f2c',  // default: '#100f2c'
+  buttonColorLight: '#fff', // default: '#fff'
+  saveInCookies: true, // default: true,
+  label: '🌓', // default: ''
+  autoMatchOsTheme: false // default: true
+}
+
+const darkmode = new Darkmode(options);
+darkmode.showWidget();
+</script>
 <script>
 var clipboard = new ClipboardJS('.btn');
 

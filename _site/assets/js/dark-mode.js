@@ -131,9 +131,9 @@ function () {
     }
 
     var defaultOptions = {
-      top: '32px',
-      right: '32px',
-      left: 'unset',
+      bottom: '20px',
+      right: 'unset',
+      left: '20px',
       time: '0.3s',
       mixColor: '#fff',
       backgroundColor: '#fff',
