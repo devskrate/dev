@@ -10790,3 +10790,7 @@ pre, code, kbd, samp {
   color: black !important;
   background-color: white !important;
 }
+.darkmode-toggle{
+  z-index: 1050;
+  top:11px;
+ }
