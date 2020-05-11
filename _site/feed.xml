@@ -1,577 +1,500 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-05-03T15:20:56+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">DevsKrate</title><subtitle>Here at DevsKrate we inspire and endeavor to share everything about technology like Softwares, Coding, etc., and provide our best about HOW TO tutorials and BEST OF every category in accordance to our knowledge.</subtitle><entry><title type="html">Navi - An interactive commandline cheatsheet tool</title><link href="http://localhost:4000/navi-commandline-cheatsheet-tool/" rel="alternate" type="text/html" title="Navi - An interactive commandline cheatsheet tool" /><published>2020-05-02T00:00:00+05:30</published><updated>2020-05-02T00:00:00+05:30</updated><id>http://localhost:4000/navi-commandline-cheatsheet-tool</id><content type="html" xml:base="http://localhost:4000/navi-commandline-cheatsheet-tool/">&lt;p&gt;Do you feel command-line is only for geeks or nerds?
-Do you feel hard to remember commands and it’s options?
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-05-11T22:21:33+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">DevsKrate</title><subtitle>Here at DevsKrate we inspire and endeavor to share everything about technology like Softwares, Coding, etc., and provide our best about HOW TO tutorials and BEST OF every category in accordance to our knowledge.</subtitle><entry><title type="html">Here’s how to customize your Microsoft Teams Background</title><link href="http://localhost:4000/customize-microsoft-teams-background/" rel="alternate" type="text/html" title="Here's how to customize your Microsoft Teams Background" /><published>2020-05-06T00:00:00+05:30</published><updated>2020-05-06T00:00:00+05:30</updated><id>http://localhost:4000/customize-microsoft-teams-background</id><content type="html" xml:base="http://localhost:4000/customize-microsoft-teams-background/">You can finally add your own background to Microsoft Teams video chats. Designed for business and education, Teams includes group chat, video calling and collaboration tools, and has seen a spike in usage since countries and states have started directing residents to stay and work from home when possible to help stop the spread of the coronavirus.
+
+With the update to Microsoft's collaboration tool, you can now pick a custom image as your video chat background. The Zoom video chat service also lets you pick your own custom background images for calls. But with recent concerns about Zoom security, some users are starting to look to other services such as Teams for their chats.
+
+## How to change your video chat background in Microsoft Teams
+
+Important catch: This feature is only available for scheduled meetings, according to Microsoft. 
+
+1. Start or or join a Teams meeting, from the Windows or Mac application (you can't change your background on the web app at this point). 
+
+2. At the bottom of the screen, click or tap the three dots to go to your Meeting controls.
+
+3. Select More actions &gt; Show background effects. Either select Blur to blur your background, or choose from the available images to replace it. 
+
+4. You'll be able to preview your background to see how it looks. If you like it, hit Apply. That's it!
+
+In the future, you'll also be able to create your own images, upload them to Teams, and then select them as a background image for your video chats, reports said.
+
+You can have video chats with up to 250 people in Microsoft Teams, and if your workplace or school has access to Office 365, you already have access to it. You can also check out a free version of Microsoft's communication tool.</content><author><name>nikhil</name></author><category term="meetings" /><category term="lockdown" /><category term="video calls" /><summary type="html">You can finally add your own background to Microsoft Teams video chats. Designed for business and education, Teams includes group chat, video calling and collaboration tools, and has seen a spike in usage since countries and states have started directing residents to stay and work from home when possible to help stop the spread of the coronavirus.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/microsoft/microsoft-teams.png" /><media:content medium="image" url="http://localhost:4000/assets/images/microsoft/microsoft-teams.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Navi - An interactive commandline cheatsheet tool</title><link href="http://localhost:4000/navi-commandline-cheatsheet-tool/" rel="alternate" type="text/html" title="Navi - An interactive commandline cheatsheet tool" /><published>2020-05-02T00:00:00+05:30</published><updated>2020-05-02T00:00:00+05:30</updated><id>http://localhost:4000/navi-commandline-cheatsheet-tool</id><content type="html" xml:base="http://localhost:4000/navi-commandline-cheatsheet-tool/">Do you feel command-line is only for geeks or nerds?
+Do you feel hard to remember commands and it's options?
 Here is cheatsheet tool at your fingertips which will help you to browse through commands and make note of some new commands.
-You may come across many Linux tools but this will surely help for everyone who use Linux.&lt;/p&gt;
+You may come across many Linux tools but this will surely help for everyone who use Linux.
 
-&lt;blockquote&gt;
-  &lt;p&gt;There’s nothing like NewBee(Noob) and Pro in Linux. It’s an ocean of resources, Usage will completely depend on the work you do.&lt;/p&gt;
-&lt;/blockquote&gt;
+&gt; There's nothing like NewBee(Noob) and Pro in Linux. It's an ocean of resources, Usage will completely depend on the work you do.
 
-&lt;h4 id=&quot;what-is-navi&quot;&gt;What is navi?&lt;/h4&gt;
+#### What is navi?
 
-&lt;p&gt;&lt;strong&gt;Navi&lt;/strong&gt; is an interactive cheatsheet tool written in &lt;strong&gt;Rust&lt;/strong&gt; for the &lt;strong&gt;command-line and application launchers&lt;/strong&gt;. Just like Bro pages, Cheat, Tldr tools, Navi also provides a list of examples for a given command, skipping all other comprehensive text parts.&lt;/p&gt;
+**Navi** is an interactive cheatsheet tool written in **Rust** for the **command-line and application launchers**. Just like Bro pages, Cheat, Tldr tools, Navi also provides a list of examples for a given command, skipping all other comprehensive text parts.
 
-&lt;p&gt;&lt;strong&gt;Navi&lt;/strong&gt; allows you to browse through cheatsheets (that you may write yourself or download from maintainers) and execute commands, prompting for argument values.&lt;/p&gt;
+**Navi** allows you to browse through cheatsheets (that you may write yourself or download from maintainers) and execute commands, prompting for argument values.
 
-&lt;p&gt;from now you will never say any of these.&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;How to run that command again?&lt;/li&gt;
-  &lt;li&gt;Oh, it’s not in my bash history&lt;/li&gt;
-  &lt;li&gt;Damn, it’s almost what I wanted but I need to change some args&lt;/li&gt;
-&lt;/ul&gt;
+from now you will never say any of these.
+- How to run that command again?
+- Oh, it's not in my bash history
+- Damn, it's almost what I wanted but I need to change some args
 
-&lt;p&gt;See how cool navi is - 
-&lt;img src=&quot;/assets/images/mlogs/navi/navi-demo.gif&quot; alt=&quot;navi-demo&quot; /&gt;&lt;/p&gt;
+See how cool navi is - 
+![navi-demo]({{ site.baseurl}}/assets/images/mlogs/navi/navi-demo.gif)
 
-&lt;h4 id=&quot;pros-of-navi&quot;&gt;Pros of navi&lt;/h4&gt;
-&lt;ul&gt;
-  &lt;li&gt;it will make you type less;&lt;/li&gt;
-  &lt;li&gt;it will spare you from knowing CLIs by heart;&lt;/li&gt;
-  &lt;li&gt;it will teach you new one-liners.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Open Source tool&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
+#### Pros of navi
+- it will make you type less;
+- it will spare you from knowing CLIs by heart;
+- it will teach you new one-liners.
+- **Open Source tool**
 
-&lt;p&gt;It can be either used as a command or as a shell widget (Ctrl-R).
-&lt;img src=&quot;/assets/images/mlogs/navi/navi-demo2.gif&quot; alt=&quot;navi-demo&quot; /&gt;&lt;/p&gt;
+It can be either used as a command or as a shell widget (Ctrl-R).
+![navi-demo]({{ site.baseurl}}/assets/images/mlogs/navi/navi-demo2.gif)
 
-&lt;h4 id=&quot;installation&quot;&gt;Installation&lt;/h4&gt;
+#### Installation
 
-&lt;h5 id=&quot;using-homebrew-or-linuxbrew&quot;&gt;Using &lt;a href=&quot;http://brew.sh/&quot;&gt;Homebrew&lt;/a&gt; or &lt;a href=&quot;http://linuxbrew.sh/&quot;&gt;Linuxbrew&lt;/a&gt;&lt;/h5&gt;
+##### Using [Homebrew](http://brew.sh/) or [Linuxbrew](http://linuxbrew.sh/)
 
-&lt;div class=&quot;language-batch highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;brew&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;navi&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+```batch
+brew install navi
+```
 
-&lt;h5 id=&quot;using-cargo&quot;&gt;Using &lt;a href=&quot;https://github.com/rust-lang/cargo&quot;&gt;cargo&lt;/a&gt;&lt;/h5&gt;
+##### Using [cargo](https://github.com/rust-lang/cargo)
 
-&lt;div class=&quot;language-batch highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;cargo&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;navi&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+```batch
+cargo install navi
+```
 
-&lt;h5 id=&quot;using-install-script&quot;&gt;Using install script&lt;/h5&gt;
+##### Using install script
 
-&lt;div class=&quot;language-batch highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;bash&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;curl&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;-sL &lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;https&lt;/span&gt;://raw.githubusercontent.com/denisidoro/navi/master/scripts/install&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+```batch
+bash &lt;(curl -sL https://raw.githubusercontent.com/denisidoro/navi/master/scripts/install)
+```
 
-&lt;h5 id=&quot;building-from-source&quot;&gt;Building from source&lt;/h5&gt;
+##### Building from source
 
-&lt;div class=&quot;language-batch highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;git&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;clone&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;https&lt;/span&gt;://github.com/denisidoro/navi &lt;span class=&quot;o&quot;&gt;~&lt;/span&gt;/.navi
-&lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;~&lt;/span&gt;/.navi
-&lt;span class=&quot;kd&quot;&gt;make&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;install&lt;/span&gt; 
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;h4 id=&quot;usage&quot;&gt;Usage&lt;/h4&gt;
+```batch
+git clone https://github.com/denisidoro/navi ~/.navi
+cd ~/.navi
+make install 
+```
+#### Usage
 
-&lt;p&gt;By running &lt;code class=&quot;highlighter-rouge&quot;&gt;navi&lt;/code&gt; for the first time, you’ll be suggested to download some &lt;em&gt;cheatsheets&lt;/em&gt;. By running &lt;code class=&quot;highlighter-rouge&quot;&gt;navi&lt;/code&gt; again, these &lt;em&gt;cheatsheets&lt;/em&gt; will appear.&lt;/p&gt;
+By running `navi` for the first time, you'll be suggested to download some *cheatsheets*. By running `navi` again, these *cheatsheets* will appear.
 
-&lt;h3 id=&quot;shell-widget&quot;&gt;Shell widget&lt;/h3&gt;
+### Shell widget
 
-&lt;p&gt;You can use &lt;strong&gt;navi&lt;/strong&gt; as a widget to your shell. This way, your history is correctly populated and you can edit the command as you wish before executing it. To set it up, add this line to your &lt;code class=&quot;highlighter-rouge&quot;&gt;.bashrc&lt;/code&gt;-like file:&lt;/p&gt;
-&lt;div class=&quot;language-sh highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# bash&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;source&lt;/span&gt; &amp;lt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;navi widget bash&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+You can use **navi** as a widget to your shell. This way, your history is correctly populated and you can edit the command as you wish before executing it. To set it up, add this line to your `.bashrc`-like file:
+```sh
+# bash
+source &lt;(navi widget bash)
+```
 
-&lt;p&gt;Please refer to &lt;code class=&quot;highlighter-rouge&quot;&gt;navi --help&lt;/code&gt; for more details or refer their &lt;a href=&quot;https://github.com/denisidoro/navi/blob/master/README.md&quot;&gt;documentation&lt;/a&gt;&lt;/p&gt;
+Please refer to `navi --help` for more details or refer their [documentation](https://github.com/denisidoro/navi/blob/master/README.md)
 
-&lt;p&gt;Beauty of navi is you can see, understand and contribute to it as it is an &lt;strong&gt;open source project&lt;/strong&gt;
-Here is the link for the repo on &lt;a href=&quot;https://github.com/denisidoro/navi/&quot;&gt;GitHub&lt;/a&gt;&lt;/p&gt;
+Beauty of navi is you can see, understand and contribute to it as it is an **open source project**
+Here is the link for the repo on [GitHub](https://github.com/denisidoro/navi/)
 
-&lt;h5 id=&quot;happy-quarantine&quot;&gt;Happy Quarantine&lt;/h5&gt;
+##### Happy Quarantine 
 
-&lt;p&gt;Please share your feedback on &lt;a href=&quot;https://twitter.com/devskrate&quot;&gt;twitter&lt;/a&gt;, &lt;a href=&quot;https://instagram.com/devskrate&quot;&gt;Instagram&lt;/a&gt;, or mail us at &lt;a href=&quot;mailto:support@devskrate.com&quot;&gt;support@devskrate.com&lt;/a&gt;. Use &lt;a href=&quot;https://devskrate.com&quot;&gt;#DevsKrate&lt;/a&gt; on any social media platforms we will reach out to you.&lt;/p&gt;</content><author><name>satya</name></author><category term="dev-linux" /><category term="mlogs" /><category term="navi" /><category term="linux" /><summary type="html">Do you feel command-line is only for geeks or nerds? Do you feel hard to remember commands and it’s options? Here is cheatsheet tool at your fingertips which will help you to browse through commands and make note of some new commands. You may come across many Linux tools but this will surely help for everyone who use Linux.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/mlogs/navi/navi.png" /><media:content medium="image" url="http://localhost:4000/assets/images/mlogs/navi/navi.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Firefox containers</title><link href="http://localhost:4000/firefox-containers/" rel="alternate" type="text/html" title="Firefox containers" /><published>2020-05-01T00:00:00+05:30</published><updated>2020-05-01T00:00:00+05:30</updated><id>http://localhost:4000/firefox-containers</id><content type="html" xml:base="http://localhost:4000/firefox-containers/">&lt;p&gt;Have you ever got annoyed while using multiple accounts like personal, school, work accounts in a single browser?&lt;/p&gt;
+Please share your feedback on [twitter](https://twitter.com/devskrate), [Instagram](https://instagram.com/devskrate), or mail us at [support@devskrate.com](mailto:support@devskrate.com). Use [#DevsKrate](https://devskrate.com) on any social media platforms we will reach out to you.</content><author><name>satya</name></author><category term="dev-linux" /><category term="mlogs" /><category term="navi" /><category term="linux" /><summary type="html">Do you feel command-line is only for geeks or nerds? Do you feel hard to remember commands and it’s options? Here is cheatsheet tool at your fingertips which will help you to browse through commands and make note of some new commands. You may come across many Linux tools but this will surely help for everyone who use Linux.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/mlogs/navi/navi.png" /><media:content medium="image" url="http://localhost:4000/assets/images/mlogs/navi/navi.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Firefox containers</title><link href="http://localhost:4000/firefox-containers/" rel="alternate" type="text/html" title="Firefox containers" /><published>2020-05-01T00:00:00+05:30</published><updated>2020-05-01T00:00:00+05:30</updated><id>http://localhost:4000/firefox-containers</id><content type="html" xml:base="http://localhost:4000/firefox-containers/">Have you ever got annoyed while using multiple accounts like personal, school, work accounts in a single browser?
 
-&lt;p&gt;Yeah firefox got a solution for this,
-&lt;strong&gt;Firefox Multi-Account Containers&lt;/strong&gt;: Firefox Multi-Account Containers lets you keep parts of your online life separated into color-coded tabs that preserve your privacy. Cookies are separated by container, allowing you to use the web with multiple identities or accounts simultaneously.&lt;/p&gt;
+Yeah firefox got a solution for this,
+**Firefox Multi-Account Containers**: Firefox Multi-Account Containers lets you keep parts of your online life separated into color-coded tabs that preserve your privacy. Cookies are separated by container, allowing you to use the web with multiple identities or accounts simultaneously.
 
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Open a new container tab&lt;/strong&gt;:
-You can quickly open a new container tab by clicking on the container image or by right clicking the new tab.&lt;/li&gt;
-&lt;/ul&gt;
++ **Open a new container tab**:
+You can quickly open a new container tab by clicking on the container image or by right clicking the new tab.
 &lt;p align=&quot;center&quot;&gt;
-  &lt;img src=&quot;/assets/images/mlogs/mozilla/firefox-container-1.png&quot; /&gt;
+  &lt;img src=&quot;{{site.baseurl}}/assets/images/mlogs/mozilla/firefox-container-1.png&quot;&gt;
 &lt;/p&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Edit containers&lt;/strong&gt;:
-You can edit your containers and can create your own containers easily.&lt;/li&gt;
-&lt;/ul&gt;
++ **Edit containers**:
+You can edit your containers and can create your own containers easily.
 &lt;p align=&quot;center&quot;&gt;
-  &lt;img src=&quot;/assets/images/mlogs/mozilla/firefox-container-t.jpg&quot; /&gt;
+  &lt;img src=&quot;{{site.baseurl}}/assets/images/mlogs/mozilla/firefox-container-t.jpg&quot;&gt;
 &lt;/p&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Look and Feel&lt;/strong&gt;:
-This is how the container tab look like when it is opened.&lt;/li&gt;
-&lt;/ul&gt;
++ **Look and Feel**:
+This is how the container tab look like when it is opened.
 &lt;p align=&quot;center&quot;&gt;
-  &lt;img src=&quot;/assets/images/mlogs/mozilla/firefox-container-3.png&quot; /&gt;
+  &lt;img src=&quot;{{site.baseurl}}/assets/images/mlogs/mozilla/firefox-container-3.png&quot;&gt;
 &lt;/p&gt;
 
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Sync&lt;/strong&gt;:
-You can easily sync the containers across devices.&lt;/li&gt;
-&lt;/ul&gt;
++ **Sync**:
+You can easily sync the containers across devices.
 &lt;p align=&quot;center&quot;&gt;
-  &lt;img src=&quot;/assets/images/mlogs/mozilla/firefox-container-sync.png&quot; /&gt;
+  &lt;img src=&quot;{{site.baseurl}}/assets/images/mlogs/mozilla/firefox-container-sync.png&quot;&gt;
 &lt;/p&gt;
 
-&lt;p&gt;You can download the &lt;a href=&quot;https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/&quot;&gt;Firefox Container&lt;/a&gt; add-on.&lt;/p&gt;
+You can download the [Firefox Container](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/) add-on.
 
-&lt;p&gt;&lt;strong&gt;Additional info&lt;/strong&gt;:
-The Firefox Multi-Account Containers extension lets you carve out a separate box for each of your online lives – no more opening a different browser just to check your work email!&lt;/p&gt;
+**Additional info**:
+The Firefox Multi-Account Containers extension lets you carve out a separate box for each of your online lives – no more opening a different browser just to check your work email!
 
-&lt;p&gt;Under the hood, it separates website storage into tab-specific Containers. Cookies downloaded by one Container are not available to other Containers. With the Firefox Multi-Account Containers extension, you can…&lt;/p&gt;</content><author><name>puneeth</name></author><category term="firefox" /><category term="browser" /><category term="mozilla" /><category term="containers" /><summary type="html">Have you ever got annoyed while using multiple accounts like personal, school, work accounts in a single browser?</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/mlogs/mozilla/firefox-container-f.png" /><media:content medium="image" url="http://localhost:4000/assets/images/mlogs/mozilla/firefox-container-f.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Intorducing Mlogs</title><link href="http://localhost:4000/introducing-mlogs/" rel="alternate" type="text/html" title="Intorducing Mlogs" /><published>2020-04-30T00:00:00+05:30</published><updated>2020-04-30T00:00:00+05:30</updated><id>http://localhost:4000/introducing-mlogs</id><content type="html" xml:base="http://localhost:4000/introducing-mlogs/">&lt;h4 id=&quot;introducing-mlogs&quot;&gt;Introducing Mlogs&lt;/h4&gt;
+Under the hood, it separates website storage into tab-specific Containers. Cookies downloaded by one Container are not available to other Containers. With the Firefox Multi-Account Containers extension, you can...</content><author><name>puneeth</name></author><category term="firefox" /><category term="browser" /><category term="mozilla" /><category term="containers" /><summary type="html">Have you ever got annoyed while using multiple accounts like personal, school, work accounts in a single browser?</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/mlogs/mozilla/firefox-container-f.png" /><media:content medium="image" url="http://localhost:4000/assets/images/mlogs/mozilla/firefox-container-f.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Intorducing Mlogs</title><link href="http://localhost:4000/introducing-mlogs/" rel="alternate" type="text/html" title="Intorducing Mlogs" /><published>2020-04-30T00:00:00+05:30</published><updated>2020-04-30T00:00:00+05:30</updated><id>http://localhost:4000/introducing-mlogs</id><content type="html" xml:base="http://localhost:4000/introducing-mlogs/">#### Introducing Mlogs
 
-&lt;p&gt;Mlogs are &lt;strong&gt;mini-blogs&lt;/strong&gt; which have read time less than 5 minutes and these are completely mobile friendly.&lt;/p&gt;
+Mlogs are **mini-blogs** which have read time less than 5 minutes and these are completely mobile friendly.
 
-&lt;p&gt;You can read these mlogs easily using instant view in &lt;a href=&quot;https://t.me/DevsKrate&quot;&gt;telegram&lt;/a&gt;&lt;/p&gt;
+You can read these mlogs easily using instant view in [telegram](https://t.me/DevsKrate)
 
-&lt;h3 id=&quot;mlog---mini-mobile-friendly-blogs&quot;&gt;Mlog - &lt;strong&gt;Mini Mobile&lt;/strong&gt; friendly &lt;strong&gt;Blogs&lt;/strong&gt;&lt;/h3&gt;
+### Mlog - **Mini Mobile** friendly **Blogs**
 
-&lt;h4 id=&quot;why-mlogs&quot;&gt;Why Mlogs?&lt;/h4&gt;
+#### Why Mlogs?
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/mlogs/why-mlogs.png&quot; alt=&quot;Why Mlogs&quot; /&gt;&lt;/p&gt;
+![Why Mlogs]({{ site.baseurl}}/assets/images/mlogs/why-mlogs.png)
 
-&lt;p&gt;Being a techster we want to explore more things related to tech and we feel very interesting to keep updated with updated news and applications.&lt;/p&gt;
+Being a techster we want to explore more things related to tech and we feel very interesting to keep updated with updated news and applications.
 
-&lt;p&gt;Rather than combining some set of topics in a single blog we want to split these topics into mlogs to keep you updated by spending minimal amount of time.&lt;/p&gt;
+Rather than combining some set of topics in a single blog we want to split these topics into mlogs to keep you updated by spending minimal amount of time.
 
-&lt;h4 id=&quot;series-of-mlogs&quot;&gt;Series of mlogs&lt;/h4&gt;
+#### Series of mlogs
 
-&lt;p&gt;There will be different series of mlogs each series will talk about different topics.&lt;/p&gt;
-&lt;blockquote&gt;
-  &lt;p&gt;We will make sure that these mlog series will be as interesting as Netflix’s web-series.&lt;/p&gt;
-&lt;/blockquote&gt;
+There will be different series of mlogs each series will talk about different topics.
+&gt; We will make sure that these mlog series will be as interesting as Netflix's web-series.
 
-&lt;p&gt;Our first mlog series will help you to understand better tricks while working with Linux and Commands in it.&lt;/p&gt;
+Our first mlog series will help you to understand better tricks while working with Linux and Commands in it.
 
-&lt;p&gt;Here is our first mlog - &lt;a href=&quot;https://DevsKrate.com/transfer-files-between-computer-and-mobile-wireless/&quot;&gt;Transferfiles between PC and mobile wirelessly by scanning QR code&lt;/a&gt;&lt;/p&gt;
+Here is our first mlog - [Transferfiles between PC and mobile wirelessly by scanning QR code](https://DevsKrate.com/transfer-files-between-computer-and-mobile-wireless/)
 
-&lt;p&gt;Trust me we are going to help you automate all your routine boring stuff you’re doing out there all these days in linux.&lt;/p&gt;
+Trust me we are going to help you automate all your routine boring stuff you're doing out there all these days in linux.
 
-&lt;p&gt;So what are you waiting for let’s &lt;strong&gt;heist&lt;/strong&gt; some knowledge from &lt;a href=&quot;https://devskrate.com&quot;&gt;DevsKrate&lt;/a&gt;&lt;/p&gt;
+So what are you waiting for let's **heist** some knowledge from [DevsKrate](https://devskrate.com)
 
-&lt;h5 id=&quot;happy-quarantine&quot;&gt;Happy Quarantine&lt;/h5&gt;
+##### Happy Quarantine 
 
-&lt;p&gt;Please share your feedback on &lt;a href=&quot;https://twitter.com/devskrate&quot;&gt;twitter&lt;/a&gt;, &lt;a href=&quot;https://instagram.com/devskrate&quot;&gt;Instagram&lt;/a&gt;, or mail us at &lt;a href=&quot;mailto:support@devskrate.com&quot;&gt;support@devskrate.com&lt;/a&gt;. Use &lt;a href=&quot;https://devskrate.com&quot;&gt;#DevsKrate&lt;/a&gt; on any social media platforms we will reach out to you.&lt;/p&gt;</content><author><name>satya</name></author><category term="blog" /><category term="mlog" /><category term="introduction" /><category term="series" /><summary type="html">Introducing Mlogs</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/mlogs/mlogs.png" /><media:content medium="image" url="http://localhost:4000/assets/images/mlogs/mlogs.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">MiUI 12 features</title><link href="http://localhost:4000/miui-12/" rel="alternate" type="text/html" title="MiUI 12 features" /><published>2020-04-30T00:00:00+05:30</published><updated>2020-04-30T00:00:00+05:30</updated><id>http://localhost:4000/miui-12</id><content type="html" xml:base="http://localhost:4000/miui-12/">&lt;h6 id=&quot;feature-list&quot;&gt;Feature list:&lt;/h6&gt;
-&lt;ol&gt;
-  &lt;li&gt;UI changes&lt;/li&gt;
-  &lt;li&gt;Wallpapers&lt;/li&gt;
-  &lt;li&gt;Dark mode 2.0&lt;/li&gt;
-  &lt;li&gt;MI health app&lt;/li&gt;
-  &lt;li&gt;Improved Gestures&lt;/li&gt;
-  &lt;li&gt;Privacy enhancement&lt;/li&gt;
-  &lt;li&gt;Floating window&lt;/li&gt;
-  &lt;li&gt;Ads&lt;/li&gt;
-  &lt;li&gt;AI&lt;/li&gt;
-&lt;/ol&gt;
+Please share your feedback on [twitter](https://twitter.com/devskrate), [Instagram](https://instagram.com/devskrate), or mail us at [support@devskrate.com](mailto:support@devskrate.com). Use [#DevsKrate](https://devskrate.com) on any social media platforms we will reach out to you.</content><author><name>satya</name></author><category term="blog" /><category term="mlog" /><category term="introduction" /><category term="series" /><summary type="html">Introducing Mlogs</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/mlogs/mlogs.png" /><media:content medium="image" url="http://localhost:4000/assets/images/mlogs/mlogs.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">MiUI 12 features</title><link href="http://localhost:4000/miui-12/" rel="alternate" type="text/html" title="MiUI 12 features" /><published>2020-04-30T00:00:00+05:30</published><updated>2020-04-30T00:00:00+05:30</updated><id>http://localhost:4000/miui-12</id><content type="html" xml:base="http://localhost:4000/miui-12/">###### Feature list:
+1. UI changes
+2. Wallpapers
+3. Dark mode 2.0
+4. MI health app
+5. Improved Gestures
+6. Privacy enhancement
+7. Floating window
+8. Ads
+9. AI
 
-&lt;p&gt;Xiaomi Announces MIUI 12, Here is a quick overview and list of phones which is expected to get this update.
-Xiaomi in its recent keynote along with its phone announcement, it also the latest version of its software skin MIUI 12. It’s a slight redesign of its exciting MIUI 11 and has quite a lot of visual changes. Let’s see what features does this new UI brings to the table.&lt;/p&gt;
+Xiaomi Announces MIUI 12, Here is a quick overview and list of phones which is expected to get this update.
+Xiaomi in its recent keynote along with its phone announcement, it also the latest version of its software skin MIUI 12. It's a slight redesign of its exciting MIUI 11 and has quite a lot of visual changes. Let's see what features does this new UI brings to the table.
 
-&lt;p&gt;&lt;strong&gt;1. UI changes&lt;/strong&gt;:
-Xiaomi has been working hard to make their UI as refined and as minimal as possible. One of the UI changes comes in the notification shade, now we change some simple basic settings like wifi, Bluetooth in the notification shade itself with a tiny window and talking about looks, it looks much similar to control center found on the IOS.&lt;/p&gt;
+**1. UI changes**:
+Xiaomi has been working hard to make their UI as refined and as minimal as possible. One of the UI changes comes in the notification shade, now we change some simple basic settings like wifi, Bluetooth in the notification shade itself with a tiny window and talking about looks, it looks much similar to control center found on the IOS.
 
 &lt;p align=&quot;center&quot;&gt;
-  &lt;img width=&quot;55%&quot; src=&quot;/assets/images/mi/miui12-control-center.jpg&quot; /&gt;
+  &lt;img width=&quot;55%&quot; src=&quot;{{site.baseurl}}/assets/images/mi/miui12-control-center.jpg&quot;&gt;
 &lt;/p&gt;
-
-&lt;p&gt;The use of pictorial images to represent the status and data visualization ends up bringing a fresh look to the UI and the app animation(Opening and Closing) has also gotten much smoother.&lt;/p&gt;
+	
+The use of pictorial images to represent the status and data visualization ends up bringing a fresh look to the UI and the app animation(Opening and Closing) has also gotten much smoother.
 
 &lt;p align=&quot;center&quot;&gt;
-  &lt;img width=&quot;27%&quot; src=&quot;/assets/images/mi/miui12-animation.gif&quot; /&gt;
+  &lt;img width=&quot;27%&quot; src=&quot;{{site.baseurl}}/assets/images/mi/miui12-animation.gif&quot;&gt;
 &lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;2. Wallpapers&lt;/strong&gt;:
-Wallpapers are one of the biggest visual changes and Xiaomi is calling them ‘Super Wallpapers’ and they look very cool, their live wallpapers which are based on high precision 3D models of
-earth and mars and the fact that they turn into night scene when dark mode is added is a bounce. The live wallpapers feature for now is only exclusive to High-End Xiaomi phones.&lt;/p&gt;
+**2. Wallpapers**:
+Wallpapers are one of the biggest visual changes and Xiaomi is calling them 'Super Wallpapers' and they look very cool, their live wallpapers which are based on high precision 3D models of
+earth and mars and the fact that they turn into night scene when dark mode is added is a bounce. The live wallpapers feature for now is only exclusive to High-End Xiaomi phones.
 
 &lt;p align=&quot;center&quot;&gt;
-  &lt;img width=&quot;27%&quot; src=&quot;/assets/images/mi/miui12-wallpapers.gif&quot; /&gt;
+  &lt;img width=&quot;27%&quot; src=&quot;{{site.baseurl}}/assets/images/mi/miui12-wallpapers.gif&quot;&gt;
 &lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;3. Dark Mode 2.0&lt;/strong&gt;:
-You might ask me that we already have a system-wide dark theme in MIUI 11 so what’s new in this, There are a good number of improvements in it. This time the company has worked to improve the readability to reduce eye strain and the text is now brighter and sharper. Dark mode also brings a new feature called ‘Wallpaper Dimming’ feature that will dynamically adjust the color temperature of your wallpaper(It also supports this feature for custom wallpapers.)&lt;/p&gt;
+**3. Dark Mode 2.0**:
+You might ask me that we already have a system-wide dark theme in MIUI 11 so what's new in this, There are a good number of improvements in it. This time the company has worked to improve the readability to reduce eye strain and the text is now brighter and sharper. Dark mode also brings a new feature called 'Wallpaper Dimming' feature that will dynamically adjust the color temperature of your wallpaper(It also supports this feature for custom wallpapers.)
 
 &lt;p align=&quot;center&quot;&gt;
-  &lt;img width=&quot;27%&quot; src=&quot;/assets/images/mi/miui12-dark-mode.jpg&quot; /&gt;
+  &lt;img width=&quot;27%&quot; src=&quot;{{site.baseurl}}/assets/images/mi/miui12-dark-mode.jpg&quot;&gt;
 &lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;4. MI Health App&lt;/strong&gt;:
-Mi Health debuts in this new version of MIUI.This enables, The phone can track users steps, sleep, workouts, and other exercises but the fact that to enable the phone to do sleep tracking the phone should be in the same pillow is a bummer.&lt;/p&gt;
+**4. MI Health App**:
+Mi Health debuts in this new version of MIUI.This enables, The phone can track users steps, sleep, workouts, and other exercises but the fact that to enable the phone to do sleep tracking the phone should be in the same pillow is a bummer. 
 
 &lt;p align=&quot;center&quot;&gt;
-  &lt;img width=&quot;55%&quot; src=&quot;/assets/images/mi/miui12-health-app.jpg&quot; /&gt;
+  &lt;img width=&quot;55%&quot; src=&quot;{{site.baseurl}}/assets/images/mi/miui12-health-app.jpg&quot;&gt;
 &lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;5. Improved Gesture&lt;/strong&gt;:
-This UI update also brings with it a slight improvement in the gestures. It now has a much lengthy bar at the bottom and much refined animations to go along with it.&lt;/p&gt;
+**5. Improved Gesture**:
+This UI update also brings with it a slight improvement in the gestures. It now has a much lengthy bar at the bottom and much refined animations to go along with it.
 
 &lt;p align=&quot;center&quot;&gt;
-  &lt;img width=&quot;27%&quot; src=&quot;/assets/images/mi/miui12-gestures.gif&quot; /&gt;
+  &lt;img width=&quot;27%&quot; src=&quot;{{site.baseurl}}/assets/images/mi/miui12-gestures.gif&quot;&gt;
 &lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;6. Privacy enhancement&lt;/strong&gt;:
+**6. Privacy enhancement**:
 Xiaomi this time along has followed a three-pronged approach to improve privacy in MIUI 12, namely Flare, Barbed Wire, and the Mask System.
-&lt;strong&gt;Firstly&lt;/strong&gt;, the flare will keep track of the app behavior of all apps on your phone and will present you the list of apps that may be violating the privacy policy or misusing permissions
-and offer tips to avoid the above mishaps.&lt;/p&gt;
+**Firstly**, the flare will keep track of the app behavior of all apps on your phone and will present you the list of apps that may be violating the privacy policy or misusing permissions
+and offer tips to avoid the above mishaps.
 
 &lt;p align=&quot;center&quot;&gt;
-  &lt;img alt=&quot;Flare privacy image&quot; width=&quot;60%&quot; src=&quot;/assets/images/mi/miui12-privacy-flare.jpg&quot; /&gt;
+  &lt;img alt=&quot;Flare privacy image&quot; width=&quot;60%&quot; src=&quot;{{site.baseurl}}/assets/images/mi/miui12-privacy-flare.jpg&quot;&gt;
 &lt;/p&gt;
-
-&lt;p&gt;The &lt;strong&gt;second&lt;/strong&gt; one is Barbed Wire, in which it offers several permission options similar to Android 10 and gives us options like for permanently allow or only when app is in use or allow only once and it even shows the icon of which app is using what services.&lt;/p&gt;
+	
+The **second** one is Barbed Wire, in which it offers several permission options similar to Android 10 and gives us options like for permanently allow or only when app is in use or allow only once and it even shows the icon of which app is using what services.
 
 &lt;p align=&quot;center&quot;&gt;
-  &lt;img alt=&quot;Barbed privacy image&quot; width=&quot;60%&quot; src=&quot;/assets/images/mi/miui12-privacy-barbed.jpg&quot; /&gt;
+  &lt;img alt=&quot;Barbed privacy image&quot; width=&quot;60%&quot; src=&quot;{{site.baseurl}}/assets/images/mi/miui12-privacy-barbed.jpg&quot;&gt;
 &lt;/p&gt;
-
-&lt;p&gt;The &lt;strong&gt;third&lt;/strong&gt; one is the Mask system which lets users to create and share virtual ID’s when apps ask about the data, we saw a similar implementation in the Color OS 7 skin as well.&lt;/p&gt;
+	
+The **third** one is the Mask system which lets users to create and share virtual ID's when apps ask about the data, we saw a similar implementation in the Color OS 7 skin as well.
 
 &lt;p align=&quot;center&quot;&gt;
-  &lt;img width=&quot;27%&quot; alt=&quot;Mask&quot; src=&quot;/assets/images/mi/miui12-privacy-virtual-id.jpg&quot; /&gt;
+  &lt;img width=&quot;27%&quot; alt=&quot;Mask&quot; src=&quot;{{site.baseurl}}/assets/images/mi/miui12-privacy-virtual-id.jpg&quot;&gt;
 &lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;7. Floating window&lt;/strong&gt;:
-Android 10 itself has the floating window feature, MI included  it to miui.&lt;/p&gt;
+**7. Floating window**:
+Android 10 itself has the floating window feature, MI included  it to miui.
 
 &lt;p align=&quot;center&quot;&gt;
-  &lt;img alt=&quot;Floating window&quot; width=&quot;55%&quot; src=&quot;/assets/images/mi/miui12-floating-window.jpg&quot; /&gt;
+  &lt;img alt=&quot;Floating window&quot; width=&quot;55%&quot; src=&quot;{{site.baseurl}}/assets/images/mi/miui12-floating-window.jpg&quot;&gt;
 &lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;8. Ads&lt;/strong&gt;:
-Talking about the Ad situation in MIUI only time has the answer.&lt;/p&gt;
+**8. Ads**:
+Talking about the Ad situation in MIUI only time has the answer.
 
 &lt;p align=&quot;center&quot;&gt;
-  &lt;img alt=&quot;Ads&quot; width=&quot;30%&quot; src=&quot;/assets/images/mi/miui12-ads.jpg&quot; /&gt;
+  &lt;img alt=&quot;Ads&quot; width=&quot;30%&quot; src=&quot;{{site.baseurl}}/assets/images/mi/miui12-ads.jpg&quot;&gt;
 &lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;9. AI :&lt;/strong&gt;
-AI feature is only available to china at present.&lt;/p&gt;
+**9. AI :**
+AI feature is only available to china at present.
 
-&lt;p&gt;These are some of the important features coming to Xiaomi devices through MIUI 12 update.&lt;/p&gt;
+These are some of the important features coming to Xiaomi devices through MIUI 12 update.
 
-&lt;p&gt;List of Xiaomi Phones to Get MIUI 12 Update&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;First Batch (End of June)
-    &lt;ul&gt;
-      &lt;li&gt;Mi 10&lt;/li&gt;
-      &lt;li&gt;Mi 10 Pro&lt;/li&gt;
-      &lt;li&gt;Mi 10 Youth Edition&lt;/li&gt;
-      &lt;li&gt;Mi 9 Pro 5G&lt;/li&gt;
-      &lt;li&gt;Mi 9&lt;/li&gt;
-      &lt;li&gt;Redmi K30 Pro/ K30 Pro Zoom&lt;/li&gt;
-      &lt;li&gt;Redmi K30 5G/ 4G&lt;/li&gt;
-      &lt;li&gt;Redmi K20 Pro/ K20 Pro Premium Edition&lt;/li&gt;
-      &lt;li&gt;Redmi K20&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Second Batch
-    &lt;ul&gt;
-      &lt;li&gt;Mi Mix 3&lt;/li&gt;
-      &lt;li&gt;Mi Mix 2S&lt;/li&gt;
-      &lt;li&gt;Mi CC9 Pro&lt;/li&gt;
-      &lt;li&gt;Mi CC9 Meitu Edition&lt;/li&gt;
-      &lt;li&gt;Mi9 SE&lt;/li&gt;
-      &lt;li&gt;Mi 8 Transparent Edition&lt;/li&gt;
-      &lt;li&gt;Redmi Note 8 Pro&lt;/li&gt;
-      &lt;li&gt;Redmi Note 7 Pro&lt;/li&gt;
-      &lt;li&gt;Redmi Note 7&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Third Batch
-    &lt;ul&gt;
-      &lt;li&gt;Mi CC9e&lt;/li&gt;
-      &lt;li&gt;Mi Note 3&lt;/li&gt;
-      &lt;li&gt;Mi Max 3&lt;/li&gt;
-      &lt;li&gt;Mi 8 Youth Edition&lt;/li&gt;
-      &lt;li&gt;Mi 8 SE&lt;/li&gt;
-      &lt;li&gt;Mi Mix 2&lt;/li&gt;
-      &lt;li&gt;Mi 6X&lt;/li&gt;
-      &lt;li&gt;Redmi Note 8&lt;/li&gt;
-      &lt;li&gt;Redmi 8&lt;/li&gt;
-      &lt;li&gt;Redmi 8A&lt;/li&gt;
-      &lt;li&gt;Redmi 7&lt;/li&gt;
-      &lt;li&gt;Redmi 7A&lt;/li&gt;
-      &lt;li&gt;Redmi 6 Pro&lt;/li&gt;
-      &lt;li&gt;Redmi 6&lt;/li&gt;
-      &lt;li&gt;Redmi 6A&lt;/li&gt;
-      &lt;li&gt;Redmi Note 5&lt;/li&gt;
-      &lt;li&gt;Redmi S2&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>mohit</name></author><category term="redmi" /><category term="os" /><category term="android" /><category term="miui" /><summary type="html">Feature list: UI changes Wallpapers Dark mode 2.0 MI health app Improved Gestures Privacy enhancement Floating window Ads AI</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/mi/miui12.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/mi/miui12.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Transfer Files between PC and mobile wireless using QR code</title><link href="http://localhost:4000/transfer-files-between-computer-and-mobile-wireless/" rel="alternate" type="text/html" title="Transfer Files between PC and mobile wireless using QR code" /><published>2020-04-29T00:00:00+05:30</published><updated>2020-04-29T00:00:00+05:30</updated><id>http://localhost:4000/transfer-files-between-computer-and-mobile-wireless</id><content type="html" xml:base="http://localhost:4000/transfer-files-between-computer-and-mobile-wireless/">&lt;p&gt;Sometimes many of us face difficulty to transfer files from PC to mobile or from mobile to PC. It is a very annoying thing to use a cable for transferring a single file like an image or a small pdf. So here comes a small but a great tool used to transfer files over a network.&lt;/p&gt;
+List of Xiaomi Phones to Get MIUI 12 Update
++ First Batch (End of June)
+    + Mi 10
+    + Mi 10 Pro
+    + Mi 10 Youth Edition
+    + Mi 9 Pro 5G
+    + Mi 9
+    + Redmi K30 Pro/ K30 Pro Zoom
+    + Redmi K30 5G/ 4G
+    + Redmi K20 Pro/ K20 Pro Premium Edition
+    + Redmi K20
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/dev/linux/qrcp-qr.png&quot; alt=&quot;QR image&quot; height=&quot;60%&quot; width=&quot;55%&quot; /&gt;&lt;/p&gt;
++ Second Batch
+    + Mi Mix 3
+    + Mi Mix 2S
+    + Mi CC9 Pro
+    + Mi CC9 Meitu Edition
+    + Mi9 SE
+    + Mi 8 Transparent Edition
+    + Redmi Note 8 Pro
+    + Redmi Note 7 Pro
+    + Redmi Note 7
 
-&lt;p&gt;To install this in linux follow the below steps&lt;/p&gt;
-&lt;div class=&quot;language-batch highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;go&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;get&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;github&lt;/span&gt;.com/claudiodangelis/qrcp
-&lt;span class=&quot;nb&quot;&gt;cd&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;go&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;/qrcp/bin
-&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;mv&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;qrcp&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;/usr/local/bin
-&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;chmod&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;+x /usr/local/bin/qrcp
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;To send a file from pc to mobile&lt;/p&gt;
-&lt;div class=&quot;language-batch highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;qrcp&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;MyDocument&lt;/span&gt;.pdf
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
++ Third Batch
+    + Mi CC9e
+    + Mi Note 3
+    + Mi Max 3
+    + Mi 8 Youth Edition
+    + Mi 8 SE
+    + Mi Mix 2
+    + Mi 6X
+    + Redmi Note 8
+    + Redmi 8
+    + Redmi 8A
+    + Redmi 7
+    + Redmi 7A
+    + Redmi 6 Pro
+    + Redmi 6
+    + Redmi 6A
+    + Redmi Note 5
+    + Redmi S2</content><author><name>mohit</name></author><category term="redmi" /><category term="os" /><category term="android" /><category term="miui" /><summary type="html">Feature list: UI changes Wallpapers Dark mode 2.0 MI health app Improved Gestures Privacy enhancement Floating window Ads AI</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/mi/miui12.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/mi/miui12.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Transfer Files between PC and mobile wireless using QR code</title><link href="http://localhost:4000/transfer-files-between-computer-and-mobile-wireless/" rel="alternate" type="text/html" title="Transfer Files between PC and mobile wireless using QR code" /><published>2020-04-29T00:00:00+05:30</published><updated>2020-04-29T00:00:00+05:30</updated><id>http://localhost:4000/transfer-files-between-computer-and-mobile-wireless</id><content type="html" xml:base="http://localhost:4000/transfer-files-between-computer-and-mobile-wireless/">Sometimes many of us face difficulty to transfer files from PC to mobile or from mobile to PC. It is a very annoying thing to use a cable for transferring a single file like an image or a small pdf. So here comes a small but a great tool used to transfer files over a network.
 
-&lt;p&gt;To receive a file&lt;/p&gt;
-&lt;div class=&quot;language-batch highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;qrcp&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;receive&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;scan the code and you will be directed to an upload page.&lt;/p&gt;
+![QR image]({{ site.baseurl }}/assets/images/dev/linux/qrcp-qr.png){:height=&quot;60%&quot; width=&quot;55%&quot;}
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/dev/linux/qrcp-demo.gif&quot; alt=&quot;qrcp demo&quot; height=&quot;60%&quot; width=&quot;55%&quot; /&gt;&lt;/p&gt;
+To install this in linux follow the below steps
+``` batch
+go get github.com/claudiodangelis/qrcp
+cd go/qrcp/bin
+sudo mv qrcp /usr/local/bin
+sudo chmod +x /usr/local/bin/qrcp
+```
+To send a file from pc to mobile
+``` batch
+qrcp MyDocument.pdf
+```
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/dev/linux/qrcp-mobile-demo.gif&quot; alt=&quot;qrcp demo&quot; height=&quot;60%&quot; width=&quot;55%&quot; /&gt;&lt;/p&gt;
+To receive a file
+```batch
+qrcp receive
+```
+scan the code and you will be directed to an upload page.
 
-&lt;p&gt;For more details of how to use it and installation in other platforms visit: &lt;a href=&quot;https://github.com/claudiodangelis/qrcp&quot;&gt;qrcp&lt;/a&gt;&lt;/p&gt;
+![qrcp demo]({{ site.baseurl }}/assets/images/dev/linux/qrcp-demo.gif){:height=&quot;60%&quot; width=&quot;55%&quot;}
 
-&lt;p&gt;source: &lt;a href=&quot;t.me/dev_useful_stuff&quot;&gt;Dev Useful Stuff&lt;/a&gt;&lt;/p&gt;
+![qrcp demo]({{ site.baseurl }}/assets/images/dev/linux/qrcp-mobile-demo.gif){:height=&quot;60%&quot; width=&quot;55%&quot;}
 
-&lt;p&gt;&lt;strong&gt;Additional info&lt;/strong&gt;: This is an open-source project written in Golang. This project is cloned and build by others in python named &lt;a href=&quot;https://github.com/sdushantha/qr-filetransfer&quot;&gt;qr-filetransfer&lt;/a&gt;.&lt;/p&gt;</content><author><name>puneeth</name></author><category term="linux" /><category term="pc" /><category term="windows" /><category term="mobile" /><summary type="html">Sometimes many of us face difficulty to transfer files from PC to mobile or from mobile to PC. It is a very annoying thing to use a cable for transferring a single file like an image or a small pdf. So here comes a small but a great tool used to transfer files over a network.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/dev/linux/qrcp.png" /><media:content medium="image" url="http://localhost:4000/assets/images/dev/linux/qrcp.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Generating preview links</title><link href="http://localhost:4000/meta-tags/" rel="alternate" type="text/html" title="Generating preview links " /><published>2020-04-27T00:00:00+05:30</published><updated>2020-04-27T00:00:00+05:30</updated><id>http://localhost:4000/meta-tags</id><content type="html" xml:base="http://localhost:4000/meta-tags/">&lt;p&gt;Have you ever wondered that if you share a link in the whatsapp, telegram, and in social media platforms how you will get the description and image related to the website? and one more thing, do you know how search engines parse the data in your websites and show it in the search results according to it.&lt;/p&gt;
+For more details of how to use it and installation in other platforms visit: [qrcp](https://github.com/claudiodangelis/qrcp)
 
-&lt;p&gt;Meta tags are the things which will do these things. 
-The minimal way of creating the meta tags are&lt;/p&gt;
-&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;charset=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;UTF-8&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;description&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Tech news&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;keywords&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Devs, Krate, DevsKrate, Tech&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;author&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Puneeth&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+source: [Dev Useful Stuff](t.me/dev_useful_stuff)
 
-&lt;p&gt;The below are &lt;a href=&quot;https://ogp.me/&quot;&gt;Open Graph protocol&lt;/a&gt;, which enables any web page to become a rich object in a social graph(mainly used by social media).&lt;/p&gt;
-&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;property=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;og:title&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Generating Preview Links&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;property=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;og:type&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;article&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;property=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;og:url&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;https://DevsKrate.com&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;property=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;og:image&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;http://DevsKrate.com/image.jpg&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;property=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;og:description&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;A tech website for developers, where you get everything about tech&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt; 
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+**Additional info**: This is an open-source project written in Golang. This project is cloned and build by others in python named [qr-filetransfer](https://github.com/sdushantha/qr-filetransfer).</content><author><name>puneeth</name></author><category term="linux" /><category term="pc" /><category term="windows" /><category term="mobile" /><summary type="html">Sometimes many of us face difficulty to transfer files from PC to mobile or from mobile to PC. It is a very annoying thing to use a cable for transferring a single file like an image or a small pdf. So here comes a small but a great tool used to transfer files over a network.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/dev/linux/qrcp.png" /><media:content medium="image" url="http://localhost:4000/assets/images/dev/linux/qrcp.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Generating preview links</title><link href="http://localhost:4000/meta-tags/" rel="alternate" type="text/html" title="Generating preview links " /><published>2020-04-27T00:00:00+05:30</published><updated>2020-04-27T00:00:00+05:30</updated><id>http://localhost:4000/meta-tags</id><content type="html" xml:base="http://localhost:4000/meta-tags/">Have you ever wondered that if you share a link in the whatsapp, telegram, and in social media platforms how you will get the description and image related to the website? and one more thing, do you know how search engines parse the data in your websites and show it in the search results according to it.
 
-&lt;p&gt;Twitter uses open graph, but for gettings previews in the cards and to be more specific, twitter has it’s own meta tags. You can see how your preview works in twitter at &lt;a href=&quot;https://cards-dev.twitter.com/validator&quot;&gt;“Twitter link preview”&lt;/a&gt;&lt;/p&gt;
-&lt;div class=&quot;language-html highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;twitter:card&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;summary&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;twitter:site&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;@DevsKrate&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;name=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;twitter:creator&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;@puneeth&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;property=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;og:url&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;https://DevsKrate.com&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;property=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;og:title&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;DevsKrate - Tech for everyone&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;property=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;og:description&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Your description here&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;property=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;og:image&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;content=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;https://DevsKrate.com/images/&quot;&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;/&amp;gt;&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;For more information on the twitter cards, visit &lt;a href=&quot;https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started&quot;&gt;“Twitter cards”&lt;/a&gt;&lt;/p&gt;
+Meta tags are the things which will do these things. 
+The minimal way of creating the meta tags are
+``` html
+&lt;meta charset=&quot;UTF-8&quot;&gt;
+&lt;meta name=&quot;description&quot; content=&quot;Tech news&quot;&gt;
+&lt;meta name=&quot;keywords&quot; content=&quot;Devs, Krate, DevsKrate, Tech&quot;&gt;
+&lt;meta name=&quot;author&quot; content=&quot;Puneeth&quot;&gt;
+```
 
-&lt;p&gt;Whatsapp, Telegram, Linkedin and other major social platforms uses the opengraph tags for the preview generation.&lt;/p&gt;
+The below are [Open Graph protocol](https://ogp.me/), which enables any web page to become a rich object in a social graph(mainly used by social media).
+``` html
+&lt;meta property=&quot;og:title&quot; content=&quot;Generating Preview Links&quot; /&gt;
+&lt;meta property=&quot;og:type&quot; content=&quot;article&quot; /&gt;
+&lt;meta property=&quot;og:url&quot; content=&quot;https://DevsKrate.com&quot; /&gt;
+&lt;meta property=&quot;og:image&quot; content=&quot;http://DevsKrate.com/image.jpg&quot; /&gt;
+&lt;meta property=&quot;og:description&quot; content=&quot;A tech website for developers, where you get everything about tech&quot; /&gt; 
+```
 
-&lt;h6 id=&quot;official-debuggers&quot;&gt;Official debuggers:&lt;/h6&gt;
+Twitter uses open graph, but for gettings previews in the cards and to be more specific, twitter has it's own meta tags. You can see how your preview works in twitter at [&quot;Twitter link preview&quot;](https://cards-dev.twitter.com/validator)
+```html
+&lt;meta name=&quot;twitter:card&quot; content=&quot;summary&quot; /&gt;
+&lt;meta name=&quot;twitter:site&quot; content=&quot;@DevsKrate&quot; /&gt;
+&lt;meta name=&quot;twitter:creator&quot; content=&quot;@puneeth&quot; /&gt;
+&lt;meta property=&quot;og:url&quot; content=&quot;https://DevsKrate.com&quot; /&gt;
+&lt;meta property=&quot;og:title&quot; content=&quot;DevsKrate - Tech for everyone&quot; /&gt;
+&lt;meta property=&quot;og:description&quot; content=&quot;Your description here&quot; /&gt;
+&lt;meta property=&quot;og:image&quot; content=&quot;https://DevsKrate.com/images/&quot; /&gt;
+```
+For more information on the twitter cards, visit [&quot;Twitter cards&quot;](https://developer.twitter.com/en/docs/tweets/optimize-with-cards/guides/getting-started)
 
-&lt;p&gt;&lt;a href=&quot;https://developers.facebook.com/tools/debug/&quot;&gt;Facebook&lt;/a&gt;&lt;/p&gt;
+Whatsapp, Telegram, Linkedin and other major social platforms uses the opengraph tags for the preview generation.
 
-&lt;p&gt;&lt;a href=&quot;https://cards-dev.twitter.com/validator&quot;&gt;Twitter&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;https://www.linkedin.com/post-inspector/inspect/&quot;&gt;Linkedin&lt;/a&gt;&lt;/p&gt;
+###### Official debuggers:
 
-&lt;p&gt;There is tool by google called &lt;a href=&quot;https://search.google.com/structured-data/testing-tool/&quot;&gt;Structured Data Testing Tool&lt;/a&gt;, which is used to know what information is parsed.&lt;/p&gt;</content><author><name>puneeth</name></author><category term="web" /><category term="meta" /><category term="browser" /><category term="links" /><category term="url" /><summary type="html">Have you ever wondered that if you share a link in the whatsapp, telegram, and in social media platforms how you will get the description and image related to the website? and one more thing, do you know how search engines parse the data in your websites and show it in the search results according to it.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/meta-tags-preview.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/meta-tags-preview.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Configure your VS Code like a pro</title><link href="http://localhost:4000/configure-vscode-like-a-pro/" rel="alternate" type="text/html" title="Configure your VS Code like a pro" /><published>2020-04-25T00:00:00+05:30</published><updated>2020-04-25T00:00:00+05:30</updated><id>http://localhost:4000/configure-vscode-like-a-pro</id><content type="html" xml:base="http://localhost:4000/configure-vscode-like-a-pro/">&lt;p&gt;Being core &lt;strong&gt;Python&lt;/strong&gt; and &lt;strong&gt;Java&lt;/strong&gt; developers we extensively use VS Code for our project development and use code formatting heavily to enable consistency of code while developing as a team and there are lot of useful extensions which will help you to ease your task and run things on your fingertips.&lt;/p&gt;
+[Facebook](https://developers.facebook.com/tools/debug/)
 
-&lt;h3 id=&quot;why-visual-studio-code&quot;&gt;Why Visual Studio Code&lt;/h3&gt;
-&lt;p&gt;Visual Studio Code combines the simplicity of a source code editor with powerful developer tooling, like IntelliSense code completion and debugging.&lt;/p&gt;
+[Twitter](https://cards-dev.twitter.com/validator)
 
-&lt;p&gt;First and foremost, it is an editor that gets out of your way. The delightfully frictionless edit-build-debug cycle means less time fiddling with your environment, and more time executing on your ideas.&lt;/p&gt;
+[Linkedin](https://www.linkedin.com/post-inspector/inspect/)
 
-&lt;p&gt;Here are some Key Benefits of using VS Code -&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Available on Mac, Linux, and Ofcourse Windows.&lt;/li&gt;
-  &lt;li&gt;Edit, Build, and Debug very easily.&lt;/li&gt;
-  &lt;li&gt;Highly configurable - &lt;strong&gt;Open-source project&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;VS Code also includes great tooling for web technologies such as NodeJS, JSX/React, HTML, CSS, SCSS, Less, and JSON.&lt;/li&gt;
-  &lt;li&gt;Highly robust and Extensible.&lt;/li&gt;
-  &lt;li&gt;High availability of industry and community-developed extensions.&lt;/li&gt;
-  &lt;li&gt;Much loved dark theme&lt;/li&gt;
-&lt;/ul&gt;
+There is tool by google called [Structured Data Testing Tool](https://search.google.com/structured-data/testing-tool/), which is used to know what information is parsed.</content><author><name>puneeth</name></author><category term="web" /><category term="meta" /><category term="browser" /><category term="links" /><category term="url" /><summary type="html">Have you ever wondered that if you share a link in the whatsapp, telegram, and in social media platforms how you will get the description and image related to the website? and one more thing, do you know how search engines parse the data in your websites and show it in the search results according to it.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/meta-tags-preview.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/meta-tags-preview.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Configure your VS Code like a pro</title><link href="http://localhost:4000/configure-vscode-like-a-pro/" rel="alternate" type="text/html" title="Configure your VS Code like a pro" /><published>2020-04-25T00:00:00+05:30</published><updated>2020-04-25T00:00:00+05:30</updated><id>http://localhost:4000/configure-vscode-like-a-pro</id><content type="html" xml:base="http://localhost:4000/configure-vscode-like-a-pro/">Being core **Python** and **Java** developers we extensively use VS Code for our project development and use code formatting heavily to enable consistency of code while developing as a team and there are lot of useful extensions which will help you to ease your task and run things on your fingertips.  
 
-&lt;h5 id=&quot;installing-visual-studio-code&quot;&gt;Installing Visual Studio Code&lt;/h5&gt;
-&lt;p&gt;We can download updated version of VS Code from their website - &lt;a href=&quot;https://code.visualstudio.com/&quot;&gt;https://code.visualstudio.com/&lt;/a&gt;&lt;/p&gt;
+### Why Visual Studio Code 
+Visual Studio Code combines the simplicity of a source code editor with powerful developer tooling, like IntelliSense code completion and debugging.
 
-&lt;p&gt;Download from here  - &lt;a href=&quot;https://code.visualstudio.com/download&quot;&gt;https://code.visualstudio.com/download&lt;/a&gt;&lt;/p&gt;
+First and foremost, it is an editor that gets out of your way. The delightfully frictionless edit-build-debug cycle means less time fiddling with your environment, and more time executing on your ideas.
 
-&lt;h4 id=&quot;required-extensions-for-all-developers&quot;&gt;Required Extensions for all developers&lt;/h4&gt;
-&lt;p&gt;&lt;strong&gt;1. Python extension by Microsoft&lt;/strong&gt; - &lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=ms-python.python&quot;&gt;download&lt;/a&gt;&lt;/p&gt;
+Here are some Key Benefits of using VS Code - 
+* Available on Mac, Linux, and Ofcourse Windows.
+* Edit, Build, and Debug very easily.
+* Highly configurable - **Open-source project** 
+* VS Code also includes great tooling for web technologies such as NodeJS, JSX/React, HTML, CSS, SCSS, Less, and JSON.
+* Highly robust and Extensible.
+* High availability of industry and community-developed extensions.
+* Much loved dark theme
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/vscode/python-editing.gif&quot; alt=&quot;Python editing&quot; /&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;An extension with rich support for the Python language, including features such as linting, debugging, IntelliSense, code navigation, code formatting, refactoring, unit tests, snippets, and more!&lt;/li&gt;
-  &lt;li&gt;I personally use &lt;strong&gt;black&lt;/strong&gt; code-formatter. we can configure it in our workspace settings in &lt;strong&gt;.vscode&lt;/strong&gt; file. This helps to maintain code and code-formatting consistent in development.
-    &lt;ul&gt;
-      &lt;li&gt;Troubleshoot the code formatting plugin in python &lt;a href=&quot;https://code.visualstudio.com/docs/python/editing&quot;&gt;here&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
+##### Installing Visual Studio Code
+We can download updated version of VS Code from their website - [https://code.visualstudio.com/](https://code.visualstudio.com/)
 
-&lt;p&gt;&lt;strong&gt;2. Java Extension by Mircosoft&lt;/strong&gt; - &lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack&quot;&gt;download&lt;/a&gt;&lt;/p&gt;
+Download from here  - [https://code.visualstudio.com/download](https://code.visualstudio.com/download)
 
-&lt;ul&gt;
-  &lt;li&gt;Java Extension Pack is a collection of popular extensions that can help write, test and debug Java applications in Visual Studio Code.&lt;/li&gt;
-&lt;/ul&gt;
+#### Required Extensions for all developers
+**1. Python extension by Microsoft** - [download](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
 
-&lt;p&gt;&lt;strong&gt;3. Markdown Renderer Extension&lt;/strong&gt; - &lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced&quot;&gt;download&lt;/a&gt;&lt;/p&gt;
+![Python editing]({{ site.baseurl}}/assets/images/vscode/python-editing.gif)
+- An extension with rich support for the Python language, including features such as linting, debugging, IntelliSense, code navigation, code formatting, refactoring, unit tests, snippets, and more!
+* I personally use **black** code-formatter. we can configure it in our workspace settings in **.vscode** file. This helps to maintain code and code-formatting consistent in development.
+    -    Troubleshoot the code formatting plugin in python [here](https://code.visualstudio.com/docs/python/editing)
+         
+**2. Java Extension by Mircosoft** - [download](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack)
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/vscode/md-image.png&quot; alt=&quot;Markdown gif&quot; /&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Markdown Preview Enhanced is an extension that provides you with many useful functionalities such as automatic scroll sync, math typesetting, mermaid, PlantUML, pandoc, PDF export, code chunk, presentation writer, etc.&lt;/li&gt;
-&lt;/ul&gt;
 
-&lt;p&gt;&lt;strong&gt;4. Prettier Extension for JavaScript&lt;/strong&gt; - &lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode&quot;&gt;download&lt;/a&gt;&lt;/p&gt;
++ Java Extension Pack is a collection of popular extensions that can help write, test and debug Java applications in Visual Studio Code.
 
-&lt;ul&gt;
-  &lt;li&gt;It enforces a consistent style by parsing your code and re-printing it with its own rules that take the maximum line length into account, wrapping code when necessary.&lt;/li&gt;
-&lt;/ul&gt;
+**3. Markdown Renderer Extension** - [download](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced)
 
-&lt;p&gt;&lt;strong&gt;5. ESLint&lt;/strong&gt; - &lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint&quot;&gt;download&lt;/a&gt;&lt;/p&gt;
+![Markdown gif]({{ site.baseurl}}/assets/images/vscode/md-image.png)
++ Markdown Preview Enhanced is an extension that provides you with many useful functionalities such as automatic scroll sync, math typesetting, mermaid, PlantUML, pandoc, PDF export, code chunk, presentation writer, etc.
 
-&lt;ul&gt;
-  &lt;li&gt;This will be useful to check JavaScript and TypeScript errors&lt;/li&gt;
-  &lt;li&gt;The extension uses the ESLint library installed in the opened workspace folder. If the folder doesn’t provide one the extension looks for a global install version. If you haven’t installed ESLint either locally or globally do so by running &lt;code class=&quot;highlighter-rouge&quot;&gt;npm install eslint&lt;/code&gt; in the workspace folder for a local install or &lt;code class=&quot;highlighter-rouge&quot;&gt;npm install -g eslint&lt;/code&gt; for a global install.&lt;/li&gt;
-&lt;/ul&gt;
+**4. Prettier Extension for JavaScript** - [download](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 
-&lt;p&gt;&lt;strong&gt;6. CSS Peek&lt;/strong&gt; - &lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek&quot;&gt;download&lt;/a&gt;&lt;/p&gt;
++ It enforces a consistent style by parsing your code and re-printing it with its own rules that take the maximum line length into account, wrapping code when necessary.
+    
+**5. ESLint** - [download](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/vscode/css.gif&quot; alt=&quot;Markdown gif&quot; /&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;CSS Peek is a great tool if you keep forgetting what was a CSS class was used for. However, that could also mean that your CSS class names are not meaningful, or you have written too much “unmaintainable” code. Still, this is sure going to be handy if you are viewing/rewriting someone else’s code.&lt;/li&gt;
-&lt;/ul&gt;
++ This will be useful to check JavaScript and TypeScript errors 
++ The extension uses the ESLint library installed in the opened workspace folder. If the folder doesn't provide one the extension looks for a global install version. If you haven't installed ESLint either locally or globally do so by running `npm install eslint` in the workspace folder for a local install or `npm install -g eslint` for a global install.
 
-&lt;p&gt;&lt;strong&gt;7. Debugger for Chrome&lt;/strong&gt; - &lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome&quot;&gt;download&lt;/a&gt;&lt;/p&gt;
+**6. CSS Peek** - [download](https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek)
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/vscode/chrome.gif&quot; alt=&quot;Markdown gif&quot; /&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Debugger for Chrome is a great tool if you use a debugger in VSC. It allows you to launch an instance of Chrome navigated to your app, or it can attach to a running instance of Chrome. Using the URL parameter, you tell VSC which URL to either open or launch in Chrome.&lt;/li&gt;
-&lt;/ul&gt;
+![Markdown gif]({{ site.baseurl}}/assets/images/vscode/css.gif)
++ CSS Peek is a great tool if you keep forgetting what was a CSS class was used for. However, that could also mean that your CSS class names are not meaningful, or you have written too much &quot;unmaintainable&quot; code. Still, this is sure going to be handy if you are viewing/rewriting someone else’s code. 
 
-&lt;p&gt;&lt;strong&gt;8. Gitlens&lt;/strong&gt; - &lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens&quot;&gt;download&lt;/a&gt;&lt;/p&gt;
+**7. Debugger for Chrome** - [download](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome)
 
-&lt;ul&gt;
-  &lt;li&gt;GitLens supercharges the Git capabilities built into Visual Studio Code. It helps you to visualize code authorship at a glance via Git blame annotations and code lens, seamlessly navigate and explore Git repositories, gain valuable insights via powerful comparison commands, and so much more.&lt;/li&gt;
-&lt;/ul&gt;
+![Markdown gif]({{ site.baseurl}}/assets/images/vscode/chrome.gif)
++ Debugger for Chrome is a great tool if you use a debugger in VSC. It allows you to launch an instance of Chrome navigated to your app, or it can attach to a running instance of Chrome. Using the URL parameter, you tell VSC which URL to either open or launch in Chrome.
 
-&lt;p&gt;&lt;strong&gt;9. Git File History&lt;/strong&gt; - &lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=pomber.git-file-history&quot;&gt;download&lt;/a&gt;&lt;/p&gt;
+**8. Gitlens** - [download](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/vscode/git-file-history.gif&quot; alt=&quot;Markdown gif&quot; /&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;This helps to quickly browse the history (edits and commits done by you and others) in a cool and interesting visualization.&lt;/li&gt;
-  &lt;li&gt;you can try this in browser also. you just need to do these three steps.
-    &lt;ol&gt;
-      &lt;li&gt;Go to a file in GitHub (or GitLab, or Bitbucket)&lt;/li&gt;
-      &lt;li&gt;Replace github.com with github.githistory.xyz&lt;/li&gt;
-      &lt;li&gt;There’s no step three. you’ll love this.&lt;/li&gt;
-    &lt;/ol&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
++ GitLens supercharges the Git capabilities built into Visual Studio Code. It helps you to visualize code authorship at a glance via Git blame annotations and code lens, seamlessly navigate and explore Git repositories, gain valuable insights via powerful comparison commands, and so much more.
 
-&lt;p&gt;&lt;strong&gt;10. Docker Extension&lt;/strong&gt; - &lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker&quot;&gt;download&lt;/a&gt;&lt;/p&gt;
+**9. Git File History** - [download](https://marketplace.visualstudio.com/items?itemName=pomber.git-file-history)
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/vscode/docker.png&quot; alt=&quot;Markdown gif&quot; /&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;The Docker extension makes it easier to build apps that leverage Docker containers. The extension helps scaffold needed files, build Docker images, debug your app inside a container, and an explorer that makes it easy to take actions on containers and images such as start, stop, inspect, remove, and more.&lt;/li&gt;
-&lt;/ul&gt;
+![Markdown gif]({{ site.baseurl}}/assets/images/vscode/git-file-history.gif)
++ This helps to quickly browse the history (edits and commits done by you and others) in a cool and interesting visualization. 
++ you can try this in browser also. you just need to do these three steps.
+    1. Go to a file in GitHub (or GitLab, or Bitbucket)
+    2. Replace github.com with github.githistory.xyz
+    3. There's no step three. you'll love this.
 
-&lt;p&gt;&lt;strong&gt;11. SQL Formatter&lt;/strong&gt; - &lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=bradymholt.pgformatter&quot;&gt;download&lt;/a&gt;&lt;/p&gt;
+**10. Docker Extension** - [download](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)
 
-&lt;ul&gt;
-  &lt;li&gt;This VS Code extension formats PostgreSQL SQL, using the Perl based &lt;a href=&quot;https://github.com/darold/pgFormatter&quot;&gt;pgFormatter&lt;/a&gt; tool. Supports keywords from SQL-92, SQL-99, SQL-2003, SQL-2008, SQL-2011 and PostgreSQL specifics keywords. Provides configuration to control formatting style.&lt;/li&gt;
-&lt;/ul&gt;
+![Markdown gif]({{ site.baseurl}}/assets/images/vscode/docker.png)
++ The Docker extension makes it easier to build apps that leverage Docker containers. The extension helps scaffold needed files, build Docker images, debug your app inside a container, and an explorer that makes it easy to take actions on containers and images such as start, stop, inspect, remove, and more.
 
-&lt;p&gt;&lt;strong&gt;12. Path Intellisense&lt;/strong&gt; - &lt;a href=&quot;https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense&quot;&gt;downlaod&lt;/a&gt;&lt;/p&gt;
+**11. SQL Formatter** - [download](https://marketplace.visualstudio.com/items?itemName=bradymholt.pgformatter)
 
-&lt;ul&gt;
-  &lt;li&gt;Path Intellisense helps you include filenames or autocomplete them. This is a great tool if you want to type less for difficult filenames and make sure you always include the correct files.&lt;/li&gt;
-&lt;/ul&gt;
++ This VS Code extension formats PostgreSQL SQL, using the Perl based [pgFormatter](https://github.com/darold/pgFormatter) tool. Supports keywords from SQL-92, SQL-99, SQL-2003, SQL-2008, SQL-2011 and PostgreSQL specifics keywords. Provides configuration to control formatting style.
 
-&lt;h4 id=&quot;not-just-this-many-more-to-come-in-future&quot;&gt;Not just this many more to come in future&lt;/h4&gt;
-&lt;p&gt;Please share your feedback on &lt;a href=&quot;https://twitter.com/devskrate&quot;&gt;twitter&lt;/a&gt;, &lt;a href=&quot;https://instagram.com/devskrate&quot;&gt;Instagram&lt;/a&gt;, or mail us at support@devskrate.com. Use &lt;a href=&quot;https://devskrate.com&quot;&gt;#DevsKrate&lt;/a&gt; on any social media platforms we will reach out to you.&lt;/p&gt;</content><author><name>satya</name></author><category term="developers" /><category term="microsoft" /><category term="vscode" /><category term="DevStuff" /><category term="configuring" /><category term="featured" /><summary type="html">Being core Python and Java developers we extensively use VS Code for our project development and use code formatting heavily to enable consistency of code while developing as a team and there are lot of useful extensions which will help you to ease your task and run things on your fingertips.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/vscode/vscode-home.png" /><media:content medium="image" url="http://localhost:4000/assets/images/vscode/vscode-home.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Ubuntu 20.04 booting problems.</title><link href="http://localhost:4000/ubuntu20-booting-problems/" rel="alternate" type="text/html" title="Ubuntu 20.04 booting problems." /><published>2020-04-25T00:00:00+05:30</published><updated>2020-04-25T00:00:00+05:30</updated><id>http://localhost:4000/ubuntu20-booting-problems</id><content type="html" xml:base="http://localhost:4000/ubuntu20-booting-problems/">&lt;p&gt;Ubuntu 20.04 LTS has been released recently, after upgrading to it from ubuntu 18, 19, many had may faced booting problems(especially in DualBoot’s).
-Booting problems like bootloop(Restarting when ubuntu is selected) or blank screen after selecting ubuntu in the grub.&lt;/p&gt;
+**12. Path Intellisense** - [downlaod](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
 
-&lt;p&gt;With My experience, I am giving here few fixes you may try.&lt;/p&gt;
++ Path Intellisense helps you include filenames or autocomplete them. This is a great tool if you want to type less for difficult filenames and make sure you always include the correct files.
 
-&lt;p&gt;&lt;strong&gt;1. Uncheck the PPT security in BIOS&lt;/strong&gt;&lt;/p&gt;
+#### Not just this many more to come in future
+Please share your feedback on [twitter](https://twitter.com/devskrate), [Instagram](https://instagram.com/devskrate), or mail us at support@devskrate.com. Use [#DevsKrate](https://devskrate.com) on any social media platforms we will reach out to you.</content><author><name>satya</name></author><category term="developers" /><category term="microsoft" /><category term="vscode" /><category term="DevStuff" /><category term="configuring" /><category term="featured" /><summary type="html">Being core Python and Java developers we extensively use VS Code for our project development and use code formatting heavily to enable consistency of code while developing as a team and there are lot of useful extensions which will help you to ease your task and run things on your fingertips.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/vscode/vscode-home.png" /><media:content medium="image" url="http://localhost:4000/assets/images/vscode/vscode-home.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Ubuntu 20.04 booting problems.</title><link href="http://localhost:4000/ubuntu20-booting-problems/" rel="alternate" type="text/html" title="Ubuntu 20.04 booting problems." /><published>2020-04-25T00:00:00+05:30</published><updated>2020-04-25T00:00:00+05:30</updated><id>http://localhost:4000/ubuntu20-booting-problems</id><content type="html" xml:base="http://localhost:4000/ubuntu20-booting-problems/">Ubuntu 20.04 LTS has been released recently, after upgrading to it from ubuntu 18, 19, many had may faced booting problems(especially in DualBoot's).
+Booting problems like bootloop(Restarting when ubuntu is selected) or blank screen after selecting ubuntu in the grub.
 
-&lt;p&gt;Firstly goto the BIOS (It depends on the system, for Dell press F12), then goto security, then goto PTT security and Uncheck it.&lt;/p&gt;
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Security -&amp;gt; PTT Security and uncheck PTT On
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;Click Apply (I would recommend choosing Save as Custom User Settings), then OK, then Exit.&lt;/p&gt;
+With My experience, I am giving here few fixes you may try.
 
-&lt;p&gt;This should acctuallly work. If this does not work, try the second method.&lt;/p&gt;
+**1. Uncheck the PPT security in BIOS**
 
-&lt;p&gt;&lt;strong&gt;2. Boot from Advanced Options&lt;/strong&gt;&lt;/p&gt;
+Firstly goto the BIOS (It depends on the system, for Dell press F12), then goto security, then goto PTT security and Uncheck it.
+```
+Security -&gt; PTT Security and uncheck PTT On
+```
+Click Apply (I would recommend choosing Save as Custom User Settings), then OK, then Exit.
 
-&lt;p&gt;While booting from grub, you can see “Advanced Options for Ubuntu”. Select it and in that boot from the Old Kernel.
-You may find many things like&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Ubuntu, with Linux 5.4-generic&lt;/li&gt;
-  &lt;li&gt;Ubuntu, with Linux 5.4-generic (recovery mode)&lt;/li&gt;
-  &lt;li&gt;Ubuntu, with Linux 4.*-generic&lt;/li&gt;
-  &lt;li&gt;Ubuntu, with Linux 4.*-generic (recovery mode)&lt;/li&gt;
-&lt;/ul&gt;
+This should acctuallly work. If this does not work, try the second method.
 
-&lt;p&gt;Boot with Linux 4.*-generic, don’t boot with recovery or any other options availabe additionally.
-Now, you will boot into Ubuntu:).&lt;/p&gt;
+**2. Boot from Advanced Options**
 
-&lt;p&gt;Remember, this method is not a permanent fix, you can use Ubuntu inthis way as long as you find the permanent fix, this will not do anything from accessing all the features.&lt;/p&gt;
+While booting from grub, you can see &quot;Advanced Options for Ubuntu&quot;. Select it and in that boot from the Old Kernel.
+You may find many things like 
+- Ubuntu, with Linux 5.4-generic
+- Ubuntu, with Linux 5.4-generic (recovery mode)
+- Ubuntu, with Linux 4.*-generic
+- Ubuntu, with Linux 4.*-generic (recovery mode)
 
-&lt;p&gt;&lt;strong&gt;Additional Info&lt;/strong&gt;: Why method 2 is not a permanent fix, because Ubuntu uses Linux kernel 5.4, so grub will boot from it by default. After booting in you can change the default kernel to boot, but be carefull while handling with the Kernel.&lt;/p&gt;</content><author><name>puneeth</name></author><category term="ubuntu" /><category term="linux" /><category term="kernel" /><category term="intel" /><category term="os" /><category term="featured" /><summary type="html">Ubuntu 20.04 LTS has been released recently, after upgrading to it from ubuntu 18, 19, many had may faced booting problems(especially in DualBoot’s). Booting problems like bootloop(Restarting when ubuntu is selected) or blank screen after selecting ubuntu in the grub.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/linux/ubuntu-clogo.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/linux/ubuntu-clogo.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">New iPhones Might Delay Due To the Pandemic Says The Famous Apple Analyst : Ming-Chi Kuo</title><link href="http://localhost:4000/iphones-delay-in-release/" rel="alternate" type="text/html" title="New iPhones Might Delay Due To the Pandemic Says The Famous Apple Analyst : Ming-Chi Kuo" /><published>2020-04-23T00:00:00+05:30</published><updated>2020-04-23T00:00:00+05:30</updated><id>http://localhost:4000/iphones-delay-in-release</id><content type="html" xml:base="http://localhost:4000/iphones-delay-in-release/">&lt;p&gt;Analyst Ming-Chi Kuo, In his new investor note, has outlined some information regarding the possible delay of the iPhone 12’s production as well as the possible postponement of its much-rumored iPhone SE plus due to the Coronavirus pandemic.&lt;/p&gt;
+Boot with Linux 4.*-generic, don't boot with recovery or any other options availabe additionally.
+Now, you will boot into Ubuntu:).
 
-&lt;h1 id=&quot;iphone-12-production&quot;&gt;iPhone 12 production:&lt;/h1&gt;
-&lt;p&gt;In Kuo’s note, He said that due to the pandemic caused by COVID-19, The Cupertino giant(Apple) had to do a lot of changes in its production, which lead to a one-month delay in engineering verification testing for the new iPhone 12 models.&lt;/p&gt;
+Remember, this method is not a permanent fix, you can use Ubuntu inthis way as long as you find the permanent fix, this will not do anything from accessing all the features.
 
-&lt;p&gt;The iPhone 12 lineup is expected to include four new models, and According to the analyst
+**Additional Info**: Why method 2 is not a permanent fix, because Ubuntu uses Linux kernel 5.4, so grub will boot from it by default. After booting in you can change the default kernel to boot, but be carefull while handling with the Kernel.</content><author><name>puneeth</name></author><category term="ubuntu" /><category term="linux" /><category term="kernel" /><category term="intel" /><category term="os" /><category term="featured" /><summary type="html">Ubuntu 20.04 LTS has been released recently, after upgrading to it from ubuntu 18, 19, many had may faced booting problems(especially in DualBoot’s). Booting problems like bootloop(Restarting when ubuntu is selected) or blank screen after selecting ubuntu in the grub.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/linux/ubuntu-clogo.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/linux/ubuntu-clogo.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">New iPhones Might Delay Due To the Pandemic Says The Famous Apple Analyst : Ming-Chi Kuo</title><link href="http://localhost:4000/iphones-delay-in-release/" rel="alternate" type="text/html" title="New iPhones Might Delay Due To the Pandemic Says The Famous Apple Analyst : Ming-Chi Kuo" /><published>2020-04-23T00:00:00+05:30</published><updated>2020-04-23T00:00:00+05:30</updated><id>http://localhost:4000/iphones-delay-in-release</id><content type="html" xml:base="http://localhost:4000/iphones-delay-in-release/">Analyst Ming-Chi Kuo, In his new investor note, has outlined some information regarding the possible delay of the iPhone 12's production as well as the possible postponement of its much-rumored iPhone SE plus due to the Coronavirus pandemic.
+
+# iPhone 12 production:
+In Kuo's note, He said that due to the pandemic caused by COVID-19, The Cupertino giant(Apple) had to do a lot of changes in its production, which lead to a one-month delay in engineering verification testing for the new iPhone 12 models.
+
+The iPhone 12 lineup is expected to include four new models, and According to the analyst
 the lower end models sized 6.1- inch and 5.4-inch iPhone will enter into the mass production in September
 and the 6.7 inch which is expected to come with 5G support will enter not enter the production until October.
-According to Kuo,this is because the 6.7-inch model has the most complicated design.&lt;/p&gt;
+According to Kuo,this is because the 6.7-inch model has the most complicated design.
 
-&lt;p&gt;The above could mean that Apple will announce all the four iPhone models at once
-but the release dates likely going to be different for each model due to the production delays.&lt;/p&gt;
+The above could mean that Apple will announce all the four iPhone models at once
+but the release dates likely going to be different for each model due to the production delays.
 
-&lt;h1 id=&quot;iphone-se-plus-delayed&quot;&gt;iPhone SE Plus Delayed:&lt;/h1&gt;
+# iPhone SE Plus Delayed:
 
-&lt;p&gt;iPhone SE 2020 has sold more models than Apple expected and there were strong rumors
+iPhone SE 2020 has sold more models than Apple expected and there were strong rumors
 regarding a plus model of the iPhone SE and was confirmed by the evidences found in the IOS 14 code
-however Kuo’s note says that the iPhone SE Plus is likely to be delayed until Q2 2021.&lt;/p&gt;</content><author><name>mohit</name></author><category term="apple" /><category term="iphone" /><summary type="html">Analyst Ming-Chi Kuo, In his new investor note, has outlined some information regarding the possible delay of the iPhone 12’s production as well as the possible postponement of its much-rumored iPhone SE plus due to the Coronavirus pandemic. iPhone 12 production: In Kuo’s note, He said that due to the pandemic caused by COVID-19, The Cupertino giant(Apple) had to do a lot of changes in its production, which lead to a one-month delay in engineering verification testing for the new iPhone 12 models. The iPhone 12 lineup is expected to include four new models, and According to the analyst the lower end models sized 6.1- inch and 5.4-inch iPhone will enter into the mass production in September and the 6.7 inch which is expected to come with 5G support will enter not enter the production until October. According to Kuo,this is because the 6.7-inch model has the most complicated design. The above could mean that Apple will announce all the four iPhone models at once but the release dates likely going to be different for each model due to the production delays. iPhone SE Plus Delayed: iPhone SE 2020 has sold more models than Apple expected and there were strong rumors regarding a plus model of the iPhone SE and was confirmed by the evidences found in the IOS 14 code however Kuo’s note says that the iPhone SE Plus is likely to be delayed until Q2 2021.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/apple/iphone-12-renders.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/apple/iphone-12-renders.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Motorolo launches its new edge series in states:</title><link href="http://localhost:4000/moto-edge-series/" rel="alternate" type="text/html" title="Motorolo launches its new edge series in states:" /><published>2020-04-23T00:00:00+05:30</published><updated>2020-04-23T00:00:00+05:30</updated><id>http://localhost:4000/moto-edge-series</id><content type="html" xml:base="http://localhost:4000/moto-edge-series/">&lt;p&gt;Moto after 4 years has come back to making flagship phones with its new edge series, 
-It launched two phones namely Moto Edge and Moto Edge Plus. Let’s see what Motorola has to offer 
-in this article.&lt;/p&gt;
-
-&lt;h1 id=&quot;moto-edge-plus&quot;&gt;Moto Edge Plus:&lt;/h1&gt;
-&lt;p&gt;The standout feature of this phone has to be its design, It’s 
-an all-glass display with metal frame holding them together, The 
-edges wrap around the edges with a punch hole at the top and in 
-one word it looks gorgeous with two color variants to offer namely midnight 
-megneta and solar black. Before 
-taking a deep dive lets see the specs.&lt;/p&gt;
-
-&lt;p&gt;Processor:	Qualcomm Snapdragon 865
-Rear Camera	Triple Cameras 108MP(with OIS) + 16MP(Ultra Wide + Macro) + 8MP(3x Zoom with OIS)
-front Camera	25MP
-Display	        6.7 inches 90HZ AMOLED(Aspect ratio: 21:9) FHD
-5G support	both mm and sub-6 band.
-Battery	        5000mAH(18W)
-Fingerprint	In-Display Fingerprint Sensor(Optical)
-Water Resistant	Water Resistant(IP 68)
-Charging	Type-C cable + Wireless Charging(Upto 15W) + 5W(Reverse Wireless Charging)
-RAM/ROM         12GB/128or256GB&lt;/p&gt;
-
-&lt;h1 id=&quot;display-and-battery&quot;&gt;Display and battery:&lt;/h1&gt;
-&lt;p&gt;The display is a 6.7 inch AMOLED display with an aspect ratio of 21:9 and the phone comes with a 90HZ refresh rate but the resolution is only FHD(1080p), which is a bummer at this price point but it helps increase the battery efficiency and in 
-this phone moto has provided a huge 5000mAh battery and moto claims it can last till 2 days.&lt;/p&gt;
-
-&lt;h1 id=&quot;camera&quot;&gt;Camera:&lt;/h1&gt;
-&lt;p&gt;This phone comes with a total of four cameras three at the back and one inside the punch hole. The primary sensor is a 108MP 
-Samsung sensor which we saw in the galaxy s20 ultra, This camera by default shoots at 27MP and it has OIS built-in for stable video.The 
-second sensory is an 8MP three times zoom sensor and this also has OIS for better video as well as zoom. The third is a 16MP Ultra wide sensor to capture ultra-wide shots.The selfie camera is a 25MP shooter. This phone has all the hardware required for a good camera it ultimately comes down to
-camera software.&lt;/p&gt;
-
-&lt;h1 id=&quot;software-and-hardware&quot;&gt;Software and Hardware:&lt;/h1&gt;
-&lt;p&gt;Talking about software, It comes with an almost stock-like experience with a few added features based on android 10, and moto is calling it “My UX”.In days where flagship smartphones are removing the headphone jack moto has it in this phone which is a great thing.
-The hardware also is top end with snapdragon 865, It also supports fast charging, wireless charging, reverse wireless charging 
-and all other high-end features to compete against the top of galaxies and iPhones.&lt;/p&gt;
-
-&lt;h1 id=&quot;pricing&quot;&gt;Pricing:&lt;/h1&gt;
-&lt;p&gt;This phone is priced at 999.99 dollars which converts to around 75k price, which is very expensive considering what this phone has to offer.
-If moto really wants to bring this phone to India it has to reduce the price to somewhere around 55k.&lt;/p&gt;
-
-&lt;h1 id=&quot;moto-edge&quot;&gt;Moto Edge:&lt;/h1&gt;
-&lt;p&gt;Edge is very similar to Edge plus with very few changes. The main shooter is 64MP instead of 108MP, the battery capacity is 4500mAH instead of 5000mAH, It 
-only offers 4GB/6GB of RAM and it does not support any kind of wireless and reverse wireless charging on it but the key 
-difference is that it comes with snapdragon 765 5G on board.This phone is priced at 699 EURO, which is 58,000 rupees. I think this phone is fairly overpriced and at this price we can get several other options
-from vendors like one plus, Xiaomi, etc, which can offer us a flagship experience.&lt;/p&gt;
-
-&lt;p&gt;Both these phones are expected to launch in India after the pandemic has ended,what do you think about these phones&lt;/p&gt;</content><author><name>mohit</name></author><category term="moto" /><category term="flagship" /><summary type="html">Moto after 4 years has come back to making flagship phones with its new edge series, It launched two phones namely Moto Edge and Moto Edge Plus. Let’s see what Motorola has to offer in this article.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/android/motorola-edge.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/android/motorola-edge.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+however Kuo's note says that the iPhone SE Plus is likely to be delayed until Q2 2021.</content><author><name>mohit</name></author><category term="apple" /><category term="iphone" /><summary type="html">Analyst Ming-Chi Kuo, In his new investor note, has outlined some information regarding the possible delay of the iPhone 12’s production as well as the possible postponement of its much-rumored iPhone SE plus due to the Coronavirus pandemic. iPhone 12 production: In Kuo’s note, He said that due to the pandemic caused by COVID-19, The Cupertino giant(Apple) had to do a lot of changes in its production, which lead to a one-month delay in engineering verification testing for the new iPhone 12 models. The iPhone 12 lineup is expected to include four new models, and According to the analyst the lower end models sized 6.1- inch and 5.4-inch iPhone will enter into the mass production in September and the 6.7 inch which is expected to come with 5G support will enter not enter the production until October. According to Kuo,this is because the 6.7-inch model has the most complicated design. The above could mean that Apple will announce all the four iPhone models at once but the release dates likely going to be different for each model due to the production delays. iPhone SE Plus Delayed: iPhone SE 2020 has sold more models than Apple expected and there were strong rumors regarding a plus model of the iPhone SE and was confirmed by the evidences found in the IOS 14 code however Kuo’s note says that the iPhone SE Plus is likely to be delayed until Q2 2021.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/apple/iphone-12-renders.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/apple/iphone-12-renders.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>

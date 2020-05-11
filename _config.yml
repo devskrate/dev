@@ -54,6 +54,12 @@ authors:
       email:          satya@devskrate.com
       twitter:        https://twitter.com/CodeWithSatya
     output: true
+
+collections:
+  dev:
+      output: true
+      permalink: mlogs/dev/:title
+
 # Defaults
 defaults:
 

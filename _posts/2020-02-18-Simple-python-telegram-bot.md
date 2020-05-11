@@ -26,34 +26,34 @@ pip3 install python-telegram-bot
 ### Our first program :
 Here is the simple bot which echo's what you sent to it.
 ```python
-  #!/usr/bin/python
-  # This is a simple echo bot using the decorator mechanism.
-  # It echoes any incoming text messages.
-  
-  import telebot
-            
-  API_TOKEN = 'Your_API_Token_Here'
-            
-  bot = telebot.TeleBot(API_TOKEN)
-            
-            
-  # Handle '/start' and '/help'
-  @bot.message_handler(commands=['help', 'start'])
-  def send_welcome(message):
-  bot.reply_to(message, "\nHi there, I am EchoBot.\nI am here to echo your words. 
-  Just send anything  and I'll send the same thing to you!\n")
-            
-            
-  # Handle all other messages with content_type 'text' (content_types defaults to ['text'])
-  @bot.message_handler(func=lambda message: True)
-  def echo_message(message):
-  bot.reply_to(message, message.text)
-                   
-  bot.polling()
+#!/usr/bin/python
+# This is a simple echo bot using the decorator mechanism.
+# It echoes any incoming text messages.
+
+import telebot
+          
+API_TOKEN = 'Your_API_Token_Here'
+          
+bot = telebot.TeleBot(API_TOKEN)
+          
+          
+# Handle '/start' and '/help'
+@bot.message_handler(commands=['help', 'start'])
+def send_welcome(message):
+bot.reply_to(message, "\nHi there, I am EchoBot.\nI am here to echo your words. 
+Just send anything  and I'll send the same thing to you!\n")
+          
+          
+# Handle all other messages with content_type 'text' (content_types defaults to ['text'])
+@bot.message_handler(func=lambda message: True)
+def echo_message(message):
+bot.reply_to(message, message.text)
+                 
+bot.polling()
 ```
 Now run the code by
 
-`
+` batch
 python3 file_name.py 
 `
 
@@ -62,7 +62,7 @@ This is a simple echo bot. What ever the message you send to it, it sends you th
 
 + Below are some predefined commands for our bot, so with out typing the whole sentence we can just type the command for the output. 
 ```python
- @bot.message_handler(commands=['help', 'start'])
+@bot.message_handler(commands=['help', 'start'])
 ```
 Below this we should write the function that should be executed when the command is sent. 
 
@@ -79,8 +79,8 @@ pip3 install flask
 After installing we should change our code a little bit so as to work with flask. 
 
 ```python
-  server = Flask(__name__)
-  PORT = int(os.environ.get('PORT', '8443'))
+server = Flask(__name__)
+PORT = int(os.environ.get('PORT', '8443'))
 ```
 
 Use the below code at the end of the application.
@@ -92,61 +92,60 @@ Use the below code at the end of the application.
       return "!", 200
   
   
-  @server.route("/")
-  def webhook():
-      bot.remove_webhook()
-      bot.set_webhook(url='Your_App_Name_Link_Here' + API_TOKEN)
-      return "!", 200
-  
-  
-  if __name__ == "__main__":
-  server.run(host="0.0.0.0", port=int(os.environ.get('PORT', 5000)))
+@server.route("/")
+def webhook():
+    bot.remove_webhook()
+    bot.set_webhook(url='Your_App_Name_Link_Here' + API_TOKEN)
+    return "!", 200
+
+
+if __name__ == "__main__":
+    server.run(host="0.0.0.0", port=int(os.environ.get('PORT', 5000)))
 ```
 After this the final code looks like
 
 ```python
+#!/usr/bin/python
+# This is a simple echo bot using the decorator mechanism.
+# It echoes any incoming text messages.
 
-  #!/usr/bin/python
-  # This is a simple echo bot using the decorator mechanism.
-  # It echoes any incoming text messages.
-  
-  import telebot
-  from flask import Flask, request
-  import os
-  API_TOKEN = 'Your_API_Token_Here'
-            
-  bot = telebot.TeleBot(API_TOKEN)
-  server = Flask(__name__)
-  PORT = int(os.environ.get('PORT', '8443'))          
-            
-  # Handle '/start' and '/help'
-  @bot.message_handler(commands=['help', 'start'])
-  def send_welcome(message):
-  bot.reply_to(message, "\nHi there, I am EchoBot.\nI am here to echo your words. 
-  Just send anything  and I'll send the same thing to you!\n")
-            
-            
-  # Handle all other messages with content_type 'text' (content_types defaults to ['text'])
-  @bot.message_handler(func=lambda message: True)
-  def echo_message(message):
-  bot.reply_to(message, message.text)
-  
-  
-  @server.route('/' + API_TOKEN, methods=['POST'])
-  def getMessage():
-      bot.process_new_updates([telebot.types.Update.de_json(request.stream.read().decode("utf-8"))])
-      return "!", 200
-  
-  
-  @server.route("/")
-  def webhook():
-      bot.remove_webhook()
-      bot.set_webhook(url='Your_App_Name_Link_Here' + API_TOKEN)
-      return "!", 200
-  
-  
-  if __name__ == "__main__":
-  server.run(host="0.0.0.0", port=int(os.environ.get('PORT', 5000)))    
+import telebot
+from flask import Flask, request
+import os
+API_TOKEN = 'Your_API_Token_Here'
+          
+bot = telebot.TeleBot(API_TOKEN)
+server = Flask(__name__)
+PORT = int(os.environ.get('PORT', '8443'))          
+          
+# Handle '/start' and '/help'
+@bot.message_handler(commands=['help', 'start'])
+def send_welcome(message):
+bot.reply_to(message, "\nHi there, I am EchoBot.\nI am here to echo your words. 
+Just send anything  and I'll send the same thing to you!\n")
+          
+          
+# Handle all other messages with content_type 'text' (content_types defaults to ['text'])
+@bot.message_handler(func=lambda message: True)
+def echo_message(message):
+bot.reply_to(message, message.text)
+
+
+@server.route('/' + API_TOKEN, methods=['POST'])
+def getMessage():
+    bot.process_new_updates([telebot.types.Update.de_json(request.stream.read().decode("utf-8")])
+    return "!", 200
+
+
+@server.route("/")
+def webhook():
+    bot.remove_webhook()
+    bot.set_webhook(url='Your_App_Name_Link_Here' + API_TOKEN)
+    return "!", 200
+
+
+if __name__ == "__main__":
+    server.run(host="0.0.0.0", port=int(os.environ.get('PORT', 5000)))    
 ```
 
 **Now, we need the libraries that are used for this bot. So to get the librares use**
