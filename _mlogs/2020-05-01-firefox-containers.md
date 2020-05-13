@@ -2,7 +2,7 @@
 layout: post
 title:  "Firefox containers"
 author: puneeth
-categories: [ firefox, browser, dev-linux ]
+categories: [ firefox, browser, mlogs ]
 image: assets/images/mlogs/mozilla/firefox-container-f.png
 tags: [firefox, browser, mozilla, containers]
 ---

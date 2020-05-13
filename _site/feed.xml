@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-05-11T22:21:33+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">DevsKrate</title><subtitle>Here at DevsKrate we inspire and endeavor to share everything about technology like Softwares, Coding, etc., and provide our best about HOW TO tutorials and BEST OF every category in accordance to our knowledge.</subtitle><entry><title type="html">Here’s how to customize your Microsoft Teams Background</title><link href="http://localhost:4000/customize-microsoft-teams-background/" rel="alternate" type="text/html" title="Here's how to customize your Microsoft Teams Background" /><published>2020-05-06T00:00:00+05:30</published><updated>2020-05-06T00:00:00+05:30</updated><id>http://localhost:4000/customize-microsoft-teams-background</id><content type="html" xml:base="http://localhost:4000/customize-microsoft-teams-background/">You can finally add your own background to Microsoft Teams video chats. Designed for business and education, Teams includes group chat, video calling and collaboration tools, and has seen a spike in usage since countries and states have started directing residents to stay and work from home when possible to help stop the spread of the coronavirus.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-05-13T17:41:49+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">DevsKrate</title><subtitle>Here at DevsKrate we inspire and endeavor to share everything about technology like Softwares, Coding, etc., and provide our best about HOW TO tutorials and BEST OF every category in accordance to our knowledge.</subtitle><entry><title type="html">Here’s how to customize your Microsoft Teams Background</title><link href="http://localhost:4000/customize-microsoft-teams-background/" rel="alternate" type="text/html" title="Here's how to customize your Microsoft Teams Background" /><published>2020-05-06T00:00:00+05:30</published><updated>2020-05-06T00:00:00+05:30</updated><id>http://localhost:4000/customize-microsoft-teams-background</id><content type="html" xml:base="http://localhost:4000/customize-microsoft-teams-background/">You can finally add your own background to Microsoft Teams video chats. Designed for business and education, Teams includes group chat, video calling and collaboration tools, and has seen a spike in usage since countries and states have started directing residents to stay and work from home when possible to help stop the spread of the coronavirus.
 
 With the update to Microsoft's collaboration tool, you can now pick a custom image as your video chat background. The Zoom video chat service also lets you pick your own custom background images for calls. But with recent concerns about Zoom security, some users are starting to look to other services such as Teams for their chats.
 
@@ -16,148 +16,7 @@ Important catch: This feature is only available for scheduled meetings, accordin
 
 In the future, you'll also be able to create your own images, upload them to Teams, and then select them as a background image for your video chats, reports said.
 
-You can have video chats with up to 250 people in Microsoft Teams, and if your workplace or school has access to Office 365, you already have access to it. You can also check out a free version of Microsoft's communication tool.</content><author><name>nikhil</name></author><category term="meetings" /><category term="lockdown" /><category term="video calls" /><summary type="html">You can finally add your own background to Microsoft Teams video chats. Designed for business and education, Teams includes group chat, video calling and collaboration tools, and has seen a spike in usage since countries and states have started directing residents to stay and work from home when possible to help stop the spread of the coronavirus.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/microsoft/microsoft-teams.png" /><media:content medium="image" url="http://localhost:4000/assets/images/microsoft/microsoft-teams.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Navi - An interactive commandline cheatsheet tool</title><link href="http://localhost:4000/navi-commandline-cheatsheet-tool/" rel="alternate" type="text/html" title="Navi - An interactive commandline cheatsheet tool" /><published>2020-05-02T00:00:00+05:30</published><updated>2020-05-02T00:00:00+05:30</updated><id>http://localhost:4000/navi-commandline-cheatsheet-tool</id><content type="html" xml:base="http://localhost:4000/navi-commandline-cheatsheet-tool/">Do you feel command-line is only for geeks or nerds?
-Do you feel hard to remember commands and it's options?
-Here is cheatsheet tool at your fingertips which will help you to browse through commands and make note of some new commands.
-You may come across many Linux tools but this will surely help for everyone who use Linux.
-
-&gt; There's nothing like NewBee(Noob) and Pro in Linux. It's an ocean of resources, Usage will completely depend on the work you do.
-
-#### What is navi?
-
-**Navi** is an interactive cheatsheet tool written in **Rust** for the **command-line and application launchers**. Just like Bro pages, Cheat, Tldr tools, Navi also provides a list of examples for a given command, skipping all other comprehensive text parts.
-
-**Navi** allows you to browse through cheatsheets (that you may write yourself or download from maintainers) and execute commands, prompting for argument values.
-
-from now you will never say any of these.
-- How to run that command again?
-- Oh, it's not in my bash history
-- Damn, it's almost what I wanted but I need to change some args
-
-See how cool navi is - 
-![navi-demo]({{ site.baseurl}}/assets/images/mlogs/navi/navi-demo.gif)
-
-#### Pros of navi
-- it will make you type less;
-- it will spare you from knowing CLIs by heart;
-- it will teach you new one-liners.
-- **Open Source tool**
-
-It can be either used as a command or as a shell widget (Ctrl-R).
-![navi-demo]({{ site.baseurl}}/assets/images/mlogs/navi/navi-demo2.gif)
-
-#### Installation
-
-##### Using [Homebrew](http://brew.sh/) or [Linuxbrew](http://linuxbrew.sh/)
-
-```batch
-brew install navi
-```
-
-##### Using [cargo](https://github.com/rust-lang/cargo)
-
-```batch
-cargo install navi
-```
-
-##### Using install script
-
-```batch
-bash &lt;(curl -sL https://raw.githubusercontent.com/denisidoro/navi/master/scripts/install)
-```
-
-##### Building from source
-
-```batch
-git clone https://github.com/denisidoro/navi ~/.navi
-cd ~/.navi
-make install 
-```
-#### Usage
-
-By running `navi` for the first time, you'll be suggested to download some *cheatsheets*. By running `navi` again, these *cheatsheets* will appear.
-
-### Shell widget
-
-You can use **navi** as a widget to your shell. This way, your history is correctly populated and you can edit the command as you wish before executing it. To set it up, add this line to your `.bashrc`-like file:
-```sh
-# bash
-source &lt;(navi widget bash)
-```
-
-Please refer to `navi --help` for more details or refer their [documentation](https://github.com/denisidoro/navi/blob/master/README.md)
-
-Beauty of navi is you can see, understand and contribute to it as it is an **open source project**
-Here is the link for the repo on [GitHub](https://github.com/denisidoro/navi/)
-
-##### Happy Quarantine 
-
-Please share your feedback on [twitter](https://twitter.com/devskrate), [Instagram](https://instagram.com/devskrate), or mail us at [support@devskrate.com](mailto:support@devskrate.com). Use [#DevsKrate](https://devskrate.com) on any social media platforms we will reach out to you.</content><author><name>satya</name></author><category term="dev-linux" /><category term="mlogs" /><category term="navi" /><category term="linux" /><summary type="html">Do you feel command-line is only for geeks or nerds? Do you feel hard to remember commands and it’s options? Here is cheatsheet tool at your fingertips which will help you to browse through commands and make note of some new commands. You may come across many Linux tools but this will surely help for everyone who use Linux.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/mlogs/navi/navi.png" /><media:content medium="image" url="http://localhost:4000/assets/images/mlogs/navi/navi.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Firefox containers</title><link href="http://localhost:4000/firefox-containers/" rel="alternate" type="text/html" title="Firefox containers" /><published>2020-05-01T00:00:00+05:30</published><updated>2020-05-01T00:00:00+05:30</updated><id>http://localhost:4000/firefox-containers</id><content type="html" xml:base="http://localhost:4000/firefox-containers/">Have you ever got annoyed while using multiple accounts like personal, school, work accounts in a single browser?
-
-Yeah firefox got a solution for this,
-**Firefox Multi-Account Containers**: Firefox Multi-Account Containers lets you keep parts of your online life separated into color-coded tabs that preserve your privacy. Cookies are separated by container, allowing you to use the web with multiple identities or accounts simultaneously.
-
-+ **Open a new container tab**:
-You can quickly open a new container tab by clicking on the container image or by right clicking the new tab.
-&lt;p align=&quot;center&quot;&gt;
-  &lt;img src=&quot;{{site.baseurl}}/assets/images/mlogs/mozilla/firefox-container-1.png&quot;&gt;
-&lt;/p&gt;
-
-+ **Edit containers**:
-You can edit your containers and can create your own containers easily.
-&lt;p align=&quot;center&quot;&gt;
-  &lt;img src=&quot;{{site.baseurl}}/assets/images/mlogs/mozilla/firefox-container-t.jpg&quot;&gt;
-&lt;/p&gt;
-
-+ **Look and Feel**:
-This is how the container tab look like when it is opened.
-&lt;p align=&quot;center&quot;&gt;
-  &lt;img src=&quot;{{site.baseurl}}/assets/images/mlogs/mozilla/firefox-container-3.png&quot;&gt;
-&lt;/p&gt;
-
-+ **Sync**:
-You can easily sync the containers across devices.
-&lt;p align=&quot;center&quot;&gt;
-  &lt;img src=&quot;{{site.baseurl}}/assets/images/mlogs/mozilla/firefox-container-sync.png&quot;&gt;
-&lt;/p&gt;
-
-You can download the [Firefox Container](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/) add-on.
-
-**Additional info**:
-The Firefox Multi-Account Containers extension lets you carve out a separate box for each of your online lives – no more opening a different browser just to check your work email!
-
-Under the hood, it separates website storage into tab-specific Containers. Cookies downloaded by one Container are not available to other Containers. With the Firefox Multi-Account Containers extension, you can...</content><author><name>puneeth</name></author><category term="firefox" /><category term="browser" /><category term="mozilla" /><category term="containers" /><summary type="html">Have you ever got annoyed while using multiple accounts like personal, school, work accounts in a single browser?</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/mlogs/mozilla/firefox-container-f.png" /><media:content medium="image" url="http://localhost:4000/assets/images/mlogs/mozilla/firefox-container-f.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Intorducing Mlogs</title><link href="http://localhost:4000/introducing-mlogs/" rel="alternate" type="text/html" title="Intorducing Mlogs" /><published>2020-04-30T00:00:00+05:30</published><updated>2020-04-30T00:00:00+05:30</updated><id>http://localhost:4000/introducing-mlogs</id><content type="html" xml:base="http://localhost:4000/introducing-mlogs/">#### Introducing Mlogs
-
-Mlogs are **mini-blogs** which have read time less than 5 minutes and these are completely mobile friendly.
-
-You can read these mlogs easily using instant view in [telegram](https://t.me/DevsKrate)
-
-### Mlog - **Mini Mobile** friendly **Blogs**
-
-#### Why Mlogs?
-
-![Why Mlogs]({{ site.baseurl}}/assets/images/mlogs/why-mlogs.png)
-
-Being a techster we want to explore more things related to tech and we feel very interesting to keep updated with updated news and applications.
-
-Rather than combining some set of topics in a single blog we want to split these topics into mlogs to keep you updated by spending minimal amount of time.
-
-#### Series of mlogs
-
-There will be different series of mlogs each series will talk about different topics.
-&gt; We will make sure that these mlog series will be as interesting as Netflix's web-series.
-
-Our first mlog series will help you to understand better tricks while working with Linux and Commands in it.
-
-Here is our first mlog - [Transferfiles between PC and mobile wirelessly by scanning QR code](https://DevsKrate.com/transfer-files-between-computer-and-mobile-wireless/)
-
-Trust me we are going to help you automate all your routine boring stuff you're doing out there all these days in linux.
-
-So what are you waiting for let's **heist** some knowledge from [DevsKrate](https://devskrate.com)
-
-##### Happy Quarantine 
-
-Please share your feedback on [twitter](https://twitter.com/devskrate), [Instagram](https://instagram.com/devskrate), or mail us at [support@devskrate.com](mailto:support@devskrate.com). Use [#DevsKrate](https://devskrate.com) on any social media platforms we will reach out to you.</content><author><name>satya</name></author><category term="blog" /><category term="mlog" /><category term="introduction" /><category term="series" /><summary type="html">Introducing Mlogs</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/mlogs/mlogs.png" /><media:content medium="image" url="http://localhost:4000/assets/images/mlogs/mlogs.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">MiUI 12 features</title><link href="http://localhost:4000/miui-12/" rel="alternate" type="text/html" title="MiUI 12 features" /><published>2020-04-30T00:00:00+05:30</published><updated>2020-04-30T00:00:00+05:30</updated><id>http://localhost:4000/miui-12</id><content type="html" xml:base="http://localhost:4000/miui-12/">###### Feature list:
+You can have video chats with up to 250 people in Microsoft Teams, and if your workplace or school has access to Office 365, you already have access to it. You can also check out a free version of Microsoft's communication tool.</content><author><name>nikhil</name></author><category term="meetings" /><category term="lockdown" /><category term="video calls" /><summary type="html">You can finally add your own background to Microsoft Teams video chats. Designed for business and education, Teams includes group chat, video calling and collaboration tools, and has seen a spike in usage since countries and states have started directing residents to stay and work from home when possible to help stop the spread of the coronavirus.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/microsoft/microsoft-teams.png" /><media:content medium="image" url="http://localhost:4000/assets/images/microsoft/microsoft-teams.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">MiUI 12 features</title><link href="http://localhost:4000/miui-12/" rel="alternate" type="text/html" title="MiUI 12 features" /><published>2020-04-30T00:00:00+05:30</published><updated>2020-04-30T00:00:00+05:30</updated><id>http://localhost:4000/miui-12</id><content type="html" xml:base="http://localhost:4000/miui-12/">###### Feature list:
 1. UI changes
 2. Wallpapers
 3. Dark mode 2.0
@@ -366,92 +225,7 @@ Whatsapp, Telegram, Linkedin and other major social platforms uses the opengraph
 
 [Linkedin](https://www.linkedin.com/post-inspector/inspect/)
 
-There is tool by google called [Structured Data Testing Tool](https://search.google.com/structured-data/testing-tool/), which is used to know what information is parsed.</content><author><name>puneeth</name></author><category term="web" /><category term="meta" /><category term="browser" /><category term="links" /><category term="url" /><summary type="html">Have you ever wondered that if you share a link in the whatsapp, telegram, and in social media platforms how you will get the description and image related to the website? and one more thing, do you know how search engines parse the data in your websites and show it in the search results according to it.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/meta-tags-preview.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/meta-tags-preview.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Configure your VS Code like a pro</title><link href="http://localhost:4000/configure-vscode-like-a-pro/" rel="alternate" type="text/html" title="Configure your VS Code like a pro" /><published>2020-04-25T00:00:00+05:30</published><updated>2020-04-25T00:00:00+05:30</updated><id>http://localhost:4000/configure-vscode-like-a-pro</id><content type="html" xml:base="http://localhost:4000/configure-vscode-like-a-pro/">Being core **Python** and **Java** developers we extensively use VS Code for our project development and use code formatting heavily to enable consistency of code while developing as a team and there are lot of useful extensions which will help you to ease your task and run things on your fingertips.  
-
-### Why Visual Studio Code 
-Visual Studio Code combines the simplicity of a source code editor with powerful developer tooling, like IntelliSense code completion and debugging.
-
-First and foremost, it is an editor that gets out of your way. The delightfully frictionless edit-build-debug cycle means less time fiddling with your environment, and more time executing on your ideas.
-
-Here are some Key Benefits of using VS Code - 
-* Available on Mac, Linux, and Ofcourse Windows.
-* Edit, Build, and Debug very easily.
-* Highly configurable - **Open-source project** 
-* VS Code also includes great tooling for web technologies such as NodeJS, JSX/React, HTML, CSS, SCSS, Less, and JSON.
-* Highly robust and Extensible.
-* High availability of industry and community-developed extensions.
-* Much loved dark theme
-
-##### Installing Visual Studio Code
-We can download updated version of VS Code from their website - [https://code.visualstudio.com/](https://code.visualstudio.com/)
-
-Download from here  - [https://code.visualstudio.com/download](https://code.visualstudio.com/download)
-
-#### Required Extensions for all developers
-**1. Python extension by Microsoft** - [download](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
-
-![Python editing]({{ site.baseurl}}/assets/images/vscode/python-editing.gif)
-- An extension with rich support for the Python language, including features such as linting, debugging, IntelliSense, code navigation, code formatting, refactoring, unit tests, snippets, and more!
-* I personally use **black** code-formatter. we can configure it in our workspace settings in **.vscode** file. This helps to maintain code and code-formatting consistent in development.
-    -    Troubleshoot the code formatting plugin in python [here](https://code.visualstudio.com/docs/python/editing)
-         
-**2. Java Extension by Mircosoft** - [download](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack)
-
-
-+ Java Extension Pack is a collection of popular extensions that can help write, test and debug Java applications in Visual Studio Code.
-
-**3. Markdown Renderer Extension** - [download](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced)
-
-![Markdown gif]({{ site.baseurl}}/assets/images/vscode/md-image.png)
-+ Markdown Preview Enhanced is an extension that provides you with many useful functionalities such as automatic scroll sync, math typesetting, mermaid, PlantUML, pandoc, PDF export, code chunk, presentation writer, etc.
-
-**4. Prettier Extension for JavaScript** - [download](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
-
-+ It enforces a consistent style by parsing your code and re-printing it with its own rules that take the maximum line length into account, wrapping code when necessary.
-    
-**5. ESLint** - [download](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
-
-+ This will be useful to check JavaScript and TypeScript errors 
-+ The extension uses the ESLint library installed in the opened workspace folder. If the folder doesn't provide one the extension looks for a global install version. If you haven't installed ESLint either locally or globally do so by running `npm install eslint` in the workspace folder for a local install or `npm install -g eslint` for a global install.
-
-**6. CSS Peek** - [download](https://marketplace.visualstudio.com/items?itemName=pranaygp.vscode-css-peek)
-
-![Markdown gif]({{ site.baseurl}}/assets/images/vscode/css.gif)
-+ CSS Peek is a great tool if you keep forgetting what was a CSS class was used for. However, that could also mean that your CSS class names are not meaningful, or you have written too much &quot;unmaintainable&quot; code. Still, this is sure going to be handy if you are viewing/rewriting someone else’s code. 
-
-**7. Debugger for Chrome** - [download](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome)
-
-![Markdown gif]({{ site.baseurl}}/assets/images/vscode/chrome.gif)
-+ Debugger for Chrome is a great tool if you use a debugger in VSC. It allows you to launch an instance of Chrome navigated to your app, or it can attach to a running instance of Chrome. Using the URL parameter, you tell VSC which URL to either open or launch in Chrome.
-
-**8. Gitlens** - [download](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
-
-+ GitLens supercharges the Git capabilities built into Visual Studio Code. It helps you to visualize code authorship at a glance via Git blame annotations and code lens, seamlessly navigate and explore Git repositories, gain valuable insights via powerful comparison commands, and so much more.
-
-**9. Git File History** - [download](https://marketplace.visualstudio.com/items?itemName=pomber.git-file-history)
-
-![Markdown gif]({{ site.baseurl}}/assets/images/vscode/git-file-history.gif)
-+ This helps to quickly browse the history (edits and commits done by you and others) in a cool and interesting visualization. 
-+ you can try this in browser also. you just need to do these three steps.
-    1. Go to a file in GitHub (or GitLab, or Bitbucket)
-    2. Replace github.com with github.githistory.xyz
-    3. There's no step three. you'll love this.
-
-**10. Docker Extension** - [download](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)
-
-![Markdown gif]({{ site.baseurl}}/assets/images/vscode/docker.png)
-+ The Docker extension makes it easier to build apps that leverage Docker containers. The extension helps scaffold needed files, build Docker images, debug your app inside a container, and an explorer that makes it easy to take actions on containers and images such as start, stop, inspect, remove, and more.
-
-**11. SQL Formatter** - [download](https://marketplace.visualstudio.com/items?itemName=bradymholt.pgformatter)
-
-+ This VS Code extension formats PostgreSQL SQL, using the Perl based [pgFormatter](https://github.com/darold/pgFormatter) tool. Supports keywords from SQL-92, SQL-99, SQL-2003, SQL-2008, SQL-2011 and PostgreSQL specifics keywords. Provides configuration to control formatting style.
-
-**12. Path Intellisense** - [downlaod](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
-
-+ Path Intellisense helps you include filenames or autocomplete them. This is a great tool if you want to type less for difficult filenames and make sure you always include the correct files.
-
-#### Not just this many more to come in future
-Please share your feedback on [twitter](https://twitter.com/devskrate), [Instagram](https://instagram.com/devskrate), or mail us at support@devskrate.com. Use [#DevsKrate](https://devskrate.com) on any social media platforms we will reach out to you.</content><author><name>satya</name></author><category term="developers" /><category term="microsoft" /><category term="vscode" /><category term="DevStuff" /><category term="configuring" /><category term="featured" /><summary type="html">Being core Python and Java developers we extensively use VS Code for our project development and use code formatting heavily to enable consistency of code while developing as a team and there are lot of useful extensions which will help you to ease your task and run things on your fingertips.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/vscode/vscode-home.png" /><media:content medium="image" url="http://localhost:4000/assets/images/vscode/vscode-home.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Ubuntu 20.04 booting problems.</title><link href="http://localhost:4000/ubuntu20-booting-problems/" rel="alternate" type="text/html" title="Ubuntu 20.04 booting problems." /><published>2020-04-25T00:00:00+05:30</published><updated>2020-04-25T00:00:00+05:30</updated><id>http://localhost:4000/ubuntu20-booting-problems</id><content type="html" xml:base="http://localhost:4000/ubuntu20-booting-problems/">Ubuntu 20.04 LTS has been released recently, after upgrading to it from ubuntu 18, 19, many had may faced booting problems(especially in DualBoot's).
+There is tool by google called [Structured Data Testing Tool](https://search.google.com/structured-data/testing-tool/), which is used to know what information is parsed.</content><author><name>puneeth</name></author><category term="web" /><category term="meta" /><category term="browser" /><category term="links" /><category term="url" /><summary type="html">Have you ever wondered that if you share a link in the whatsapp, telegram, and in social media platforms how you will get the description and image related to the website? and one more thing, do you know how search engines parse the data in your websites and show it in the search results according to it.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/meta-tags-preview.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/meta-tags-preview.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Ubuntu 20.04 booting problems.</title><link href="http://localhost:4000/ubuntu20-booting-problems/" rel="alternate" type="text/html" title="Ubuntu 20.04 booting problems." /><published>2020-04-25T00:00:00+05:30</published><updated>2020-04-25T00:00:00+05:30</updated><id>http://localhost:4000/ubuntu20-booting-problems</id><content type="html" xml:base="http://localhost:4000/ubuntu20-booting-problems/">Ubuntu 20.04 LTS has been released recently, after upgrading to it from ubuntu 18, 19, many had may faced booting problems(especially in DualBoot's).
 Booting problems like bootloop(Restarting when ubuntu is selected) or blank screen after selecting ubuntu in the grub.
 
 With My experience, I am giving here few fixes you may try.
@@ -497,4 +271,159 @@ but the release dates likely going to be different for each model due to the pro
 
 iPhone SE 2020 has sold more models than Apple expected and there were strong rumors
 regarding a plus model of the iPhone SE and was confirmed by the evidences found in the IOS 14 code
-however Kuo's note says that the iPhone SE Plus is likely to be delayed until Q2 2021.</content><author><name>mohit</name></author><category term="apple" /><category term="iphone" /><summary type="html">Analyst Ming-Chi Kuo, In his new investor note, has outlined some information regarding the possible delay of the iPhone 12’s production as well as the possible postponement of its much-rumored iPhone SE plus due to the Coronavirus pandemic. iPhone 12 production: In Kuo’s note, He said that due to the pandemic caused by COVID-19, The Cupertino giant(Apple) had to do a lot of changes in its production, which lead to a one-month delay in engineering verification testing for the new iPhone 12 models. The iPhone 12 lineup is expected to include four new models, and According to the analyst the lower end models sized 6.1- inch and 5.4-inch iPhone will enter into the mass production in September and the 6.7 inch which is expected to come with 5G support will enter not enter the production until October. According to Kuo,this is because the 6.7-inch model has the most complicated design. The above could mean that Apple will announce all the four iPhone models at once but the release dates likely going to be different for each model due to the production delays. iPhone SE Plus Delayed: iPhone SE 2020 has sold more models than Apple expected and there were strong rumors regarding a plus model of the iPhone SE and was confirmed by the evidences found in the IOS 14 code however Kuo’s note says that the iPhone SE Plus is likely to be delayed until Q2 2021.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/apple/iphone-12-renders.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/apple/iphone-12-renders.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+however Kuo's note says that the iPhone SE Plus is likely to be delayed until Q2 2021.</content><author><name>mohit</name></author><category term="apple" /><category term="iphone" /><summary type="html">Analyst Ming-Chi Kuo, In his new investor note, has outlined some information regarding the possible delay of the iPhone 12’s production as well as the possible postponement of its much-rumored iPhone SE plus due to the Coronavirus pandemic. iPhone 12 production: In Kuo’s note, He said that due to the pandemic caused by COVID-19, The Cupertino giant(Apple) had to do a lot of changes in its production, which lead to a one-month delay in engineering verification testing for the new iPhone 12 models. The iPhone 12 lineup is expected to include four new models, and According to the analyst the lower end models sized 6.1- inch and 5.4-inch iPhone will enter into the mass production in September and the 6.7 inch which is expected to come with 5G support will enter not enter the production until October. According to Kuo,this is because the 6.7-inch model has the most complicated design. The above could mean that Apple will announce all the four iPhone models at once but the release dates likely going to be different for each model due to the production delays. iPhone SE Plus Delayed: iPhone SE 2020 has sold more models than Apple expected and there were strong rumors regarding a plus model of the iPhone SE and was confirmed by the evidences found in the IOS 14 code however Kuo’s note says that the iPhone SE Plus is likely to be delayed until Q2 2021.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/apple/iphone-12-renders.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/apple/iphone-12-renders.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Motorolo launches its new edge series in states:</title><link href="http://localhost:4000/moto-edge-series/" rel="alternate" type="text/html" title="Motorolo launches its new edge series in states:" /><published>2020-04-23T00:00:00+05:30</published><updated>2020-04-23T00:00:00+05:30</updated><id>http://localhost:4000/moto-edge-series</id><content type="html" xml:base="http://localhost:4000/moto-edge-series/">Moto after 4 years has come back to making flagship phones with its new edge series, 
+It launched two phones namely Moto Edge and Moto Edge Plus. Let's see what Motorola has to offer 
+in this article.
+
+# Moto Edge Plus:
+The standout feature of this phone has to be its design, It's 
+an all-glass display with metal frame holding them together, The 
+edges wrap around the edges with a punch hole at the top and in 
+one word it looks gorgeous with two color variants to offer namely midnight 
+megneta and solar black. Before 
+taking a deep dive lets see the specs.
+
+Processor:	Qualcomm Snapdragon 865
+Rear Camera	Triple Cameras 108MP(with OIS) + 16MP(Ultra Wide + Macro) + 8MP(3x Zoom with OIS)
+front Camera	25MP
+Display	        6.7 inches 90HZ AMOLED(Aspect ratio: 21:9) FHD
+5G support	both mm and sub-6 band.
+Battery	        5000mAH(18W)
+Fingerprint	In-Display Fingerprint Sensor(Optical)
+Water Resistant	Water Resistant(IP 68)
+Charging	Type-C cable + Wireless Charging(Upto 15W) + 5W(Reverse Wireless Charging)
+RAM/ROM         12GB/128or256GB
+
+# Display and battery:  
+The display is a 6.7 inch AMOLED display with an aspect ratio of 21:9 and the phone comes with a 90HZ refresh rate but the resolution is only FHD(1080p), which is a bummer at this price point but it helps increase the battery efficiency and in 
+this phone moto has provided a huge 5000mAh battery and moto claims it can last till 2 days.
+
+# Camera:
+This phone comes with a total of four cameras three at the back and one inside the punch hole. The primary sensor is a 108MP 
+Samsung sensor which we saw in the galaxy s20 ultra, This camera by default shoots at 27MP and it has OIS built-in for stable video.The 
+second sensory is an 8MP three times zoom sensor and this also has OIS for better video as well as zoom. The third is a 16MP Ultra wide sensor to capture ultra-wide shots.The selfie camera is a 25MP shooter. This phone has all the hardware required for a good camera it ultimately comes down to
+camera software.
+
+# Software and Hardware:
+Talking about software, It comes with an almost stock-like experience with a few added features based on android 10, and moto is calling it &quot;My UX&quot;.In days where flagship smartphones are removing the headphone jack moto has it in this phone which is a great thing.
+The hardware also is top end with snapdragon 865, It also supports fast charging, wireless charging, reverse wireless charging 
+and all other high-end features to compete against the top of galaxies and iPhones.
+
+# Pricing:
+This phone is priced at 999.99 dollars which converts to around 75k price, which is very expensive considering what this phone has to offer.
+If moto really wants to bring this phone to India it has to reduce the price to somewhere around 55k. 
+
+# Moto Edge:
+Edge is very similar to Edge plus with very few changes. The main shooter is 64MP instead of 108MP, the battery capacity is 4500mAH instead of 5000mAH, It 
+only offers 4GB/6GB of RAM and it does not support any kind of wireless and reverse wireless charging on it but the key 
+difference is that it comes with snapdragon 765 5G on board.This phone is priced at 699 EURO, which is 58,000 rupees. I think this phone is fairly overpriced and at this price we can get several other options
+from vendors like one plus, Xiaomi, etc, which can offer us a flagship experience.    
+
+Both these phones are expected to launch in India after the pandemic has ended,what do you think about these phones</content><author><name>mohit</name></author><category term="moto" /><category term="flagship" /><summary type="html">Moto after 4 years has come back to making flagship phones with its new edge series, It launched two phones namely Moto Edge and Moto Edge Plus. Let’s see what Motorola has to offer in this article.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/android/motorola-edge.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/android/motorola-edge.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Apple iPhone SE 2020 is ready!</title><link href="http://localhost:4000/apple-iphone-se/" rel="alternate" type="text/html" title="Apple iPhone SE 2020 is ready!" /><published>2020-04-15T00:00:00+05:30</published><updated>2020-04-15T00:00:00+05:30</updated><id>http://localhost:4000/apple-iphone-se</id><content type="html" xml:base="http://localhost:4000/apple-iphone-se/">## Hey Folks! ##
+All the wait is over. Finally,the Apple iPhone SE 2020 is ready for competition.  
+The most awaited iPhone SE has been scilently released by Apple into it's &lt;a href=&quot;https://www.apple.com/&quot; target=&quot;_blank&quot;&gt;website&lt;/a&gt;.
+
+&lt;img src=&quot;{{ site.baseurl }}/assets/images/apple/se-size-img.png&quot; alt=&quot;iPhone SE 2020&quot; title=&quot;iPhone SE 2020&quot; /&gt;
+
+## Tech Specs:
+**Colors:** Available in three Colors. **Black, White, Product RED**  
+**Capacity: 64GB, 128GB, 256GB**  
+**Size and Weight:**  
+Height: 5.45 inches (138.4 mm)  
+Width : 2.65 inches (67.3 mm)  
+Depth : 0.29 inch (7.3 mm)  
+Weight: 5.22 ounces (148 grams)  
+
+&lt;img src=&quot;{{ site.baseurl }}/assets/images/apple/se-size-weight.jpg&quot; alt=&quot;iPhone SE Size&quot; title=&quot;iPhone SE 2020 Size&quot; /&gt;
+
+**Display: 4.7&quot;**  
+&lt;img src=&quot;{{ site.baseurl }}/assets/images/apple/se-display.jpg&quot; alt=&quot;iPhone SE Display&quot; title=&quot;iPhone SE 2020 Display&quot; /&gt;
+
+&lt;pre&gt;&lt;b&gt;    Retina HD display
+    4.7-inch (diagonal) widescreen LCD Multi‑Touch display with IPS technology
+    1334-by-750-pixel resolution at 326 ppi
+    1400:1 contrast ratio (typical)
+    True Tone display
+    Wide color display (P3)
+    Haptic Touch
+    625 nits max brightness (typical)
+    Fingerprint-resistant oleophobic coating
+    Display Zoom
+    Reachability&lt;/b&gt;&lt;/pre&gt;
+
+**Chip: A13 Bionic chip (Third‑generation Neural Engine)**   
+
+**Splash, Water, and Dust Resistant: Rated IP67 (maximum depth of 1 meter up to 30 minutes) under IEC standard 60529**  
+
+&lt;img src=&quot;{{ site.baseurl }}/assets/images/apple/se-camera.jpg&quot; title=&quot;iPhone SE 2020 Camera Specs&quot; /&gt;
+
+&lt;img src=&quot;{{ site.baseurl }}/assets/images/apple/se-video.jpg&quot; title=&quot;iPhone SE 2020 Video Specs&quot; /&gt;
+
+&lt;img src=&quot;{{ site.baseurl }}/assets/images/apple/se-frntcamera.jpg&quot; title=&quot;iPhone SE 2020 Front Camera Specs&quot; /&gt;
+
+&lt;img src=&quot;{{ site.baseurl }}/assets/images/apple/se-addl.jpg&quot; alt=&quot;&quot; /&gt;
+
+**Pricing Details:** Starts from $399(approx. ₹30549) to $549(approx. ₹42034)
+
+There is no any fixed date of launch in India due to the COVID-19 Lockdown, but will be launched very soon.
+
+For more details check the &lt;a href=&quot;https://www.apple.com/iphone-se/specs/&quot; target=&quot;_blank&quot;&gt;Product Page&lt;/a&gt;
+
+**Conclusion**: This new iphone is basically the internals of iphone 11 in an iPhone 8 body. This is the one of the cheapest way to enter into the iOS eco-system. This is best suited as a second phone or a testing device for developing iOS apps.</content><author><name>nikhil</name></author><category term="iPhone" /><category term="SE" /><category term="Apple" /><summary type="html">Hey Folks! All the wait is over. Finally,the Apple iPhone SE 2020 is ready for competition. The most awaited iPhone SE has been scilently released by Apple into it’s website. Tech Specs: Colors: Available in three Colors. Black, White, Product RED Capacity: 64GB, 128GB, 256GB Size and Weight: Height: 5.45 inches (138.4 mm) Width : 2.65 inches (67.3 mm) Depth : 0.29 inch (7.3 mm) Weight: 5.22 ounces (148 grams) Display: 4.7” Retina HD display 4.7-inch (diagonal) widescreen LCD Multi‑Touch display with IPS technology 1334-by-750-pixel resolution at 326 ppi 1400:1 contrast ratio (typical) True Tone display Wide color display (P3) Haptic Touch 625 nits max brightness (typical) Fingerprint-resistant oleophobic coating Display Zoom Reachability Chip: A13 Bionic chip (Third‑generation Neural Engine) Splash, Water, and Dust Resistant: Rated IP67 (maximum depth of 1 meter up to 30 minutes) under IEC standard 60529 Pricing Details: Starts from $399(approx. ₹30549) to $549(approx. ₹42034) There is no any fixed date of launch in India due to the COVID-19 Lockdown, but will be launched very soon. For more details check the Product Page Conclusion: This new iphone is basically the internals of iphone 11 in an iPhone 8 body. This is the one of the cheapest way to enter into the iOS eco-system. This is best suited as a second phone or a testing device for developing iOS apps.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/apple/se-ftre.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/apple/se-ftre.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">One Plus 8 pro - The Real Flagship</title><link href="http://localhost:4000/one-plus-8-pro-spec/" rel="alternate" type="text/html" title="One Plus 8 pro - The Real Flagship" /><published>2020-04-15T00:00:00+05:30</published><updated>2020-04-15T00:00:00+05:30</updated><id>http://localhost:4000/one-plus-8-pro-spec</id><content type="html" xml:base="http://localhost:4000/one-plus-8-pro-spec/">It has been 6 years since one plus has been making smartphones until last year the company has produced a lot of flagship killer but the company from the past year has changed its strategy to produce a true flagship with its one plus 7 pro and 7t pro they were good but lacked the bells and whistles that a true flagship from samsung and apple had. With this phone one plus is trying 
+to tick all the boxes of a flagship. Did it succeed, let's see in the article below.
+
+**Before taking a deep dive into the phones, let's see what specs this phone has to offer:**
+
+{:class=&quot;table table-bordered dark&quot;}
+|Name            | Specifications                                                            |
+| -----------    | ------------------------------------------------------------------------  |
+|Processor       | Qualcomm Snapdragon 865                                                   |
+|Rear Camera     | Quad Cameras 48MP(f/178) + 48MP(Ultra Wide) + 8MP(3x Zoom) + 5MP(Color Sensor)  |
+|front Camera    | 16MP                                                                      |
+|Display         | 6.78 inches 120HZ AMOLED(Aspect ratio:19.8:9)                             |
+|Connectivity    | 5G, WIFI 6 Support                                                         |
+|Battery         | 4510mAH(30T warp charging)                                                |
+|Fingerprint     | In-Display Fingerprint Sensor(Optical)                                    |
+|Water Resistant | Water Resistant(IP 68)                                                    |
+|Charging        | Type-C cable + Wireless Charging(Upto 30W) + 3W(Reverse Wireless Charging)|
+
+If you have carefully observed the specs, this phone includes an IP Rating as well as wireless charging.
+This shows that one plus is not trying to cut corners against the best of samsung and apple but instead giving it all to take them head on.
+
+* The phone pricing in India is not out yet but if we consider the US pricing which is 899$ 
+converting it into INR we can estimate the price to be at around 68k with this price it 
+still manages to undercut the iphone 11 and galaxy s20.
+
+* Talking about the design, it has a single punch hole curved display similar to galaxy s10.
+* The highlight of this phone has to be its **120Hz AMOLED** display which DisplayMate rated as an A+ display.(For people who are unaware of DisplayMate its like DXO Mark for Displays).
+
+![2020 oneplus 8 ]({{ site.baseurl}}/assets/images/oneplus/oneplus8-pro-front.jpg)
+
+* Coming to the camera its a quad camera setup and on paper can take on the other flagships nicely.
+* The Build quality with its glass body attached together by a metal has always been good but this time it also added dust and water resistance which is rated as IP 68(fit enough to withstand dust, dirt and sand and are resistant to submersion up to a maximum depth of 1.5m underwater for up to thirty minutes).
+
+![2020 oneplus 8 ]({{ site.baseurl}}/assets/images/oneplus/oneplus8-pro-f-b.jpg)
+
+* Taking about battery life, this phone comes with a 4510mAH capacity which is fairly good enough.
+
+The performance is also great coming with snapdragon 865 processor.
+This phone also supports 5G and WIFI 6 making it a future proof phone. The software thats the oxygen OS gives the cleanest andriod experience.
+
+**Conclusion**: One Plus ended up making a really appealing flagship smartphone undercutting the likes samsung and apple by a good margin and offering way more specifications at this price point.</content><author><name>mohit</name></author><category term="oneplus" /><category term="android" /><category term="google" /><summary type="html">It has been 6 years since one plus has been making smartphones until last year the company has produced a lot of flagship killer but the company from the past year has changed its strategy to produce a true flagship with its one plus 7 pro and 7t pro they were good but lacked the bells and whistles that a true flagship from samsung and apple had. With this phone one plus is trying to tick all the boxes of a flagship. Did it succeed, let’s see in the article below.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/oneplus/oneplus8-pro-display.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/oneplus/oneplus8-pro-display.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">One Plus 8 - Flagship Killer or Wallet Killer</title><link href="http://localhost:4000/one-plus-8-spec/" rel="alternate" type="text/html" title="One Plus 8 - Flagship Killer or Wallet Killer" /><published>2020-04-15T00:00:00+05:30</published><updated>2020-04-15T00:00:00+05:30</updated><id>http://localhost:4000/one-plus-8-spec</id><content type="html" xml:base="http://localhost:4000/one-plus-8-spec/">One Plus is now 6 years in smartphone making.Its strategy was always to launch a phone that brought with it a flagship experience but not so expensive as a flagship but as years passed by its pricing 
+kept on increasing from generation to generation. So, is this new One plus 8 a &quot;flagship killer or a wallet killer&quot;, lets find out in this article.
+
++ Lets talk specs for a while, it's powered by the top of the line Qualcomm's Snapdragon 865 processor, which comes with a 6.55 inches AMOLED with a 90HZ refresh rate, which DisplayMate rated as an A+ display.(For people who are unaware of display mate its like DXO Mark for Displays).
++ Coming to the camera its a triple camera setup the main sensory and the wide angle are the same found on the one plus 7t which are 48MP and 16MP respectively and the third sensor is replaced by a macro lens to capture closeup shots. The selfie shooter is a 16MP sensor which is the same one found on the one plus 7t. The battery capacity is 4300 mAh.
+
+![2020 oneplus 8 ]({{ site.baseurl}}/assets/images/oneplus/oneplus8-f-b.jpg)
+
+- The phones pricing in India at this point of time is unknown but if we consider the price of 
+this phone in US,We can expect a price at about 53,000 Rupees which is almost 13,000 price increase from the one plus 7t which was 37,999 rupees at launch.
+
+- The 13k price increase brings a new design change to the front which is punch hole display with curved edges(similar to the one found in the galaxy s10). The same old 90hZ display which is much brighter for better outdoor use.
+
+The phones also comes with a slightly improved stereo speakers setup with dolby atmos support.The standout feature of this phone has to be the support for 5G and wifi 6.
+
+
+
+**Conclusion:** I think that one plus, for this time has ended up making a wallet killer. If what you really want 5G we have much cheaper options from namely the realme X50 and if you want the smooth experience of oxygen OS. The older one plus phones namely the 7t can give you the same experience for much lesser price. One plus 8 is meant for people whose first priority is design, oxygen OS and 5G in a single package.</content><author><name>mohit</name></author><category term="oneplus" /><category term="android" /><category term="google" /><summary type="html">One Plus is now 6 years in smartphone making.Its strategy was always to launch a phone that brought with it a flagship experience but not so expensive as a flagship but as years passed by its pricing kept on increasing from generation to generation. So, is this new One plus 8 a “flagship killer or a wallet killer”, lets find out in this article.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/oneplus/oneplus8-display.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/oneplus/oneplus8-display.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>

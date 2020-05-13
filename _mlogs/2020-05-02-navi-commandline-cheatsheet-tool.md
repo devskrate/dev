@@ -2,7 +2,7 @@
 layout: post
 title:  Navi - An interactive commandline cheatsheet tool
 author: satya
-categories: [ Linux, mlog, commandline ]
+categories: [ Linux, mlogs, commandline ]
 image: assets/images/mlogs/navi/navi.png
 tags: [dev-linux, mlogs, navi, linux]
 ---

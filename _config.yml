@@ -56,9 +56,9 @@ authors:
     output: true
 
 collections:
-  dev:
+  mlogs:
       output: true
-      permalink: mlogs/dev/:title
+      permalink: /mlogs/:title
 
 # Defaults
 defaults:
@@ -67,6 +67,11 @@ defaults:
   - scope:
       path: "/_posts"
       type: "posts"
+    values:
+      layout: post
+  - scope:
+      path: "/_mlogs"
+      type: "mlogs"
     values:
       layout: post
 
