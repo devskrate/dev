@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Alternatives of Google play store"
+title:  "Deno 1.0"
 author: Akash Rao Mallareddy
 categories: [ web framework ]
 image: assets/images/deno.png
