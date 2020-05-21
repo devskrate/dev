@@ -14,7 +14,7 @@ Deno is the creation of Ryan Dahl, which is a new JavaScript runtime for the bac
 
 #### Why should we use this?   
 
-There are some exciting new features in Deno. They are:
+Generally we may get a doubt, why should I use it, here are some of it's features. They are:
 
 ##### 1. Security is integrated
 
@@ -46,27 +46,27 @@ The default configuration of Deno is to use strict mode, so any ill-advised codi
 Deno ships as a single executable with no dependencies. You can install it using the installers below: 
 
 ##### Using Shell (macOS, Linux):
-```
+```sh
 $ curl -fsSL https://deno.land/x/install/install.sh | sh
 ```
 ##### Using PowerShell (Windows):
-```
+```sh
 $ iwr https://deno.land/x/install/install.ps1 -useb | iex
 ```
 ##### Using Cargo (Windows, macOS, Linux):
-```
+```sh
 $ cargo install deno
 ```
 ##### Using Homebrew (macOS):
-```
+```sh
 $ brew install deno
 ```
 ##### Using Chocolatey (Windows):
-```
+```sh
 $ choco install deno
 ```
 ##### Using Scoop (Windows):
-```
+```sh
 $ scoop install deno
 ```
 
