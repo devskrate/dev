@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  "Deno 1.0"
-author: Contributor
-categories: [ web framework ]
-image: assets/images/deno.png
-tags: [deno, node.js alternative]
+author: contributor
+categories: [ developerstuff, code]
+image: assets/images/mlogs/js/Deno.js.png
+tags: [js, javascript, alternatives]
 ---
 
 #### A Brief Introduction To Deno 1.0
@@ -74,3 +74,8 @@ $ scoop install deno
 #### Where to learn Deno?
 
 https://www.freecodecamp.org/news/the-deno-handbook/
+
+#### About author:
+Akash rao Mallareddy
+`Web Developer, StartUp Enthusiastic, Leader`
+[Linkedin](https://www.linkedin.com/in/akash-rao-mallareddy-055520168/), [Github](https://github.com/Akashmallareddy)
