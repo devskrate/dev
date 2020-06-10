@@ -69,11 +69,7 @@ defaults:
       type: "posts"
     values:
       layout: post
-  - scope:
-      path: "/_mlogs"
-      type: "mlogs"
-    values:
-      layout: post
+
 
       
   # all pages
