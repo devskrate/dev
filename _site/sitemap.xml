@@ -189,9 +189,6 @@
 <loc>http://localhost:4000/categories/microsoft</loc>
 </url>
 <url>
-<loc>http://localhost:4000/mlogs</loc>
-</url>
-<url>
 <loc>http://localhost:4000/categories/os</loc>
 </url>
 <url>
@@ -208,6 +205,9 @@
 </url>
 <url>
 <loc>http://localhost:4000/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/mlogs</loc>
 </url>
 <url>
 <loc>http://localhost:4000/privacy-policy.html</loc>
