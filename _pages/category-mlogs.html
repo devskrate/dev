@@ -1,5 +1,5 @@
 ---
-title: "windows"
+title: "Mlogs"
 layout: default
 permalink: "/mlogs"
 ---
@@ -7,9 +7,10 @@ permalink: "/mlogs"
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
-        <h1 class="font-weight-bold title h6 mb-4">Mlogs</h1>        
-        {% for post in site.mlogs %}
-            {% include main-loop-card.html %}
+        <h1 class="font-weight-bold title h6 mb-4">Mlogs</h1>
+        {% assign sort_mlogs = (site.mlogs | sort: 'date') | reverse %}        
+        {% for post in sort_mlogs %}
+            {% include mlogs-loop-card.html %}
             {% endfor %}
         </div>
         
