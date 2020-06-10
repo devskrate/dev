@@ -1,4 +1,75 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-06-10T22:43:53+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">DevsKrate</title><subtitle>Here at DevsKrate we inspire and endeavor to share everything about technology like Softwares, Coding, etc., and provide our best about HOW TO tutorials and BEST OF every category in accordance to our knowledge.</subtitle><entry><title type="html">Here’s how to customize your Microsoft Teams Background</title><link href="http://localhost:4000/customize-microsoft-teams-background/" rel="alternate" type="text/html" title="Here's how to customize your Microsoft Teams Background" /><published>2020-05-06T00:00:00+05:30</published><updated>2020-05-06T00:00:00+05:30</updated><id>http://localhost:4000/customize-microsoft-teams-background</id><content type="html" xml:base="http://localhost:4000/customize-microsoft-teams-background/">You can finally add your own background to Microsoft Teams video chats. Designed for business and education, Teams includes group chat, video calling and collaboration tools, and has seen a spike in usage since countries and states have started directing residents to stay and work from home when possible to help stop the spread of the coronavirus.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-06-10T22:44:33+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">DevsKrate</title><subtitle>Here at DevsKrate we inspire and endeavor to share everything about technology like Softwares, Coding, etc., and provide our best about HOW TO tutorials and BEST OF every category in accordance to our knowledge.</subtitle><entry><title type="html">Deno 1.0</title><link href="http://localhost:4000/deno-unboxing/" rel="alternate" type="text/html" title="Deno 1.0" /><published>2020-05-20T00:00:00+05:30</published><updated>2020-05-20T00:00:00+05:30</updated><id>http://localhost:4000/deno-unboxing</id><content type="html" xml:base="http://localhost:4000/deno-unboxing/">#### A Brief Introduction To Deno 1.0
+
+Deno is the creation of Ryan Dahl, which is a new JavaScript runtime for the backend, but instead of being written in C++, it’s written in Rust, based on the Tokio platform (which provides the asynchronous runtime needed by JavaScript), running on Google’s V8 engine. It is also a new runtime for executing JavaScript and TypeScript outside of the web browser. 
+
+
+#### Why should we use this?   
+
+Generally we may get a doubt, why should I use it, here are some of it's features. They are:
+
+##### 1. Security is integrated
+
+Node.js allows you to access read and write into the filesystem, access environment variables, make outgoing requests, etc. As well as it also opens up a security risk if you are not careful when writing code.
+
+So instead, Deno uses command-line arguments to enable or disable access to different security features. So if you need your script to be able to access the /etc folder, you can do:
+ 
+```sh
+deno --allow-read=/etc myscript.ts
+```
+It will allow your code to read from the folder, anything else and you’ll get a security exception. This is similar to how other platforms handle security. 
+
+##### 2. Complete standard library
+
+Deno claims to have a complete standard library allowing developers to use official tools to perform basic tasks and only requiring the use of external libraries for complex tasks and it comes with the tools to add color to terminal text, generate UUIDs, work with external data structures,  and for writing WebSockets.
+
+##### 3. Integrated Typescript
+
+In Deno, by default the integration into JavaScript is done internally, so no need for external tooling. By default Deno takes care of a lot, you can overwrite the configuration by using your own tsconfig.json file:
+
+```sh
+deno run -c tsconfig.json [your-script.ts]
+```
+The default configuration of Deno is to use strict mode, so any ill-advised coding practice will be alerted immediately.
+
+
+#### Deno Installation
+
+Deno ships as a single executable with no dependencies. You can install it using the installers below: 
+
+##### Using Shell (macOS, Linux):
+```sh
+$ curl -fsSL https://deno.land/x/install/install.sh | sh
+```
+##### Using PowerShell (Windows):
+```sh
+$ iwr https://deno.land/x/install/install.ps1 -useb | iex
+```
+##### Using Cargo (Windows, macOS, Linux):
+```sh
+$ cargo install deno
+```
+##### Using Homebrew (macOS):
+```sh
+$ brew install deno
+```
+##### Using Chocolatey (Windows):
+```sh
+$ choco install deno
+```
+##### Using Scoop (Windows):
+```sh
+$ scoop install deno
+```
+
+
+#### Where to learn Deno?
+
+https://www.freecodecamp.org/news/the-deno-handbook/
+
+#### About author:
+Akash rao Mallareddy
+`Web Developer, StartUp Enthusiastic, Leader`
+[Linkedin](https://www.linkedin.com/in/akash-rao-mallareddy-055520168/), [Github](https://github.com/Akashmallareddy)</content><author><name>contributor</name></author><category term="js" /><category term="javascript" /><category term="alternatives" /><summary type="html">A Brief Introduction To Deno 1.0 Deno is the creation of Ryan Dahl, which is a new JavaScript runtime for the backend, but instead of being written in C++, it’s written in Rust, based on the Tokio platform (which provides the asynchronous runtime needed by JavaScript), running on Google’s V8 engine. It is also a new runtime for executing JavaScript and TypeScript outside of the web browser. Why should we use this? Generally we may get a doubt, why should I use it, here are some of it’s features. They are: 1. Security is integrated Node.js allows you to access read and write into the filesystem, access environment variables, make outgoing requests, etc. As well as it also opens up a security risk if you are not careful when writing code. So instead, Deno uses command-line arguments to enable or disable access to different security features. So if you need your script to be able to access the /etc folder, you can do: deno --allow-read=/etc myscript.ts It will allow your code to read from the folder, anything else and you’ll get a security exception. This is similar to how other platforms handle security. 2. Complete standard library Deno claims to have a complete standard library allowing developers to use official tools to perform basic tasks and only requiring the use of external libraries for complex tasks and it comes with the tools to add color to terminal text, generate UUIDs, work with external data structures, and for writing WebSockets. 3. Integrated Typescript In Deno, by default the integration into JavaScript is done internally, so no need for external tooling. By default Deno takes care of a lot, you can overwrite the configuration by using your own tsconfig.json file: deno run -c tsconfig.json [your-script.ts] The default configuration of Deno is to use strict mode, so any ill-advised coding practice will be alerted immediately. Deno Installation Deno ships as a single executable with no dependencies. You can install it using the installers below: Using Shell (macOS, Linux): $ curl -fsSL https://deno.land/x/install/install.sh | sh Using PowerShell (Windows): $ iwr https://deno.land/x/install/install.ps1 -useb | iex Using Cargo (Windows, macOS, Linux): $ cargo install deno Using Homebrew (macOS): $ brew install deno Using Chocolatey (Windows): $ choco install deno Using Scoop (Windows): $ scoop install deno Where to learn Deno? https://www.freecodecamp.org/news/the-deno-handbook/ About author: Akash rao Mallareddy Web Developer, StartUp Enthusiastic, Leader Linkedin, Github</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/mlogs/js/Deno.js.png" /><media:content medium="image" url="http://localhost:4000/assets/images/mlogs/js/Deno.js.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Here’s how to customize your Microsoft Teams Background</title><link href="http://localhost:4000/customize-microsoft-teams-background/" rel="alternate" type="text/html" title="Here's how to customize your Microsoft Teams Background" /><published>2020-05-06T00:00:00+05:30</published><updated>2020-05-06T00:00:00+05:30</updated><id>http://localhost:4000/customize-microsoft-teams-background</id><content type="html" xml:base="http://localhost:4000/customize-microsoft-teams-background/">You can finally add your own background to Microsoft Teams video chats. Designed for business and education, Teams includes group chat, video calling and collaboration tools, and has seen a spike in usage since countries and states have started directing residents to stay and work from home when possible to help stop the spread of the coronavirus.
 
 With the update to Microsoft's collaboration tool, you can now pick a custom image as your video chat background. The Zoom video chat service also lets you pick your own custom background images for calls. But with recent concerns about Zoom security, some users are starting to look to other services such as Teams for their chats.
 
@@ -409,21 +480,4 @@ still manages to undercut the iphone 11 and galaxy s20.
 The performance is also great coming with snapdragon 865 processor.
 This phone also supports 5G and WIFI 6 making it a future proof phone. The software thats the oxygen OS gives the cleanest andriod experience.
 
-**Conclusion**: One Plus ended up making a really appealing flagship smartphone undercutting the likes samsung and apple by a good margin and offering way more specifications at this price point.</content><author><name>mohit</name></author><category term="oneplus" /><category term="android" /><category term="google" /><summary type="html">It has been 6 years since one plus has been making smartphones until last year the company has produced a lot of flagship killer but the company from the past year has changed its strategy to produce a true flagship with its one plus 7 pro and 7t pro they were good but lacked the bells and whistles that a true flagship from samsung and apple had. With this phone one plus is trying to tick all the boxes of a flagship. Did it succeed, let’s see in the article below.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/oneplus/oneplus8-pro-display.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/oneplus/oneplus8-pro-display.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">One Plus 8 - Flagship Killer or Wallet Killer</title><link href="http://localhost:4000/one-plus-8-spec/" rel="alternate" type="text/html" title="One Plus 8 - Flagship Killer or Wallet Killer" /><published>2020-04-15T00:00:00+05:30</published><updated>2020-04-15T00:00:00+05:30</updated><id>http://localhost:4000/one-plus-8-spec</id><content type="html" xml:base="http://localhost:4000/one-plus-8-spec/">One Plus is now 6 years in smartphone making.Its strategy was always to launch a phone that brought with it a flagship experience but not so expensive as a flagship but as years passed by its pricing 
-kept on increasing from generation to generation. So, is this new One plus 8 a &quot;flagship killer or a wallet killer&quot;, lets find out in this article.
-
-+ Lets talk specs for a while, it's powered by the top of the line Qualcomm's Snapdragon 865 processor, which comes with a 6.55 inches AMOLED with a 90HZ refresh rate, which DisplayMate rated as an A+ display.(For people who are unaware of display mate its like DXO Mark for Displays).
-+ Coming to the camera its a triple camera setup the main sensory and the wide angle are the same found on the one plus 7t which are 48MP and 16MP respectively and the third sensor is replaced by a macro lens to capture closeup shots. The selfie shooter is a 16MP sensor which is the same one found on the one plus 7t. The battery capacity is 4300 mAh.
-
-![2020 oneplus 8 ]({{ site.baseurl}}/assets/images/oneplus/oneplus8-f-b.jpg)
-
-- The phones pricing in India at this point of time is unknown but if we consider the price of 
-this phone in US,We can expect a price at about 53,000 Rupees which is almost 13,000 price increase from the one plus 7t which was 37,999 rupees at launch.
-
-- The 13k price increase brings a new design change to the front which is punch hole display with curved edges(similar to the one found in the galaxy s10). The same old 90hZ display which is much brighter for better outdoor use.
-
-The phones also comes with a slightly improved stereo speakers setup with dolby atmos support.The standout feature of this phone has to be the support for 5G and wifi 6.
-
-
-
-**Conclusion:** I think that one plus, for this time has ended up making a wallet killer. If what you really want 5G we have much cheaper options from namely the realme X50 and if you want the smooth experience of oxygen OS. The older one plus phones namely the 7t can give you the same experience for much lesser price. One plus 8 is meant for people whose first priority is design, oxygen OS and 5G in a single package.</content><author><name>mohit</name></author><category term="oneplus" /><category term="android" /><category term="google" /><summary type="html">One Plus is now 6 years in smartphone making.Its strategy was always to launch a phone that brought with it a flagship experience but not so expensive as a flagship but as years passed by its pricing kept on increasing from generation to generation. So, is this new One plus 8 a “flagship killer or a wallet killer”, lets find out in this article.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/oneplus/oneplus8-display.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/oneplus/oneplus8-display.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+**Conclusion**: One Plus ended up making a really appealing flagship smartphone undercutting the likes samsung and apple by a good margin and offering way more specifications at this price point.</content><author><name>mohit</name></author><category term="oneplus" /><category term="android" /><category term="google" /><summary type="html">It has been 6 years since one plus has been making smartphones until last year the company has produced a lot of flagship killer but the company from the past year has changed its strategy to produce a true flagship with its one plus 7 pro and 7t pro they were good but lacked the bells and whistles that a true flagship from samsung and apple had. With this phone one plus is trying to tick all the boxes of a flagship. Did it succeed, let’s see in the article below.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/oneplus/oneplus8-pro-display.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/oneplus/oneplus8-pro-display.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
