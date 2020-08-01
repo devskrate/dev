@@ -1,0 +1,1 @@
+Is that documentation missing something? Isn't it clear enough? Help me improve it by filing a [Github issue](https://github.com/thiagorossener/jekflix-template/issues/new).

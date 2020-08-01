@@ -1,0 +1,112 @@
+.staff {
+  @include media(">=sm") {
+    @include center(rem(800px));
+  }
+
+  .item:not(:last-child) {
+    border-bottom: 1px solid $lightGray;
+  }
+
+  img {
+    width: rem(100px);
+    margin: 0 rem(20px) rem(20px);
+    border-radius: 100%;
+    float: right;
+    
+    @include media(">=sm") {
+      width: rem(155px);
+      margin-bottom: rem(30px);
+    }
+  }
+
+  h1,
+  h2,
+  h3 {
+    
+
+    &.name {
+      padding-bottom: 3px;
+      font-size: 20px;
+
+      @include media(">=sm") {
+        padding-bottom: 15px;
+        font-size: 35px;
+      }
+    }
+
+    &.position {
+      font-size: rem(15px);
+      font-weight: normal;
+      font-style: italic;
+      color: #999;
+      padding-top: 0;
+
+      @include media(">=sm") {
+        font-size: 25px;
+
+      }
+    }
+  }
+}
+
+.staff .item table{
+  width: 100%;
+  text-align: left;
+  border: none !important;
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+
+
+.staff .item table .author-info{
+  vertical-align: top;
+  text-align: left;
+  width: 75%;
+}
+
+.staff .item td{
+  border-color: black;
+}
+
+.staff .item h2{
+  padding-top: 10px;
+
+  @include media(">=sm") {
+    padding-top: 22px;
+  }
+}
+
+.staff .item #member{
+  font-size: 17px;
+  color: gold;
+
+  @include media(">=sm") {
+    font-size: 25px;
+  }
+}
+
+.tooltip {
+  position: relative;
+  display: inline;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: $themeColor;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  font-size: 10px;
+  
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: -5px;
+  left: 105%;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}

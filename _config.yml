@@ -1,95 +1,178 @@
-# Site
-name: 'DevsKrate'
-description: 'Here at DevsKrate we inspire and endeavor to share everything about technology like Softwares, Coding, etc., and provide our best about HOW TO tutorials and BEST OF every category in accordance to our knowledge.'
+# Site Settings
+name: DevsKrate
+title: DevsKrate | Tech, Code and Gadgets
+description: Everything about Tech, Gadgets and Development. Paradise of Developers and Techies. We are Developers by profession, Techies by Passion
+image: /assets/img/blog-image.png
+tags:
+  - blog
+  - Tech
+  - Developer
+  - Techies
+  - Gadgets
+  - Tutorials
+  - Code
+category:
+  - android
+  - apps
+  - code
+  - css
+  - dev
+  - gadgets
+  - howto
+  - laptops
+  - linux
+  - mobiles
+  - news
+  - reviews
+  - security
+  - tech
+  - tips
+  - travel
+  - tutorial
+  - ubuntu
+  - work
+email: contact@devskrate.com
+# disqus_username: disqus_username
+show_hero: true
+menu:
+  - title: Home
+    url: /
+  - title: About
+    url: /about
+  - title: Contributors
+    url: /contributors
+  - title: Authors
+    url: /authors
+  - title: Contact
+    url: /contact
+  - title: Feed
+    url: /feed.xml
 
 
-logo: 'assets/images/clogo.png'
-favicon: 'assets/images/favicon.png'
-baseurl: ''
-disqus: 'demowebsite'
-email: 'support@devskrate.com'
-mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
-
-include: ["_pages"]
-permalink: /:title/
-
-# Plugins
-plugins: 
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-paginate
-  - jekyll-seo-tag
-  - jekyll-redirect-from
-  
-authors:
-    puneeth:
-      short_name:     puneeth
-      name:           Neerukonda Puneeth
-      site:           https://puneethkanna.github.io
-      avatar:         /assets/images/puneeth.jpg
-      bio:            "Student Developer, Tech Enthusiastic, love to browse the Internet!"
-      email:          neerukondapuneeth@gmail.com
-      twitter:        https://twitter.com/puneeth_kanna
-    mohit:
-      short_name:     mohit
-      name:           Indukuri Mohit
-      site:           https://puneethkanna.github.io
-      avatar:         /assets/images/mohit.jpeg
-      bio:            "Tech Enthusiastic, love to browse the Internet!"
-      email:          mohitindukuri100@gmail.com
-      twitter:        https://twitter.com/indukuri_mohit
-    nikhil:
-      short_name:     nikhil
-      name:           Nikhil Reddy Pyreddy
-      site:           https://nikhilpyreddy.me/
-      avatar:         /assets/images/nikhil.jpg
-      bio:            "Student Developer, Tech Enthusiastic, love to browse the Internet!"
-      email:          nikhilpyreddy@gmail.com
-      twitter:        https://twitter.com/NPyreddy
-    satya:
-      short_name:     satya
-      name:           Sri Satya Lokesh Karri
-      site:           https://srisatyalokesh.github.io
-      avatar:         /assets/images/satya.jpg
-      bio:            "Software Engineer at Dhan AI. Python Developer, Tech Enthusiastic, Photographer"
-      email:          satya@devskrate.com
-      twitter:        https://twitter.com/CodeWithSatya
-    output: true
-
-collections:
-  mlogs:
-      output: true
-      permalink: /mlogs/:title
-
-# Defaults
-defaults:
-
-  # all posts
-  - scope:
-      path: "/_posts"
-      type: "posts"
-    values:
-      layout: post
+# Social Media Settings
+# Remove the item if you don't need it
+github_username: DevsKrate
+facebook_username: DevsKrate
+twitter_username: DevsKrate
+instagram_username: DevsKrate
+linkedin_username: DevsKrate
+medium_username: 
 
 
-      
-  # all pages
-  - scope:
-      path: "_pages"
-      type: "pages"
-    values:
-      layout: page
-      share: true
-      
-      
-# Syntax
+# Posts Settings
+show_time_bar: true
+show_modal_on_exit: false
+show_modal_on_finish_post: true
+two_columns_layout: true
+
+
+# Advanced Settings
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://devskrate.com" # the base hostname & protocol for your site
+google_analytics: "UA-164058434-1"
+language: "en"
+categories_folder: category
+sent_message_url: "/contact/message-sent/"
+
+
+# Build settings
 markdown: kramdown
 highlighter: rouge
+permalink: /:title/
+collections:
+  authors:
+    output: true
+  contributors:
+    output: true
+paginate_path: "/page/:num/"
+show_get_theme_btn: false
+use_logo: false
+paginate: 15
+# Content paginator
+paginate_content:
+  enabled: true
+  debug: false
+  collections:
+    - posts
+  auto: true
+  separator: "--page-break--"
+  permalink: "/:num/"
+  seo_canonical: true
+  properties:
+    part:
+      is_generated: true
+    last:
+      is_generated: true
+    single:
+      is_generated: true
 
-# Paginate
-paginate: 10
+translations:
+  text:
+    new_post: "New Post"
+    see_also: ""
+    search: "Search"
+    author: "Author"
+    contributor: "Contributor"
+    share: "Share"
+    comments: "Comments"
+  button:
+    read_now: "Read Now"
+    share_on_twitter: "Share on Twitter"
+    share_on_facebook: "Share on Facebook"
+  pagination:
+    page: "Page"
+    of: "of"
+    next_page: "Next Page"
+    next_post: "Previous Page"
+  recommendation:
+    text: "Why don't you read something next?"
+    back_btn: "Go back to top"
+  error_404:
+    title: "Oops! You tried to travel to moon, but lost in middle."
+    message: "Don't worry, We will help you to get back to earth. Click our logo on top!"
+    image_alt: "404 - Page not found"
+  contact:
+    title: "Do you have something to say?"
+    subject: "New contact!"
+    submit_btn: "Send"
+    placeholders:
+      name: "Your name"
+      email: "Your e-mail"
+      message: "Your message"
+    errors:
+      locale: "en"
+      empty_name: "Name is required"
+      empty_email: "Email is required"
+      invalid_email: "Email is invalid"
+      empty_message: "Message is required"
+    after_send:
+      title: "Message sent!"
+      message: "Thank you for sending me a message. I'm going to answer ASAP."
+# SASS
+sass:
+  style: compressed
 
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-paginate-content
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
 
+# Exclude my node related stuff
+exclude: [
+  'package.json',
+  'package-lock.json',
+  'src',
+  'node_modules',
+  'initpost.sh',
+  'Gemfile',
+  'Gemfile.lock',
+  'gulpfile.js',
+  'README.md',
+  'vendor'
+]
 
-# Exclude metadata and development time dependencies (like Grunt plugins)
-exclude: [README.markdown, package.json, grunt.js, Gruntfile.js, Gruntfile.coffee, node_modules, vendor]
+# Theme
+version: v2.0

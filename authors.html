@@ -1,0 +1,132 @@
+---
+layout: page
+title: Authors
+description: Meet our team.
+permalink: /authors/
+---
+
+<h1>Authors</h1>
+
+<div class="staff">
+  {% for author in site.authors %}
+   {% if author.is_member %}
+    <div class="item">
+      <table>
+        <tr>
+          <td class="author-info">
+            <h2 class="name"><a href="{{ site.baseurl }}{{ author.url }}">{{ author.display_name }}</a>
+              <div class="tooltip" id="member">⭐️
+                <span class="tooltiptext">Member of DevsKrate</span>
+              </div>
+            </h2>
+            {% if author.position %}
+              <h3 class="position">{{ author.position }}</h3>
+            {% endif %}
+            <div class="social">
+              <p>
+                {% if author.github_username %}
+                  <a href="https://github.com/{{ author.github_username }}" title="Github">
+                    <svg><use xlink:href="#icon-github"></use></svg>
+                  </a>
+                {% endif %}
+                {% if author.facebook_username %}
+                  <a href="https://www.facebook.com/{{ author.facebook_username }}" title="Facebook">
+                    <svg><use xlink:href="#icon-facebook"></use></svg>
+                  </a>
+                {% endif %}
+                {% if author.twitter_username %}
+                  <a href="https://twitter.com/{{ author.twitter_username }}" title="Twitter">
+                    <svg><use xlink:href="#icon-twitter"></use></svg>
+                  </a>
+                {% endif %}
+                {% if author.medium_username %}
+                  <a href="https://medium.com/@{{ author.medium_username }}" title="Medium">
+                    <svg><use xlink:href="#icon-medium"></use></svg>
+                  </a>
+                {% endif %}
+                {% if author.instagram_username %}
+                  <a href="https://www.instagram.com/{{ author.instagram_username }}" title="Instagram">
+                    <svg><use xlink:href="#icon-instagram"></use></svg>
+                  </a>
+                {% endif %}
+                {% if author.linkedin_username %}
+                  <a href="https://www.linkedin.com/in/{{ author.linkedin_username }}" title="LinkedIn">
+                    <svg><use xlink:href="#icon-linkedin"></use></svg>
+                  </a>
+                {% endif %}
+              </p>
+            </div>
+            
+          </td>
+          <td class="author-photo">
+            <picture>
+              <source type="image/webp" srcset="{{ author.photo_webp }}">
+              <source type="image/jpg"  srcset="{{ author.photo_jpg }}">
+              <img src="{{ author.photo_jpg }}">
+            </picture>
+          </td>
+        </tr>
+      </table> 
+    </div>
+    {% endif %}
+  {% endfor %}
+
+  {% for author in site.authors %}
+  {% if author.is_member == False %}
+   <div class="item">
+     <table>
+       <tr>
+         <td class="author-info">
+           <h2 class="name"><a href="{{ site.baseurl }}{{ author.url }}">{{ author.display_name }}</a>
+           </h2>
+           {% if author.position %}
+             <h3 class="position">{{ author.position }}</h3>
+           {% endif %}
+           <div class="social">
+             <p>
+               {% if author.github_username %}
+                 <a href="https://github.com/{{ author.github_username }}" title="Github">
+                   <svg><use xlink:href="#icon-github"></use></svg>
+                 </a>
+               {% endif %}
+               {% if author.facebook_username %}
+                 <a href="https://www.facebook.com/{{ author.facebook_username }}" title="Facebook">
+                   <svg><use xlink:href="#icon-facebook"></use></svg>
+                 </a>
+               {% endif %}
+               {% if author.twitter_username %}
+                 <a href="https://twitter.com/{{ author.twitter_username }}" title="Twitter">
+                   <svg><use xlink:href="#icon-twitter"></use></svg>
+                 </a>
+               {% endif %}
+               {% if author.medium_username %}
+                 <a href="https://medium.com/@{{ author.medium_username }}" title="Medium">
+                   <svg><use xlink:href="#icon-medium"></use></svg>
+                 </a>
+               {% endif %}
+               {% if author.instagram_username %}
+                 <a href="https://www.instagram.com/{{ author.instagram_username }}" title="Instagram">
+                   <svg><use xlink:href="#icon-instagram"></use></svg>
+                 </a>
+               {% endif %}
+               {% if author.linkedin_username %}
+                 <a href="https://www.linkedin.com/in/{{ author.linkedin_username }}" title="LinkedIn">
+                   <svg><use xlink:href="#icon-linkedin"></use></svg>
+                 </a>
+               {% endif %}
+             </p>
+           </div>
+         </td>
+         <td class="author-photo">
+           <img src="{{author.photo}}">
+         </td>
+       </tr>
+     </table> 
+   </div>
+   {% endif %}
+ {% endfor %}
+
+</div>
+
+
+      

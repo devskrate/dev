@@ -1,10 +1,17 @@
 ---
+date: 2020-03-20 17:26:40
 layout: post
-title:  "Sourcerer a visual profile"
+title: "Visualize your profile"
+subtitle: Sourcerer a visual profile
+description: >-
+  This is a great tool to visualize yourself at code
+image: https://devskrate.github.io/assets/blog-banners/sourcerer.jpg
+optimized_image: https://devskrate.github.io/assets/blog-banners/optimized/sourcerer.webp
+category: [dev]
+tags: [sourcerer, github, visual profile]
 author: puneeth
-categories: [ git, github ]
-image: assets/images/git/sourcerer/sourcerer.png
-tags: [ sourcerer , github, visual profile, featured]
+paginate: false
+is_generated: true
 ---
 
 Sourcerer is a visual profile for software engineers that helps you learn things about yourself, connect with others, and become a better engineer.
@@ -15,19 +22,19 @@ Below are some of the images of my profile, it gives..
 
 **1.** Overview
 
-![overview]({{site.baseurl}}/assets/images/git/sourcerer/overview.jpeg){: style="border: 1px solid black;"}
+![overview](https://devskrate.github.io/assets/images/git/sourcerer/overview.jpeg){: style="border: 1px solid black;"}
 
 **2.** Languages used
 
-![Languages used]({{site.baseurl}}/assets/images/git/sourcerer/languages.jpeg){: style="border: 1px solid black;"}
+![Languages used](https://devskrate.github.io/assets/images/git/sourcerer/languages.jpeg){: style="border: 1px solid black;"}
 
-**3.** Technologies used 
+**3.** Technologies used
 
-![Technologies used]({{site.baseurl}}/assets/images/git/sourcerer/technologies.jpeg){: style="border: 1px solid black;"}
+![Technologies used](https://devskrate.github.io/assets/images/git/sourcerer/technologies.jpeg){: style="border: 1px solid black;"}
 
 **4.** Fun facts
 
-![Fun facts about you]({{site.baseurl}}/assets/images/git/sourcerer/fun-facts.jpeg){: style="border: 1px solid black;"}
+![Fun facts about you](https://devskrate.github.io/assets/images/git/sourcerer/fun-facts.jpeg){: style="border: 1px solid black;"}
 
 You can also embed this easily to your LinkedIn, Twitter, Facebook and even to your Personal blog.
 

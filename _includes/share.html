@@ -1,0 +1,34 @@
+
+<h3 style="text-align: center;">{{ site.translations.text.share | default: "Share" }}</h3>
+<div class="share-on">
+  <a target="_blank" href="https://www.facebook.com/sharer.php?t={{site.url}}{{page.url}}" class="share-link" rel="noopener">
+    <img alt="Facebook sharing button" src="{{site.baseurl}}/assets/img/share-icons/facebook.svg" class="share-icon">
+  </a>
+  <a target="_blank" href="https://twitter.com/intent/tweet?text={{site.url}}{{page.url}}" class="share-link" rel="noopener">
+    <img alt="Twitter sharing button" src="{{site.baseurl}}/assets/img/share-icons/twitter.svg" class="share-icon">
+  </a>
+  <a target="_blank" href="https://www.linkedin.com/sharing/share-offsite/?url={{site.url}}{{page.url}}" class="share-link" rel="noopener">
+    <img alt="Linkedin sharing button" src="{{site.baseurl}}/assets/img/share-icons/linkedin.svg" class="share-icon" >
+  </a>
+  <a target="_blank" href="https://www.reddit.com/submit?title={{page.title}}&url={{site.url}}{{page.url}}" class="share-link" rel="noopener">
+    <img alt="Reddit sharing button" src="{{site.baseurl}}/assets/img/share-icons/reddit.svg" class="share-icon">
+  </a>
+  <a target="_blank" href="mailto:?subject=DevsKrate {{page.title}} Post&body={{site.url}}{{page.url}}" class="share-link" rel="noopener">
+    <img alt="Email sharing button" src="{{site.baseurl}}/assets/img/share-icons/email.svg" class="share-icon">
+  </a>
+  <a target="_blank" href="https://api.whatsapp.com/send?text={{site.url}}{{page.url}}" class="share-link" class="share-link" rel="noopener">
+    <img alt="Whatsapp sharing button" src="{{site.baseurl}}/assets/img/share-icons/whatsapp.svg" class="share-icon">
+  </a>
+  <a target="_blank" href="https://t.me/share/url?url={{site.url}}{{page.url}}" class="share-link" rel="noopener">
+    <img alt="Telegram sharing button" src="{{site.baseurl}}/assets/img/share-icons/telegram.svg" class="share-icon" >
+  </a>
+  <div class="onhover">
+    <a onclick="copy_to_share()" class="share-link" id="url_copy">
+    <img alt="Copy URL" src="{{site.baseurl}}/assets/img/share-icons/copy.png" class="share-icon"/>
+    </a>
+    <span class="hovertext">Copy to clipboard</span>
+  </div>
+
+</div>
+
+<!-- <div class="sharethis-inline-share-buttons"></div> -->

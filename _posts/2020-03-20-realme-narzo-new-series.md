@@ -1,13 +1,20 @@
 ---
+date: 2020-03-20T12:18:05.000Z
 layout: post
-title:  "Realme's NARZO"
+title: Realme's NARZO
+subtitle: "Realme's new budget series"
+description: >-
+  Realme to bring a brand new series to India called Narzo
+image: >-
+  https://devskrate.github.io/assets/blog-banners/realme-nazro.jpg
+optimized_image: >-
+  https://devskrate.github.io/assets/blog-banners/optimized/realme-nazro.webp
+category: [mobiles]
+tags: [realme, narzo, android phone]
 author: mohit
-categories: [ android, phone, ]
-image: assets/images/realme/2020-03-narzo.jpeg
-tags: [realme, narzo, android phone,]
 ---
 
-**Realme has gained a lot of popularity since it's launch of it's first phone the realme 1 and It is the one of the fastest growing brand in INDIA**
+Realme has gained a lot of popularity since it's launch of it's first phone the realme 1 and It is the one of the fastest growing brand in INDIA
  
 It has launched quiet a lot of popular phones under different series namely **C** series, the **number** series, the **pro** series and the **X** series and the company is soon going to 
 launch a brand new series under the name **NARZO** to take on the likes of redmi and poco.

@@ -1,0 +1,92 @@
+{% assign contributor = site.contributors | where: "name", page.contributor | first %}
+{% if contributor %}
+  <section class="author">
+    <div class="details">
+      {% if contributor.photo_jpg %}
+        <picture>
+          <source type="image/webp" srcset="{{ contributor.photo_webp }}">
+          <source type="image/jpg"  srcset="{{ contributor.photo_jpg }}">
+          <img class="img-rounded" src="{{ contributor.photo_jpg }}" alt="{{ contributor.display_name }}">
+        </picture>
+      {% else %}
+        <img class="img-rounded" src="/assets/img/user.jpg" alt="{{ contributor.display_name }}">
+      {% endif %}
+      <p class="def">{{ site.translations.text.contributor | default: "Contributor" }}</p>
+      <h3 class="name">
+        <a href="{{ contributor.url }}">{{ contributor.display_name }}</a>
+      </h3>
+      <p class="desc">{{ contributor.bio }}</p>
+      <p>
+        {% if contributor.github_username %}
+          <a href="https://github.com/{{ contributor.github_username }}" title="Github" aria-label="contributor_github_username" rel="noopener">
+            <svg><use xlink:href="#icon-github"></use></svg>
+          </a>
+        {% endif %}
+        {% if contributor.facebook_username %}
+          <a href="https://www.facebook.com/{{ contributor.facebook_username }}" title="Facebook" aria-label="contributor_facebook_username"
+          rel="noopener">
+            <svg><use xlink:href="#icon-facebook"></use></svg>
+          </a>
+        {% endif %}
+        {% if contributor.twitter_username %}
+          <a href="https://twitter.com/{{ contributor.twitter_username }}" title="Twitter" aria-label="contributor_twitter_username" rel="noopener">
+            <svg><use xlink:href="#icon-twitter"></use></svg>
+          </a>
+        {% endif %}
+        {% if contributor.medium_username %}
+          <a href="https://medium.com/@{{ contributor.medium_username }}" title="Medium" rel="noopener" aria-label="contributor_medium_username">
+            <svg><use xlink:href="#icon-medium"></use></svg>
+          </a>
+        {% endif %}
+        {% if contributor.instagram_username %}
+          <a href="https://www.instagram.com/{{ contributor.instagram_username }}" title="Instagram" aria-label="contributor_instagram_username" rel="noopener">
+            <svg><use xlink:href="#icon-instagram"></use></svg>
+          </a>
+        {% endif %}
+        {% if contributor.linkedin_username %}
+          <a href="https://www.linkedin.com/in/{{ contributor.linkedin_username }}" title="LinkedIn" aria-label="contributor_linkedin_username" rel="noopener">
+            <svg><use xlink:href="#icon-linkedin"></use></svg>
+          </a>
+        {% endif %}
+      </p>
+    </div>
+  </section>
+
+  {% assign author_urls = '' %}
+  {% if contributor.github_username %}
+      {% assign author_urls = author_urls | append: '"https://github.com/' | append: contributor.github_username | append: '",' %}
+  {% endif %}
+  {% if contributor.facebook_username %}
+      {% assign author_urls = author_urls | append: '"https://www.facebook.com/' | append: contributor.facebook_username | append: '",' %}
+  {% endif %}
+  {% if contributor.twitter_username %}
+      {% assign author_urls = author_urls | append: '"https://twitter.com/' | append: contributor.twitter_username | append: '",' %}
+  {% endif %}
+  {% if contributor.medium_username %}
+      {% assign author_urls = author_urls | append: '"https://medium.com/@' | append: contributor.medium_username | append: '",' %}
+  {% endif %}
+  {% if contributor.instagram_username %}
+      {% assign author_urls = author_urls | append: '"https://www.instagram.com/' | append: contributor.instagram_username | append: '",' %}
+  {% endif %}
+  {% if contributor.linkedin_username %}
+      {% assign author_urls = author_urls | append: '"https://www.linkedin.com/in/' | append: contributor.linkedin_username | append: '",' %}
+  {% endif %}
+
+  <script type="application/ld+json">
+  {
+      "@context": "http://schema.org",
+      "@type": "Person",
+      "name": "{{ contributor.display_name }}",
+      {% if contributor.photo %}
+      "image": "{{ contributor.photo }}",
+      {% else %}
+      "image": {{ "/assets/img/user.jpg" | prepend: site.baseurl | prepend: site.url }},
+      {% endif %}
+      "jobTitle": "{{ contributor.position }}",
+      "url": "{{ contributor.url | prepend: site.baseurl | prepend: site.url }}",
+      "sameAs": [
+        {{ author_urls | split: "," | join: "," }}
+      ]
+  }
+  </script>
+{% endif %}

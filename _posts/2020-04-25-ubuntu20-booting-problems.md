@@ -1,10 +1,17 @@
 ---
+date: 2020-04-25 17:26:40
 layout: post
-title:  "Ubuntu 20.04 booting problems." 
-author: puneeth
-categories: [ ubuntu, linux ]
-image: assets/images/linux/ubuntu-clogo.jpg
+title: "Ubuntu 20.04 booting problems"
+subtitle: Ubuntu 20 dual booting problems in dell and other systems
+description: >-
+  Here is a quick fix for the booting problems in ubuntu 20 when updated or installed in dualboot.
+image: https://devskrate.github.io/assets/blog-banners/ubuntu-20-booting-problems.jpg
+optimized_image: https://devskrate.github.io/assets/blog-banners/optimized/ubuntu-20-booting-problems.webp
+category: [howto]
 tags: [ubuntu, linux, kernel, intel, os, featured]
+author: puneeth
+paginate: false
+is_generated: false
 ---
 
 Ubuntu 20.04 LTS has been released recently, after upgrading to it from ubuntu 18, 19, many had may faced booting problems(especially in DualBoot's).

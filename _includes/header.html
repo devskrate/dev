@@ -1,0 +1,71 @@
+<!-- dark mode  -->
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+<script src="/assets/js/dark-mode.js"></script>
+<script>
+<!--
+    
+  var options = {
+  bottom: '60px', // default: '32px'
+  right: 'unset', // default: '32px'
+  left: '32px', // default: 'unset'
+  time: '0.3s', // default: '0.3s'
+  mixColor: '#fff', // default: '#fff'
+  backgroundColor: '#fff',  // default: '#fff'
+  buttonColorDark: '#100f2c',  // default: '#100f2c'
+  buttonColorLight: '#fff', // default: '#fff'
+  saveInCookies: true, // default: true,
+  label: '🌓', // default: ''
+  autoMatchOsTheme: false // default: true
+}
+    const darkmode =  new Darkmode(options);
+
+--> 
+ </script>
+
+<script>
+
+        window.addEventListener('beforeinstallprompt', e => {
+        e.userChoice.then(choiceResult => {
+            ga('send', 'event', 'A2H', choiceResult.outcome);      
+        });
+        });
+    
+</script>
+<header class="bar-header">
+    <a id="menu" role="button" aria-label="menu_bar_for_all_pages">
+        <svg id="open" class="icon-menu"><use xlink:href="#icon-menu"></use></svg>
+    </a>
+    <h2 class="logo">
+        <a href="{{ site.baseurl }}/">
+            {% if site.use_logo %}
+                {% include logo.html %} <span class="version">{{ site.version }}</span>
+            {% else %}
+                {{ site.name }} <span class="version">{{ site.version }}</span>
+            {% endif %}
+        </a>
+    </h2>
+    
+    <a id="search" class="dosearch" role="button" aria-label="search_by_post_or_category">
+        <svg class="icon-search"><use xlink:href="#icon-search"></use></svg>
+    </a>
+    {% if page.layout == "post" %}
+        <div class="get-theme">
+            <input type="checkbox" class="checkbox" id="chk" onclick="darkmode.toggle()"/>
+            <label class="label" for="chk">
+                {% if darkmode.isActivated() %}
+                    <i class="fas fa-moon"></i>
+                    <i class="fas fa-sun"></i>
+                {% else %}
+                    <i class="fas fa-sun"></i>
+                    <i class="fas fa-moon"></i>
+                {% endif %}
+                <div class="ball"></div>
+            </label>
+        </div>
+    {% endif %}
+</header>
+
+<div id="mask" class="overlay"></div>
+
+{% include menu.html %}
+{% include search.html %}

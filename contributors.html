@@ -1,0 +1,71 @@
+---
+layout: page
+title: Contributors
+description: Meet our Development team.
+permalink: /contributors/
+---
+
+<h1>Development Team</h1>
+
+<div class="staff">
+  {% for contributor in site.contributors %}
+    <div class="item">
+      <table>
+        <tr>
+          <td class="author-info">
+            <h2 class="name"><a href="{{ site.baseurl }}{{ contributor.url }}">{{ contributor.display_name }}</a>
+              <div class="tooltip" id="member">⭐️
+                <span class="tooltiptext">Member of DevsKrate</span>
+              </div>
+            </h2>
+            {% if contributor.position %}
+              <h3 class="position">{{ contributor.position }}</h3>
+            {% endif %}
+            <div class="social">
+              <p>
+                {% if contributor.github_username %}
+                  <a href="https://github.com/{{ contributor.github_username }}" title="Github">
+                    <svg><use xlink:href="#icon-github"></use></svg>
+                  </a>
+                {% endif %}
+                {% if contributor.facebook_username %}
+                  <a href="https://www.facebook.com/{{ contributor.facebook_username }}" title="Facebook">
+                    <svg><use xlink:href="#icon-facebook"></use></svg>
+                  </a>
+                {% endif %}
+                {% if contributor.twitter_username %}
+                  <a href="https://twitter.com/{{ contributor.twitter_username }}" title="Twitter">
+                    <svg><use xlink:href="#icon-twitter"></use></svg>
+                  </a>
+                {% endif %}
+                {% if contributor.medium_username %}
+                  <a href="https://medium.com/@{{ contributor.medium_username }}" title="Medium">
+                    <svg><use xlink:href="#icon-medium"></use></svg>
+                  </a>
+                {% endif %}
+                {% if contributor.instagram_username %}
+                  <a href="https://www.instagram.com/{{ contributor.instagram_username }}" title="Instagram">
+                    <svg><use xlink:href="#icon-instagram"></use></svg>
+                  </a>
+                {% endif %}
+                {% if contributor.linkedin_username %}
+                  <a href="https://www.linkedin.com/in/{{ contributor.linkedin_username }}" title="LinkedIn">
+                    <svg><use xlink:href="#icon-linkedin"></use></svg>
+                  </a>
+                {% endif %}
+              </p>
+            </div>
+            
+          </td>
+          <td class="author-photo">
+            <picture>
+              <source type="image/webp" srcset="{{ contributor.photo_webp }}">
+              <source type="image/jpg"  srcset="{{ contributor.photo_jpg }}">
+              <img src="{{ contributor.photo_jpg }}">
+            </picture>
+          </td>
+        </tr>
+      </table> 
+    </div>
+  {% endfor %}
+</div>

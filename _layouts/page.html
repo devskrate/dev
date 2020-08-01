@@ -2,14 +2,10 @@
 layout: default
 ---
 
-<div class="container">
-<h3 class="font-weight-bold spanborder"><span>{{page.title}}</span></h3>
-<div class="page-content">
-    <br>
-{{ content }}
-<!-- Comments -->
-{% if page.comments == true %}
-{% include comments.html %}
-{% endif %}
+<div class="post">
+  <div class="layout">
+  <article class="post-content fullwidth">
+      {{ content }}
+  </article>
 </div>
 </div>

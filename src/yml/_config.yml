@@ -1,0 +1,177 @@
+# Site Settings
+name: DevsKrate
+title: DevsKrate | Tech, Code and Gadgets
+description: Everything about Tech, Gadgets and Development. Paradise of Developers and Techies. We are Developers by profession, Techies by Passion
+image: /assets/img/blog-image.png
+tags:
+  - blog
+  - Tech
+  - Developer
+  - Techies
+  - Gadgets
+  - Tutorials
+  - Code
+category:
+  - android
+  - apps
+  - code
+  - css
+  - dev
+  - gadgets
+  - howto
+  - laptops
+  - linux
+  - mobiles
+  - news
+  - reviews
+  - security
+  - tech
+  - tips
+  - travel
+  - tutorial
+  - ubuntu
+  - work
+email: contact@devskrate.com
+# disqus_username: disqus_username
+show_hero: true
+menu:
+  - title: Home
+    url: /
+  - title: About
+    url: /about
+  - title: Contributors
+    url: /contributors
+  - title: Authors
+    url: /authors
+  - title: Contact
+    url: /contact
+  - title: Feed
+    url: /feed.xml
+
+
+# Social Media Settings
+# Remove the item if you don't need it
+github_username: DevsKrate
+facebook_username: DevsKrate
+twitter_username: DevsKrate
+instagram_username: DevsKrate
+linkedin_username: DevsKrate
+medium_username: 
+
+
+# Posts Settings
+show_time_bar: true
+show_modal_on_exit: false
+show_modal_on_finish_post: true
+two_columns_layout: true
+
+
+# Advanced Settings
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://devskrate.com" # the base hostname & protocol for your site
+google_analytics: "UA-164058434-1"
+language: "en"
+categories_folder: category
+sent_message_url: "/contact/message-sent/"
+
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:title/
+collections:
+  authors:
+    output: true
+  contributors:
+    output: true
+paginate_path: "/page/:num/"
+show_get_theme_btn: false
+use_logo: false
+paginate: 15
+# Content paginator
+paginate_content:
+  enabled: true
+  debug: false
+  collections:
+    - posts
+  auto: true
+  separator: "--page-break--"
+  permalink: "/:num/"
+  seo_canonical: true
+  properties:
+    part:
+      is_generated: true
+    last:
+      is_generated: true
+    single:
+      is_generated: true
+
+translations:
+  text:
+    new_post: "New Post"
+    see_also: ""
+    search: "Search"
+    author: "Author"
+    contributor: "Contributor"
+    share: "Share"
+    comments: "Comments"
+  button:
+    read_now: "Read Now"
+    share_on_twitter: "Share on Twitter"
+    share_on_facebook: "Share on Facebook"
+  pagination:
+    page: "Page"
+    of: "of"
+    next_page: "Next Page"
+    next_post: "Previous Page"
+  recommendation:
+    text: "Why don't you read something next?"
+    back_btn: "Go back to top"
+  error_404:
+    title: "Oops! You tried to travel to moon, but lost in middle."
+    message: "Don't worry, We will help you to get back to earth. Click our logo on top!"
+    image_alt: "404 - Page not found"
+  contact:
+    title: "Do you have something to say?"
+    subject: "New contact!"
+    submit_btn: "Send"
+    placeholders:
+      name: "Your name"
+      email: "Your e-mail"
+      message: "Your message"
+    errors:
+      locale: "en"
+      empty_name: "Name is required"
+      empty_email: "Email is required"
+      invalid_email: "Email is invalid"
+      empty_message: "Message is required"
+    after_send:
+      title: "Message sent!"
+      message: "Thank you for sending me a message. I'm going to answer ASAP."
+# SASS
+sass:
+  style: compressed
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-paginate-content
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+
+# Exclude my node related stuff
+exclude: [
+  'package.json',
+  'package-lock.json',
+  'src',
+  'node_modules',
+  'initpost.sh',
+  'Gemfile',
+  'Gemfile.lock',
+  'gulpfile.js',
+  'README.md'
+]
+
+# Theme
+version: v2.0

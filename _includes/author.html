@@ -1,0 +1,91 @@
+{% assign author = site.authors | where: "name", page.author | first %}
+{% if author %}
+  <section class="author">
+    <div class="details">
+      {% if author.photo_jpg %}
+         <picture>
+           <source type="image/webp" srcset="{{ author.photo_webp }}">
+           <source type="image/jpg"  srcset="{{ author.photo_jpg }}">
+           <img class="img-rounded" src="{{ author.photo_jpg }}" alt="{{ author.display_name }}">
+         </picture>
+      {% else %}
+        <img class="img-rounded" src="/assets/img/persons/user.jpg" alt="{{ author.display_name }}">
+      {% endif %}
+      <p class="def">{{ site.translations.text.author | default: "Author" }}</p>
+      <h3 class="name">
+        <a href="{{ author.url }}">{{ author.display_name }}</a>
+      </h3>
+      <p class="desc">{{ author.position }}</p>
+      <p>
+        {% if author.github_username %}
+          <a href="https://github.com/{{ author.github_username }}" title="Github" aria-label="author_github_username" rel="noopener">
+            <svg><use xlink:href="#icon-github"></use></svg>
+          </a>
+        {% endif %}
+        {% if author.facebook_username %}
+          <a href="https://www.facebook.com/{{ author.facebook_username }}" title="Facebook" aria-label="author_facebook_username" rel="noopener">
+            <svg><use xlink:href="#icon-facebook"></use></svg>
+          </a>
+        {% endif %}
+        {% if author.twitter_username %}
+          <a class="author-twitter" href="https://twitter.com/{{ author.twitter_username }}" title="Twitter" aria-label="author_twitter_username" rel="noopener">
+            <svg><use xlink:href="#icon-twitter"></use></svg>
+          </a>
+        {% endif %}
+        {% if author.medium_username %}
+          <a href="https://medium.com/@{{ author.medium_username }}" title="Medium" aria-label="author_medium_username" rel="noopener">
+            <svg><use xlink:href="#icon-medium"></use></svg>
+          </a>
+        {% endif %}
+        {% if author.instagram_username %}
+          <a href="https://www.instagram.com/{{ author.instagram_username }}" title="Instagram" aria-label="author_instagram_username" rel="noopener">
+            <svg><use xlink:href="#icon-instagram"></use></svg>
+          </a>
+        {% endif %}
+        {% if author.linkedin_username %}
+          <a href="https://www.linkedin.com/in/{{ author.linkedin_username }}" title="LinkedIn" aria-label="author_linkedin_username" rel="noopener">
+            <svg><use xlink:href="#icon-linkedin"></use></svg>
+          </a>
+        {% endif %}
+      </p>
+    </div>
+  </section>
+
+  {% assign author_urls = '' %}
+  {% if author.github_username %}
+      {% assign author_urls = author_urls | append: '"https://github.com/' | append: author.github_username | append: '",' %}
+  {% endif %}
+  {% if author.facebook_username %}
+      {% assign author_urls = author_urls | append: '"https://www.facebook.com/' | append: author.facebook_username | append: '",' %}
+  {% endif %}
+  {% if author.twitter_username %}
+      {% assign author_urls = author_urls | append: '"https://twitter.com/' | append: author.twitter_username | append: '",' %}
+  {% endif %}
+  {% if author.medium_username %}
+      {% assign author_urls = author_urls | append: '"https://medium.com/@' | append: author.medium_username | append: '",' %}
+  {% endif %}
+  {% if author.instagram_username %}
+      {% assign author_urls = author_urls | append: '"https://www.instagram.com/' | append: author.instagram_username | append: '",' %}
+  {% endif %}
+  {% if author.linkedin_username %}
+      {% assign author_urls = author_urls | append: '"https://www.linkedin.com/in/' | append: author.linkedin_username | append: '",' %}
+  {% endif %}
+
+  <script type="application/ld+json">
+  {
+      "@context": "http://schema.org",
+      "@type": "Person",
+      "name": "{{ author.display_name }}",
+      {% if author.photo %}
+      "image": "{{ author.photo }}",
+      {% else %}
+      "image": {{ "/assets/img/user.jpg" | prepend: site.baseurl | prepend: site.url }},
+      {% endif %}
+      "jobTitle": "{{ author.position }}",
+      "url": "{{ author.url | prepend: site.baseurl | prepend: site.url }}",
+      "sameAs": [
+        {{ author_urls | split: "," | join: "," }}
+      ]
+  }
+  </script>
+{% endif %}

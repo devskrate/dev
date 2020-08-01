@@ -1,183 +1,231 @@
----
-layout: default
----
-{% assign author = site.authors[page.author] %}
-<script type="text/javascript" src="../assets/js/clipboard.min.js"></script>
-<!--script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script-->
-<!--Dark mode JS-->
-<script src="../assets/js/dark-mode.js"></script>
-<script>
-  var options = {
-  bottom: '20px', // default: '32px'
-  right: 'unset', // default: '32px'
-  left: '20px', // default: 'unset'
-  time: '0.3s', // default: '0.3s'
-  mixColor: '#fff', // default: '#fff'
-  backgroundColor: '#fff',  // default: '#fff'
-  buttonColorDark: '#100f2c',  // default: '#100f2c'
-  buttonColorLight: '#fff', // default: '#fff'
-  saveInCookies: true, // default: true,
-  label: '🌓', // default: ''
-  autoMatchOsTheme: false // default: true
-}
-
-const darkmode = new Darkmode(options);
-darkmode.showWidget();
-</script>
-<script>
-var clipboard = new ClipboardJS('.btn');
-
-clipboard.on('success', function(e) {
-console.info('Action:', e.action);
-console.info('Text:', e.text);
-console.info('Trigger:', e.trigger);
-
-e.clearSelection();
-});
-
-clipboard.on('error', function(e) {
-console.error('Action:', e.action);
-console.error('Trigger:', e.trigger);
-});
-</script>
-<div class="container">
-<div id="post-title-area" class="jumbotron jumbotron-fluid mb-3 pl-0 pt-0 pb-0 bg-white position-relative">
-		<div class="h-100 tofront">
-			<div class="row {% if page.image %} justify-content-between {% else %} justify-content-center {% endif %}">
-				<div class="{% if page.image %} col-md-6 {% else %} col-md-8 {% endif %} pr-0 pr-md-4 pt-4 pb-4 align-self-center">
-					<p class="text-uppercase font-weight-bold">
-                        <span class="catlist">
-						{% for category in page.categories %}
-                          <a class="sscroll text-danger" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category | downcase }}</a><span class="sep">, </span>
+<!DOCTYPE html>
+<html lang="{{ site.language }}" class="no-js">
+    {% include head.html %}
+    <script type="text/javascript" src="/assets/js/lightbox-plus-jquery.min.js"></script>
+    <link rel="stylesheet" href="/assets/css/lightbox.min.css">
+    <body class="has-push-menu" >
+        <div class="post-section">
+        {% include minutes-to-read.html %}
+        {% include svg-icons.html %}
+        {% include header.html %}
+        <section class="post {% if site.two_columns_layout %}two-columns{% else %}one-column{% endif %}">
+            <article role="article" class="post-content">
+                <p class="post-info">
+                    {% if page.date %}
+                        <svg class="icon-calendar" id="date"><use xlink:href="#icon-calendar"></use></svg>
+                        <time class="date" datetime="{{ page.date | date_to_xmlschema }}">
+                            {% include date.html date=page.date %}
+                        </time>
+                    {% endif %}
+                    <svg id="clock" class="icon-clock"><use xlink:href="#icon-clock"></use></svg>
+                    <span>{{ minutesText }}</span>
+                    
+                </p>
+                <div class="categories">
+                    <span>
+                        <a href="/">Home</a> > 
+                        {% for category_post in page.category %}
+                            <a href="{{ site.baseurl }}/{{ site.categories_folder | default: 'category' }}/{{ category_post }}" id="post-category">
+                                {{ category_post }}
+                                {% if forloop.last %}{% else %},{% endif %}
+                            </a>
                         {% endfor %}
-                        </span>
-					</p>
-					<h1 class="display-4 mb-4 article-headline">{{ page.title }}</h1>
-					<div class="d-flex align-items-center">
-                        {% if author.avatar %}
-                        <img class="rounded-circle" src="{{author.avatar}}" alt="{{author.name}}" width="70"/>
+                     > <span id="title">{{page.title}}</span>
+                </span>
+                </div>
+                <h1 class="post-title">{{ page.title }}</h1>
+                <p class="post-subtitle">{{ page.subtitle }}</p>
+
+                {% if page.image and paginator.activated == nil %}
+
+                    <picture>
+                        <source type="image/webp" srcset="{{ page.optimized_image }}">
+                        <source type="image/jpg"  srcset="{{ page.image }}">
+                        <img src="{{ page.image }}" alt="{{page.title}}" class="post-cover">
+                    </picture>
+
+                {% endif %}
+                <div class="share-in">
+                    {% include share.html %}
+                </div>
+                
+                {% include pagination-post.html progressBar=true %}
+
+                {% include toc.html %}
+
+                {{ content }}
+
+                {% include pagination-post.html %}
+                <div class="tags">
+                    {% for tag in page.tags %}
+                        {% if tag != "" %}
+                            <a href="{{ site.baseurl}}/tags/#{{tag | slugify }}">#{{ tag }}</a>
                         {% endif %}
-						<small class="ml-3"> {{ author.name }} <span><a target="_blank" href="{{ author.twitter }}" class="btn btn-outline-success btn-sm btn-round ml-1">Follow</a></span>
-                            <span class="text-muted d-block mt-1">{{ page.date | date: '%b %d, %Y' }} · {% include meta-read-time.html %}</span>
-						</small>
-					</div>
-				</div>
-                {% if page.image %}
-				<div class="col-md-6 pr-0 align-self-center">
-					<figure>
-						<img id="article-img" class="rounded" src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ site.baseurl }}/{{ page.image }}{% endif %}" alt="{{ page.title }}">
-					</figure>
-				</div>
+                    {% endfor %}
+                </div>
+            </article>
+
+            {% if site.two_columns_layout %}
+            <aside class="see-also">
+                <related>
+                    <h2>{{ site.translations.text.see_also | default: "Related posts" }}</h2>
+                    <ul>
+                        {% assign next_posts = site.posts | where_exp:"post","post.is_generated != true" | where_exp:"post","post.path != page.path" | where_exp:"post","post.category contains page.category[0]" %}
+                        {% assign shuffled_array = next_posts | sample: 3 %}
+                        {% for post in shuffled_array limit:3 %}
+                            <li>
+                                <a href="{{ post.url | prepend: site.baseurl }}">
+                                    {% if post.optimized_image %}
+                                    <picture>
+                                        <source type="image/webp" srcset="{{ post.optimized_image }}">
+                                        <source type="image/jpg"  srcset="{{ post.image }}">
+                                        <img src="{{ post.image }}" alt="{{post.title}}">
+                                    </picture>
+
+                                    {% elsif post.image %}
+                                        <img src="{{ post.image }}" alt="{{ post.title }}">
+                                    {% else %}
+                                        <img src="{{site.baseurl}}/assets/img/off.jpg" alt="{{ post.title }}">
+                                    {% endif %}
+                                    <h3>{{ post.title }}</h3>
+                                </a>
+                            </li>
+                        {% endfor %}
+                    </ul>
+
+                    <h2>{{ site.translations.text.see_also | default: "Featured Posts" }}</h2>
+                    <ul>
+                        {% assign next_posts = site.posts | where_exp:"post","post.is_generated != true" | where_exp:"post","post.tags contains 'featured' " %}
+                        {% assign shuffled_array = next_posts | sample: 3 %}
+                        {% for post in shuffled_array limit:3 %}
+                            <li>
+                                <a href="{{ post.url | prepend: site.baseurl }}">
+                                    {% if post.optimized_image %}
+                                        <picture>
+                                            <source type="image/webp" srcset="{{ post.optimized_image }}">
+                                            <source type="image/jpg"  srcset="{{ post.image }}">
+                                            <img src="{{ post.image }}" alt="{{post.title}}">
+                                        </picture>
+                                    {% elsif post.image %}
+                                        <img src="{{ post.image }}" alt="{{ post.title }}">
+                                    {% else %}
+                                        <img src="{{site.baseurl}}/assets/img/off.jpg" alt="{{ post.title }}">
+                                    {% endif %}
+                                    <h3>{{ post.title }}</h3>
+                                </a>
+                            </li>
+                        {% endfor %}
+                    </ul>
+                </related>
+                </aside>
+            {% endif %}
+
+        </section>
+
+        <!-- Add time bar only for pages without pagination -->
+        {% if paginator.activated == nil and site.show_time_bar == true %}
+            {% include time-bar.html %}
+            {% include recommendation.html %}
+        {% endif %}
+
+        <!-- Show modal if the post is the last one -->
+        {% if paginator.is_last and site.show_modal_on_finish_post %}
+            {% include modal.html title="You made it!" subtitle="Why don't you try another?" %}
+        {% endif %}
+
+        <!-- Show modal before user leaves the page -->
+        {% if site.show_modal_on_exit %}
+            {% include modal.html title="Don't go yet!" subtitle="You may also like..." closed=true showOnExit=true %}
+        {% endif %}
+
+        {% include subscription.html %}
+        <section class="share" id="share-with"></section>
+        {% include share.html %}
+        {% include author.html %}
+        {% include comments.html %}
+        <div class="post-footer">{% include footer.html %}</div>
+        
+
+        {% assign author = site.authors | where: "name", page.author | first %}
+
+        {% assign author_urls = '' %}
+        {% if author.github_username %}
+            {% assign author_urls = author_urls | append: '"https://github.com/' | append: author.github_username | append: '",' %}
+        {% endif %}
+        {% if author.facebook_username %}
+            {% assign author_urls = author_urls | append: '"https://www.facebook.com/' | append: author.facebook_username | append: '",' %}
+        {% endif %}
+        {% if author.twitter_username %}
+            {% assign author_urls = author_urls | append: '"https://twitter.com/' | append: author.twitter_username | append: '",' %}
+        {% endif %}
+        {% if author.medium_username %}
+            {% assign author_urls = author_urls | append: '"https://medium.com/@' | append: author.medium_username | append: '",' %}
+        {% endif %}
+        {% if author.instagram_username %}
+            {% assign author_urls = author_urls | append: '"https://www.instagram.com/' | append: author.instagram_username | append: '",' %}
+        {% endif %}
+        {% if author.linkedin_username %}
+            {% assign author_urls = author_urls | append: '"https://www.linkedin.com/in/' | append: author.linkedin_username | append: '",' %}
+        {% endif %}
+        {% if page.math %}
+        <script>
+            MathJax = {
+                tex: {
+                inlineMath: [['$', '$'], ['\\(', '\\)']]
+                }
+            };
+        </script>
+        <script type="text/javascript" id="MathJax-script" async
+            src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+        </script>
+        {% endif %}
+        <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "BlogPosting",
+            "name": "{{ page.title }}",
+            "headline": "{{ page.subtitle }}",
+            "description": "{{ page.description }}",
+            "image": "{{ page.image }}",
+            "url": "{{ page.url | prepend: site.baseurl | prepend: site.url }}",
+            "articleBody": "{{ content | strip_html | xml_escape | textilize }}",
+            "wordcount": "{{ content | number_of_words }}",
+            "inLanguage": "{{ site.language }}",
+            "dateCreated": "{{ page.date | date: '%Y-%m-%d/' }}",
+            "datePublished": "{{ page.date | date: '%Y-%m-%d/' }}",
+            "dateModified": "{{ page.date | date: '%Y-%m-%d/' }}",
+            "author": {
+                "@type": "Person",
+                "name": "{{ author.display_name }}",
+                {% if author.photo_jpg %}
+                "image": "{{ author.photo_jpg }}",
+                {% else %}
+                "image": {{ "/assets/img/user.jpg" | prepend: site.baseurl | prepend: site.url }},
                 {% endif %}
-			</div>
-		</div>
-	</div>
-</div>
-
-
-
-
-
-<div class="container-lg pt-4 pb-4">
-	<div class="row justify-content-center">
-        
-        
-        <!-- Share -->
-		<div class="col-lg-2 pr-4 mb-4 col-md-12">
-			<div class="sticky-top sticky-top-offset text-center featured-custom">
-				<div class="text-muted">
-					Share this
-				</div>
-				<div class="share d-inline-block">
-					<div class="fb-share-button" data-href="https://devskrate.com" data-layout="button" data-size="small"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevskrate.com%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore"></a></div><br>
-					<a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-				</div>
-			</div>
-		</div>
-        
-        
-		<div class="col-md-12 col-lg-8">
-            
-            <!-- Article -->
-			<article class="article-post">                
-			{{ content }}                
-			</article>
-			
-			<!-- Tags -->
-			<div class="mb-4">
-				<span class="taglist">
-				{% for tag in page.tags %}
-				  <a class="sscroll btn btn-light btn-sm font-weight-bold" href="{{site.baseurl}}/tags.html#{{ tag | downcase }}">{{ tag | downcase }}</a>
-				{% endfor %}
-				</span>
-			</div>
- 
-            <!-- Mailchimp Subscribe Form >
-            {% if site.mailchimp-list %}
-			<div class="border p-5 bg-lightblue">
-				<div class="row justify-content-between">
-					<div class="col-md-6 mb-2 mb-md-0">
-						<h5 class="font-weight-bold">Join Newsletter</h5>
-						 Get the latest news right in your inbox. We never spam!
-					</div>
-					<div class="col-md-6">
-						<div class="row">
-                            <form action="{{site.mailchimp-list}}" method="post" name="mc-embedded-subscribe-form" class="wj-contact-form validate w-100" target="_blank" novalidate>
-                            <div class="mc-field-group">
-							
-								<input type="email" placeholder="Enter e-mail address" name="EMAIL" class="required email form-control w-100" id="mce-EMAIL" autocomplete="on" required>
-							
-							
-								<button type="submit" value="Subscribe" name="subscribe" class="heart btn btn-success btn-block w-100 mt-2">Subscribe</button>
-							
-                            </div>
-                            </form>
-						</div>
-					</div>
-				</div>
-			</div>
-            {% endif %}-->
-            
-            
-             <!-- Author Box -->
-                {% if page.author %}				
-				<div class="row mt-5">
-					<div class="col-md-2 align-self-center">
-                         {% if author.avatar %}
-                        <img class="rounded-circle" src="{{author.avatar}}" alt="{{author.name}}" width="90"/>
-                        {% endif %} 
-					</div>
-					<div class="col-md-10">		
-                        <h5 class="font-weight-bold">Written by {{ author.name }} {% if author.twitter %}<span><a target="_blank" href="{{ author.twitter }}" class="btn btn-outline-success btn-sm btn-round ml-2">Follow</a></span>{% endif %}</h5>
-						{{ author.bio }}					
-					</div>
-				</div>				
-                {% endif %}
-            
-        
-		</div>
-        
-        
-	</div>
-	<div id="fb-root"></div>
-	<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v6.0"></script>
-</div>
-
-
-<!-- Aletbar Prev/Next >
-<div class="alertbar">
-    <div class="container">
-        <div class="row prevnextlinks small font-weight-bold">
-          {% if page.previous.url %}
-            <div class="col-md-6 rightborder pl-0">
-                <a class="text-dark" href="{{ site.baseurl }}{{ page.previous.url }}">{% if page.previous.image %} <img height="30px" class="mr-1" src="{{site.baseurl}}/{{page.previous.image}}"> {% endif %} {{page.previous.title}}</a>
-            </div>
-          {% endif %}
-          {% if page.next.url %}
-            <div class="col-md-6 text-right pr-0">
-                <a class="text-dark" href="{{ site.baseurl }}{{ page.next.url }}"> {{page.next.title}} {% if page.next.image %} <img height="30px" class="ml-1" src="{{site.baseurl}}/{{page.next.image}}"> {% endif %}</a>
-            </div>
-          {% endif %}
-        </div>
+                "jobTitle": "{{ author.position }}",
+                "url": "{{ author.url | prepend: site.baseurl | prepend: site.url }}",
+                "sameAs": [
+                    {{ author_urls | split: "," | join: "," }}
+                ]
+            },
+            "publisher": {
+                "@type": "Organization",
+                "name": "{{ site.name }}",
+                "url": "{{ site.url }}{{site.baseurl}}/",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "{{ site.url }}{{site.baseurl}}/assets/img/blog-image.png",
+                    "width": "600",
+                    "height": "315"
+                }
+            },
+            "mainEntityOfPage": "True",
+            "genre": "{{ page.category }}",
+            "articleSection": "{{ page.category }}",
+            "keywords": [{{ page.tags | join: '","' | append: '"' | prepend: '"' }}]
+        }
+        </script>
+        <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=5ef9d3cc9144dc001212de08&product=sticky-share-buttons&cms=website' async='async'></script>
     </div>
-</div-->
+    </body>
+</html>
