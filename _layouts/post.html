@@ -200,7 +200,7 @@
                 {% if author.photo_jpg %}
                 "image": "{{ author.photo_jpg }}",
                 {% else %}
-                "image": {{ "/assets/img/user.jpg" | prepend: site.baseurl | prepend: site.url }},
+                "image": "{{ "/assets/img/user.jpg" | prepend: site.baseurl | prepend: site.url }}",
                 {% endif %}
                 "jobTitle": "{{ author.position }}",
                 "url": "{{ author.url | prepend: site.baseurl | prepend: site.url }}",

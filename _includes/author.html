@@ -76,10 +76,10 @@
       "@context": "http://schema.org",
       "@type": "Person",
       "name": "{{ author.display_name }}",
-      {% if author.photo %}
-      "image": "{{ author.photo }}",
+      {% if author.photo_jpg %}
+      "image": "{{ author.photo_jpg }}",
       {% else %}
-      "image": {{ "/assets/img/user.jpg" | prepend: site.baseurl | prepend: site.url }},
+      "image": "{{ "/assets/img/user.jpg" | prepend: site.baseurl | prepend: site.url }}",
       {% endif %}
       "jobTitle": "{{ author.position }}",
       "url": "{{ author.url | prepend: site.baseurl | prepend: site.url }}",
