@@ -15,6 +15,42 @@
   }
 }
 
+#mobile-grid{
+  display: none;
+  @include media("<=sm") {
+    margin-top: 50px;
+    margin-bottom: 25px;
+    width: 100%;
+    display: block;
+  }
+}
+
+#desktop-grid{
+  margin-top: 45px; 
+  width: 100%;
+  display: block;
+  @include media("<=sm") {
+    display: none;
+  }
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.shorts::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.shorts {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.shorts{
+  overflow-x: scroll; 
+  overflow-y: hidden; 
+  white-space: nowrap;
+}
+
 .row {
   @include center(100%);
   margin: 0px rem($rowMargin);

@@ -45,6 +45,8 @@ menu:
     url: /authors
   - title: Contact
     url: /contact
+  - title: Shorts
+    url: /shorts
   - title: Feed
     url: /feed.xml
 
@@ -68,7 +70,7 @@ two_columns_layout: true
 
 # Advanced Settings
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://mobie.tech" # the base hostname & protocol for your site
+url: "https://mobie.tech/" # the base hostname & protocol for your site
 google_analytics: "UA-164058434-1"
 language: "en"
 categories_folder: category
@@ -83,6 +85,8 @@ collections:
   authors:
     output: true
   contributors:
+    output: true
+  shorts:
     output: true
 paginate_path: "/page/:num/"
 show_get_theme_btn: false

@@ -37,13 +37,11 @@
                 <p class="post-subtitle">{{ page.subtitle }}</p>
 
                 {% if page.image and paginator.activated == nil %}
-
                     <picture>
                         <source type="image/webp" srcset="{{ page.optimized_image }}">
                         <source type="image/jpg"  srcset="{{ page.image }}">
                         <img src="{{ page.image }}" alt="{{page.title}}" class="post-cover">
                     </picture>
-
                 {% endif %}
                 <div class="share-in">
                     {% include share.html %}
@@ -76,12 +74,11 @@
                             <li>
                                 <a href="{{ post.url | prepend: site.baseurl }}">
                                     {% if post.optimized_image %}
-                                    <picture>
-                                        <source type="image/webp" srcset="{{ post.optimized_image }}">
-                                        <source type="image/jpg"  srcset="{{ post.image }}">
-                                        <img src="{{ post.image }}" alt="{{post.title}}">
-                                    </picture>
-
+                                        <picture>
+                                            <source type="image/webp" srcset="{{ post.optimized_image }}">
+                                            <source type="image/jpg"  srcset="{{ post.image }}">
+                                            <img src="{{ post.image }}" alt="{{post.title}}">
+                                        </picture>
                                     {% elsif post.image %}
                                         <img src="{{ post.image }}" alt="{{ post.title }}">
                                     {% else %}

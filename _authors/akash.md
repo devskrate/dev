@@ -1,6 +1,7 @@
 ---
 layout: author
-photo: /assets/img/persons/akash.webp
+photo_jpg: /assets/img/persons/akash.jpg
+photo_webp: /assets/img/persons/akash.webp
 name: akash
 display_name: Akash Rao Mallareddy
 position: Contributor

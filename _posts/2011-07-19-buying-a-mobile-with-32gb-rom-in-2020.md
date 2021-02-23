@@ -9,7 +9,7 @@ image: >-
   https://devskrate.github.io/assets/blog-banners/files-secure-folder.jpg
 optimized_image: >-
   https://devskrate.github.io/assets/blog-banners/optimized/files-secure-folder.webp
-tags: [Linux, beginner, os]
+tags: [linux, beginner, os]
 category: [tips&tricks]
 author: puneeth
 is_generated: true

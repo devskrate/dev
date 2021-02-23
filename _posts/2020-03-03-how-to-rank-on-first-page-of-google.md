@@ -7,10 +7,10 @@ description: The best SEO tips for everyone
 image: https://devskrate.github.io/assets/blog-banners/google-rank.jpg
 optimized_image: https://devskrate.github.io/assets/blog-banners/optimized/google-rank.webp
 category: [howto]
-tags: [seo, google, sarch]
+tags: [seo, google, search]
 author: nikhil
 paginate: false
-is_generated: true
+is_generated: false
 ---
 
 As we all know, the biggest challenge in internet marketing is getting traffic to your website. However difficult it may be, it is a must if you want to be successful. You could pay for Google AdWords, and pray that your campaign doesn’t get slapped by Google, or you could spend a few extra minutes every day, and get a better listing with more traffic for free.

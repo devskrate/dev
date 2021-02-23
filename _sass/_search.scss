@@ -53,7 +53,7 @@
     padding: 0 rem(20px);
     margin: rem(20px) 0;
     list-style-type: none;
-    color: white;
+    color: black;
 
     @include media("<sm") {
       height: 380px;
@@ -82,7 +82,7 @@
       border-radius: rem(10px);
       font-size: rem(12px);
       padding: rem(2px) rem(8px);
-      color: #ffffff;
+      color: black;
     }
 
     a {
@@ -98,7 +98,7 @@
       &:hover {
         color: $themeColor;
         .entry-category {
-          color: #ffffff;
+          color: black;
         }
       }
     }
@@ -112,8 +112,7 @@
     width: rem(26px);
     height: rem(26px);
     padding: rem(5px);
-    fill: $accentDark;
-    background-color: $themeColor;
+    fill: black;
     border-radius: 13px;
     margin: rem(7px);
     cursor: pointer;

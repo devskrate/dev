@@ -17,11 +17,7 @@ There has been many people searching for the installation of Chrome OS on a old 
 
 This is full chrome OS for your laptop or your desktop we also have access to Android and the Google Play Store and you can install Linux apps just like you can with most of the newer Chromebooks out there this is actually really easy to install and use.
 
-I'll give you a quick rundown first thing you're gonna need is a USB Drive 16 gigabytes or larger what we're gonna do is install Linux Mint on this USB Drive so you can run it live we're also gonna transfer our Chrome OS installation files to that USB.
-
 Basically what we're gonna do is start up Linux Mint running live from the USB and then install Chrome OS we'll wipe the internal drive of the PC we're going to be installing this on so if you have Windows installed on your PC and you use it every day don't go doing this but if you have an extra laptop or an old desktop laying around you could definitely try installing and use Chrome OS.
-
-I'm going to be using a separate Windows 10 PC to get my USB drive set up but you could always do this on Linux or Mac some of the applications we're going to use will be different on those operating systems but if you're ready to get Chrome OS installed on your laptop or PC let's go ahead and get started all right so let's go ahead and download everything we need we're gonna get this image set up on a USB Drive.
 
 For all this process, we're going to download five files. They're:
 

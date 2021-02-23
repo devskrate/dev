@@ -1,6 +1,6 @@
 # Site Settings
-name: DevsKrate
-title: DevsKrate | Tech, Code and Gadgets
+name: TechMobie
+title: TechMobie | Mobie Tech | Mobie.Tech
 description: Everything about Tech, Gadgets and Development. Paradise of Developers and Techies. We are Developers by profession, Techies by Passion
 image: /assets/img/blog-image.png
 tags:
@@ -45,6 +45,8 @@ menu:
     url: /authors
   - title: Contact
     url: /contact
+  - title: Shorts
+    url: /shorts
   - title: Feed
     url: /feed.xml
 
@@ -52,10 +54,10 @@ menu:
 # Social Media Settings
 # Remove the item if you don't need it
 github_username: DevsKrate
-facebook_username: DevsKrate
-twitter_username: DevsKrate
-instagram_username: DevsKrate
-linkedin_username: DevsKrate
+facebook_username: techmobie
+twitter_username: techmobie
+instagram_username: tech.mobie
+linkedin_username: techmobie
 medium_username: 
 
 
@@ -68,7 +70,7 @@ two_columns_layout: true
 
 # Advanced Settings
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://beta.devskrate.com" # the base hostname & protocol for your site
+url: "https://mobie.tech/" # the base hostname & protocol for your site
 google_analytics: "UA-164058434-1"
 language: "en"
 categories_folder: category
@@ -83,6 +85,8 @@ collections:
   authors:
     output: true
   contributors:
+    output: true
+  shorts:
     output: true
 paginate_path: "/page/:num/"
 show_get_theme_btn: false

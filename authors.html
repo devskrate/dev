@@ -16,7 +16,7 @@ permalink: /authors/
           <td class="author-info">
             <h2 class="name"><a href="{{ site.baseurl }}{{ author.url }}">{{ author.display_name }}</a>
               <div class="tooltip" id="member">⭐️
-                <span class="tooltiptext">Member of DevsKrate</span>
+                <span class="tooltiptext">Member of TechMobie</span>
               </div>
             </h2>
             {% if author.position %}
@@ -118,8 +118,12 @@ permalink: /authors/
            </div>
          </td>
          <td class="author-photo">
-           <img src="{{author.photo}}">
-         </td>
+          <picture>
+            <source type="image/webp" srcset="{{ author.photo_webp }}">
+            <source type="image/jpg"  srcset="{{ author.photo_jpg }}">
+            <img src="{{ author.photo_jpg }}">
+          </picture>
+        </td>
        </tr>
      </table> 
    </div>

@@ -773,7 +773,7 @@
       padding: rem(3px) rem(10px);
       background-color: $themeColor;
       border-radius: rem(5px);
-      color: #fff;
+      color: black;
     }
 
     @include media(">=sm") {
@@ -807,7 +807,12 @@
       border-bottom: 1px solid darken($lightGray, 10%);
       padding: rem(10px) 0;
       text-decoration: none;
+      color: white;
       font-size: rem(18px);
+
+      &:hover {
+        color: $themeColor;
+      }
     }
 
     .entry-date {
@@ -829,7 +834,7 @@
 }
 
 .post-content .categories{
-  color: white;
+  color: black;
   font-size: 13px;
   margin: 20px 20px 0 25px;
   @include media(">=sm") {
@@ -844,7 +849,7 @@
   }
 
   a{
-    color: white;
+    color: #202020;
     border-radius: 3px;
     margin-bottom: 15px;
     font-weight: bold;
@@ -936,9 +941,5 @@ body.has-push-menu .post-section .post-footer footer{
   color: white;
   padding: 0;
   margin-bottom: 10px;
-
-  
-
-  
 }
 

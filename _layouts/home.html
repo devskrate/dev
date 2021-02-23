@@ -41,6 +41,15 @@ layout: main
                 </div>
             </div>
         </section>
+        <div id="mobile-grid">
+            <div class="shorts">
+            {% for insta_post in site.shorts %}
+                <div style="display: inline-block; margin-right: 25px;">
+                    {{ insta_post }}
+                </div>
+            {% endfor %}
+            </div>
+        </div>
     {% endif %}
     <!-- Posts -->
     <section id="grid" class="row flex-grid">
@@ -57,11 +66,11 @@ layout: main
                     <a class="cover" href="{{ post.url | prepend: site.baseurl }}">
                         {% include loader.html %}
                         {% if post.optimized_image %}
-                        <picture>
-                            <source type="image/webp" srcset="{{ post.optimized_image }}">
-                            <source type="image/jpg"  srcset="{{ post.image }}">
-                            <img src="/assets/img/placeholder.png" width="100%" data-url="{{ post.image }}" class="preload" alt="{{site.title}}">
-                        </picture>                            
+                            <picture>
+                                <source type="image/webp" srcset="{{ post.optimized_image }}">
+                                <source type="image/jpg"  srcset="{{ post.image }}">
+                                <img src="/assets/img/placeholder.png" width="100%" data-url="{{ post.image }}" class="preload" alt="{{site.title}}">
+                            </picture>
                             <noscript>
                                 <img src="{{ post.optimized_image }}" width="100%" alt="{{site.title}}">
                             </noscript>
@@ -106,6 +115,17 @@ layout: main
     <!-- Pagination -->
     {% if site.paginate %}
         {% include pagination-home.html %}
+    {% endif %}
+    {% if paginator.page == 1 %}
+        <section id="desktop-grid">          
+            <div class="shorts">
+            {% for insta_post in site.shorts %}
+                <div style="display: inline-block; margin-right: 25px;">
+                    {{ insta_post }}
+                </div>
+            {% endfor %}
+            </div>
+        </section>
     {% endif %}
 </main>
 

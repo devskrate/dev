@@ -1,0 +1,13 @@
+current directory: /home/puneeth/devskrate/prod/vendor/bundle/ruby/2.7.0/gems/json-2.3.1/ext/json
+/usr/bin/ruby2.7 -I /usr/lib/ruby/2.7.0 -r ./siteconf20200822-25636-1bon5z3.rb extconf.rb
+creating Makefile
+
+current directory: /home/puneeth/devskrate/prod/vendor/bundle/ruby/2.7.0/gems/json-2.3.1/ext/json
+make "DESTDIR=" clean
+
+current directory: /home/puneeth/devskrate/prod/vendor/bundle/ruby/2.7.0/gems/json-2.3.1/ext/json
+make "DESTDIR="
+make: Nothing to be done for 'all'.
+
+current directory: /home/puneeth/devskrate/prod/vendor/bundle/ruby/2.7.0/gems/json-2.3.1/ext/json
+make "DESTDIR=" install
