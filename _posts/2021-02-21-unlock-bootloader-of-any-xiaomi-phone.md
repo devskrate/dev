@@ -6,9 +6,9 @@ subtitle: "Xiaomi/Mi bootloader unlock"
 description: >-
   In order to root your smartphone or install a custom ROM, one of the first thing that you should do is unlocking the bootloader.
 image: >-
-  https://devskrate.github.io/assets/blog-banners/bbk-tech.jpg
+  https://devskrate.github.io/assets/blog-banners/unlock-booloader-of-xiaomi-any-devices.jpg
 optimized_image: >-
-  https://devskrate.github.io/assets/blog-banners/optimized/bbk-tech.webp
+  https://devskrate.github.io/assets/blog-banners/optimized/unlock-booloader-of-xiaomi-any-devices.webp
 category: [mobiles]
 tags: [unlock, bootloader, mi, xioami, poco, redmi, root]
 author: puneeth

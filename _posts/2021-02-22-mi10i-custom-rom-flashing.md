@@ -6,16 +6,16 @@ subtitle: "Mi 10i ArrowOS, PixelExperience, dotOS, LineageOS, ResurrectionRemix,
 description: >-
   Customs roms are very usefull especially for old devices and Xiaomi phones, as miui is bundled with ads. Here we install ArrowOS in Mi 10i.
 image: >-
-  https://devskrate.github.io/assets/blog-banners/bbk-tech.jpg
+  https://devskrate.github.io/assets/blog-banners/flash-custom-rom-in-mi-10i.jpg
 optimized_image: >-
-  https://devskrate.github.io/assets/blog-banners/optimized/bbk-tech.webp
+  https://devskrate.github.io/assets/blog-banners/optimized/flash-custom-rom-in-mi-10i.webp
 category: [mobiles]
 tags: [arrowos, customrom, mi, xioami, gsi]
 author: puneeth
 is_generated: false
 ---
 
-For flashing any custom rom your phone bootloader should be unlocked and should have a Recovery. So first unlock Mi 10i bootloader. If you have not yet unlocked Mi 10i bootloader, then follow this link to first unlock bootloader of any xiaomi device.
+For flashing any custom rom your phone bootloader should be unlocked and should have a Recovery. So first unlock Mi 10i bootloader. If you have not yet unlocked Mi 10i bootloader, then first unlock bootloader of any xiaomi device by following this [link](https://mobie.tech/unlock-bootloader-of-any-xiaomi-phone/)
 
 ArrowOS Download link : [https://downloads.arrowos.net/gauguin](https://downloads.arrowos.net/gauguin)
 
@@ -53,4 +53,11 @@ There are 2 ways for flashing custom rom based on the rom you are,
 + Format data. (Take backup of your data before doing this).
     - TWRP: Wipe > Format Data
     - OFOX: Menu > Manage Partitions > Data > Format Data
++ Reboot.
+
+
+### 3. Flashing an update to an UnOfficial Custom Rom:
+
++ Wipe Dalvik/ART Cache & Cache.
++ Flash ROM.
 + Reboot.

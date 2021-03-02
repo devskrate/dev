@@ -12,7 +12,7 @@ optimized_image: >-
 category: [mobiles]
 tags: [unlock, bootloader, mi, xioami, poco, redmi, root]
 author: puneeth
-is_generated: false
+is_generated: true
 ---
 
 TWRP: [https://twrp.me/xiaomi/xiaomimi10i.html](https://twrp.me/xiaomi/xiaomimi10i.html)
