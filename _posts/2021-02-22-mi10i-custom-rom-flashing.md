@@ -56,7 +56,7 @@ There are 2 ways for flashing custom rom based on the rom you are,
 + Reboot.
 
 
-### 3. Flashing an update to an UnOfficial Custom Rom:
+### 3. Flashing an update to an UnOfficial Custom Rom(Dirty Flash):
 
 + Wipe Dalvik/ART Cache & Cache.
 + Flash ROM.
